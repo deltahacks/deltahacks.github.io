@@ -26,15 +26,15 @@ p {
 	text-align: center;
 	padding-top: 1.5%;
 	color: white;
-	padding-left: 7.1%;
 
 }
 
 #mc-embedded-subscribe-form {
+
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width:400px;
+	width:600px;
 }
 
 
@@ -45,5 +45,4 @@ p {
 	border-radius: 4px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	font-size:100%;
-	max-width: 0px;
 }
