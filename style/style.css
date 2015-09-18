@@ -23,20 +23,27 @@ p {
 }
 
 #mc_embed_signup {
-	padding-top: 35px;
+	text-align: center;
+	padding-top: 1.5%;
 	color: white;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 7.1%;
+
 }
 
+#mc-embedded-subscribe-form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+}
+
+
 .button {
-	background: #5CBFBF;
-	border-color: #5CBFBF;
+	background: #5CBFBF !important;
+	border-color: #5CBFBF !important;
 	color: white;
 	border-radius: 4px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	font-size:100%;
+	max-width: 0px;
 }
-
-
