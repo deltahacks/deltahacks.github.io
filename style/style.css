@@ -6,6 +6,7 @@ html {
 	background-size: cover;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 21px;
+	background-repeat: no-repeat;
 }
 
 
@@ -39,10 +40,21 @@ p {
 
 
 .button {
-	background: #5CBFBF !important;
-	border-color: #5CBFBF !important;
+	background: #5CBFBF;
+	border-color: #5CBFBF;
 	color: white;
 	border-radius: 4px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	font-size:100%;
+	padding: 2px 2px 7px 2px;
+}
+
+#bothalfmail {
+	padding-top: 30px;
+	display: inline-block;
+
+}
+
+#mce-EMAIL.email {
+	height: 23px;
 }
