@@ -3845,24 +3845,24 @@
 }
 
 #sponsor img {
-    width: 100%;
-    padding: 20px;
-    vertical-align: middle;
+  width: 100%;
+  padding: 20px;
+  vertical-align: middle;
 }
 
 #level0 img {
 	min-width: 80px;
-    max-width: 140px;
+  max-width: 140px;
 }
 
 #level1 img {
 	min-width: 120px;
-    max-width: 180px;
+  max-width: 180px;
 }
 
 #level2 img {
 	min-width: 180px;
-    max-width: 240px;
+  max-width: 240px;
 }
 
 #level3 img {
