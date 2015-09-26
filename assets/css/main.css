@@ -3719,7 +3719,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3801,7 +3801,6 @@
     max-width: 100%;
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 25px;
     height: 0;
 }
 .videowrapper iframe {
@@ -3821,11 +3820,28 @@
   background: white;
   color: #666;
   margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   max-width: 1000px;
 }
 
+#sponsor .content {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+
+	#sponsor {
+		margin-top: 0rem;
+  	margin-bottom: 0rem;
+	}
+
+}
+
 #sponsor h2 {
-	color: black;
+	color: #717171;
 }
 
 #sponsor img {
