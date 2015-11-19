@@ -4211,3 +4211,9 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	#banner {
+		width: 550px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
