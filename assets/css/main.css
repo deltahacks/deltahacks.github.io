@@ -3354,7 +3354,7 @@
 								}
 
 									#header nav > ul > li > a.menuToggle span {
-										display: none;
+										display: ;
 									}
 
 							}
@@ -3363,6 +3363,10 @@
 
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
+							}
+
+							#header nav {
+								display: none;
 							}
 
 						}
@@ -3440,7 +3444,7 @@
 	}
 }
 
- @media only screen and (max-width : 7680px) {
+ @media only screen and (max-width : 768px) {
 	.actions {
 		padding-top: 20px;
 	}
@@ -3598,6 +3602,15 @@
 			opacity: 0;
 		}
 
+		@media screen and (min-width: 801px){
+
+				#banner {
+					width: 801px !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+		}
+
 		@media screen and (max-width: 800px) {
 
 			#banner {
@@ -3614,7 +3627,7 @@
 				}
 
 				#banner h1 {
-					font-size: 3em;
+					font-size: 4em;
 					padding-top: 10px;
 				}
 
@@ -3644,7 +3657,7 @@
 				}
 
 				#banner h1 {
-					font-size: 1em;
+					font-size: 1.5em;
 					padding-top: 10px;
 					padding-bottom: 10px;
 				}
@@ -4137,6 +4150,7 @@
 		overflow: hidden;
 }
 
+/*
 #rocket {
 		background-image: url("../../images/rocket.png");
 		background-attachment: scroll;
@@ -4144,7 +4158,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: left;
-}
+}*/
 
 
 /*location*/
@@ -4178,25 +4192,21 @@
 }
 
 /*faq*/
-#faq1 {
-		overflow: hidden;
-}
 
 #faq p {
 	color: #76DDFF;
 }
 
 #canvas {
-		margin-top: 205px;
+		margin-top: 13vw;
 		position: absolute;
-		left: 0;
-		right: 0;
-		background-image: url('');
-		background-size: cover;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
+		display: block;
+		margin: auto;
+
+
 		overflow: hidden;
-		max-width: 935px;
+		max-width: 66%;
+
 		-moz-transform: scale(2);
 	    -ms-transform: scale(2);
 	    -o-transform: scale(2);
@@ -4235,7 +4245,6 @@
 	margin-top: 0rem;
   	margin-bottom: 0rem;
 	}
-
 }
 
 #sponsor h2 {
@@ -4311,10 +4320,4 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	}
-
-	#banner {
-		width: 550px !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
 	}
