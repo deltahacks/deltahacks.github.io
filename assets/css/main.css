@@ -2257,6 +2257,7 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		pointer-events: auto;
 	}
 
 		input[type="submit"]:hover,
@@ -3983,7 +3984,7 @@
 	}
 	#about p {
 		left: 0;
-		
+
 	}
 	#about h3 {
 		left: 0;
@@ -4193,7 +4194,7 @@
 
 #faq p {
 	color: #76DDFF;
-	text-align: justify;  
+	text-align: justify;
     -moz-text-align-last: right; /* Code for Firefox */
     text-align-last: right;
 }
@@ -4209,7 +4210,7 @@
 
 		max-width: 100%;
 		overflow: hidden;
-	    
+
 		-moz-transform: scale(2);
 	    -ms-transform: scale(2);
 	    -o-transform: scale(2);
@@ -4342,3 +4343,16 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.noselect{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.clickthrough{
+	pointer-events: none;
+}
