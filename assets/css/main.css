@@ -4359,8 +4359,7 @@
 
 #mlh-trust-badge {
 	left: 50px;
-	max-width: 100px;
-	width: 10%;
+	margin-left: 5%;
 	min-width: 60px;
 	transition: none;
 	border-bottom-color: transparent;
