@@ -3306,7 +3306,7 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 10em;
+			right: 0;
 			top: 0;
 		}
 
@@ -3355,7 +3355,7 @@
 								}
 
 									#header nav > ul > li > a.menuToggle span {
-										display: none;
+										display: ;
 									}
 
 							}
@@ -4192,15 +4192,16 @@
 }
 
 /*faq*/
-#faq {
-
+#faq .row {
+	text-align: left;
 }
 
 #faq p {
 	color: #76DDFF;
-	text-align: justify;
-    -moz-text-align-last: right; /* Code for Firefox */
-    text-align-last: right;
+	padding-top: 0.5em;
+	/*text-align: justify;*/
+    /*-moz-text-align-last: right; /* Code for Firefox */*/
+    /*text-align-last: right;*/
 }
 
 
@@ -4257,18 +4258,11 @@
 
 /*Sponsor*/
 #sponsor {
-	background: white;
-	color: #666;
-	margin: 0 auto;
-}
-
-#sponsor .featurette-image{
-	margin: 0;
-	background-attachment: scroll;
-	background-position: right bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-
+  background: white;
+  color: #666;
+  margin: 0 auto;
+  /*margin-top: 3rem;*/
+  /*margin-bottom: 3rem;*/
 }
 
 #sponsor .content {
@@ -4337,10 +4331,11 @@
 	margin: 0 auto;
 	background-image: url("../../images/deer.png");
 	background-attachment: scroll;
-	background-position: right bottom;
+	background-position: left bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	border-top-color: #000000;
+	padding-top: 7em; 
 }
 
 /* Landing */
@@ -4388,4 +4383,12 @@
 
 .clickthrough{
 	pointer-events: none;
+}
+
+#mlh-trust-badge {
+	left: 50px;
+	margin-left: 5%;
+	min-width: 60px;
+	transition: none;
+	border-bottom-color: transparent;
 }
