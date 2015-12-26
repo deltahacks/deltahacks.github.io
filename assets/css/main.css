@@ -3837,6 +3837,10 @@
 		text-align: center;
 	}
 
+		#footer p {
+			opacity: 0.2;
+		}
+
 		#footer .icons {
 			font-size: 1.25em;
 		}
@@ -4218,6 +4222,7 @@
 	    -webkit-transform: scale(2);
 	    transform: scale(2);
 	*/
+	/*
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4231,10 +4236,14 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		width: 100%;
-		height: 100vh;
+		height: 100%;
 		min-height: 35em;
 		overflow: hidden;
+		position: absolute; */
+
 		position: absolute;
+		height: 100%;
+		width: 100%;
 }
 /*
 @media screen and (max-width: 480px), (max-width: 1024px) {
@@ -4316,6 +4325,25 @@
     border: 0px none transparent;
 }
 
+
+#prefooter{
+	display: block;
+	border-style: hidden;
+	background: white;
+	background-image: url("../../images/deer.png");
+	background-attachment: scroll;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	padding-top: 7em;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	width: auto;
+	max-width: 100%;
+}
+
 /* Landing */
 
 	body.landing #page-wrapper {
@@ -4327,7 +4355,12 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		/*background-color: rgba(29, 36, 42, 0.9);*/
+	    background: #1E252B; /* For browsers that do not support gradients */
+	    background: -webkit-linear-gradient(#2E3842, #1E252B); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(#2E3842, #1E252B); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(#2E3842, #1E252B); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(#2E3842, #1E252B); /* Standard syntax */
 	}
 
 	body.is-mobile.landing #page-wrapper {
