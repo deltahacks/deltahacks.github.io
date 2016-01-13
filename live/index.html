@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html ng-app="live">
+	<head>
+		<link rel="icon" href="./favicon.ico">
+		<title>DeltaHacks II</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+        <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <style>
+            body.is-loading #banner h1 {
+                -moz-transform: scale(1);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                opacity: 1;
+            }
+            body.is-loading #banner div{
+                -moz-transform: scale(1);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                opacity: 1;
+            }
+            .needsmargins{
+                margin:50px;
+            }
+        </style>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+        <script type="text/javascript" src="angularfire.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+	</head>
+	<body class="landing" ng-controller="AnnouncementController as a">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<a id="mlh-trust-badge" style="position:absolute;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">DeltaHacks II</a></h1>
+						<nav id="nav">
+							<ul>
+								<li><a href="#announcements" ng-if="a.announcements.length">Announcements</a></li>
+								<li><a href="#twitter">Twitter</a></li>
+                                <li><a href="#eventmaps">Event Maps</a></li>
+								<li><a href="#schedule">Schedule</a></li>
+								<li><a href="#footer">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Home -->
+				    <section id="banner" class="banner">
+						 <div class="inner">
+						    <div class="section" id="section0">
+                                <h1>DeltaHacks II</h1>
+                                <div>
+                                    <p>Live Site</p>
+                                    <p><i class="fa fa-4x fa-caret-down"></i></p>
+                                </div>
+						  	</div>
+						  </div>
+					</section>
+
+                
+
+
+                    <section id="announcements" class="wrapper" ng-if="a.announcements.length">
+
+                        
+                        <div class="inner">
+								<header class="major">
+
+<!--    Annoucement feed    -->
+                                    <h1>Announcements</h1>
+                                    <div class="panel panel-default" style="border-style:solid; border-color:white; border-width:1px">
+                                        <div class="panel-body" style="height:200px; overflow-y:scroll; padding:15px;">
+                                            <ul style="margin-bottom:0; padding-bottom:0; font-size:26px;">
+                                                <li ng-repeat="announcement in a.announcements">{{announcement.$value}}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+								</header>
+							</div>
+
+                    </section>
+                
+               <!-- About -->
+                    <section id="twitter" class="wrapper">
+
+                        
+                        <div class="inner">
+								<header class="major">
+
+<!--    Twitter feed    -->
+                                    <h1>Twitter Feed</h1>
+<a class="twitter-timeline" href="https://twitter.com/HackItMac" data-widget-id="687068577682178048">Tweets by @HackItMac</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</header>
+							</div>
+
+                    </section>
+                                    <section id="eventmaps" class="wrapper">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>Event Maps</h1>
+                                <img src="map/map1.png" />
+                                <img src="map/map2.png" />
+                                <img src="map/map3.png" />
+                                <img src="map/map6.png" />
+                                <img src="map/map7.png" />
+                                <img src="map/map5.png" />
+                            </header>
+                        </div>
+                    </section>
+                
+                
+                
+
+
+
+				<!-- Schedule -->
+				<section id="schedule" class="wrapper style5">
+					<div class="inner row">
+						<div class="6u 12u$(medium)">
+							<h4>Saturday, Jan 16th</h4>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Time</th>
+											<th>Event</th>
+											<th>Location</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>10am-11am</td>
+											<td>Registration</td>
+											<td>Student Centre 1st Floor</td>
+										</tr>
+										<tr>
+											<td>11am-12:00pm</td>
+											<td>Opening Ceremony</td>
+											<td>MDCL 1305</td>
+										</tr>
+										<tr>
+											<td>12:00pm</td>
+											<td><strong>Hacking Starts</strong></td>
+											<td>Student Centre</td>
+										</tr>
+										<tr>
+											<td>12:00pm-1:00pm</td>
+											<td>Team Forming</td>
+											<td>MDCL 1305</td>
+										</tr>
+										<tr>
+											<td>12:30pm-1:30pm</td>
+											<td>Lunch</td>
+											<td>[TSH Basement]</td>
+										</tr>
+										<tr>
+											<td>6pm-7:30pm</td>
+											<td>Dinner</td>
+											<td>[TSH Basement]</td>
+										</tr>
+										<tr>
+											<td>12:00am-1:00am</td>
+											<td>Midnight Snack</td>
+											<td>[TSH Basement]</td>
+										</tr>									
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="6u 12u$(medium)">
+							<h4>Sunday, Jan 17th</h4>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Time</th>
+											<th>Event</th>
+											<th>Location</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>8am-9am</td>
+											<td>Breakfast</td>
+											<td>[TSH Basement]</td>
+										</tr>
+										<tr>
+											<td>11:00PM</td>
+											<td colspan="2">Submit to Devpost</td>
+										</tr>
+										<tr>
+											<td>12:00pm</td>
+											<td><strong>Hacking Ends</strong></td>
+											<td>Student Centre</td>
+										</tr>
+										<tr>
+											<td>12:00pm-3:00pm</td>
+											<td>Lunch</td>
+											<td>[TSH Basement]</td>
+										</tr>
+										<tr>
+											<td>12:30pm-1:30pm</td>
+											<td>Expo 1</td>
+											<td>Student Centre 1st Floor</td>
+										</tr>
+										<tr>
+											<td>2:00pm-3:00pm</td>
+											<td>Expo 2</td>
+											<td>Student Centre 1st Floor</td>
+										</tr>							
+										<tr>
+											<td>4:00pm-5:00pm</td>
+											<td>Closing Ceremonies</td>
+											<td>MDCL 1305</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				
+		<!-- Deer banner -->		
+
+		<section id="prefooter" class="wrapper">
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<!--<li>Questions? Contact us at <a href="mailto:hello@deltahacks.com?subject=Hello&amp;body=Hello!">hello@deltahacks.com</a>-->
+				<li><br><br><br><a href="mailto:hello@deltahacks.com?subject=Hello&amp;body=Hello!">hello@deltahacks.com</a></li>
+				<!--<span><br><br></span>Built with <i class="fa fa-heart-o"></i> in McMaster University</li>-->
+			</ul>
+			<ul class="icons">
+				<li><a href="https://twitter.com/deltahacks" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/DeltaHacks-1548991658675739" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://instagram.com/deltahacks/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="http://medium.com/hackitmac-blog" class="icon fa-medium"><span class="label">Medium</span></a></li>
+			</ul>
+
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+	            <p>© 2016 DeltaHacks. All Rights Reserved</p>
+	            <!--<p>Built with <i class="fa fa-heart"></i> in Canada.<br>Copyright © 2015 DeltaHacks</p>-->
+    		</div>
+
+		</footer>
+
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/canvasparticles.min.js"></script>
+			<script src="../assets/js/particles.min.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
