@@ -4,5 +4,8 @@
         var ref = new Firebase("https://deltahackslive.firebaseio.com/Announcements");
         var a = this;
         a.announcements = $firebaseArray(ref);
+        a.scrolldown = function(){
+            return (a.announcements.length)?"#announcements":"#twitter";
+        }
     }]);
 })();
