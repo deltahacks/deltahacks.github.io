@@ -18,15 +18,19 @@
                 transform: scale(1);
                 opacity: 1;
             }
-            body.is-loading #banner div{
+            body.is-loading #banner a div{
                 -moz-transform: scale(1);
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
                 opacity: 1;
             }
-            .needsmargins{
-                margin:50px;
+            body.is-loading #banner a div p{
+                -moz-transform: scale(1);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                opacity: 1;
             }
         </style>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
@@ -56,7 +60,6 @@
 				<!-- Home -->
 				    <section id="banner" class="banner">
 						 <div class="inner">
-						    <div class="section" id="section0">
                                 <h1>DeltaHacks II</h1>
                                 <a ng-href="{{a.scrolldown()}}">
                                 <div>
@@ -64,7 +67,6 @@
                                     <p><i class="fa fa-4x fa-caret-down"></i></p>
                                 </div>
                                 </a>
-						  	</div>
 						  </div>
 					</section>
 
@@ -106,19 +108,34 @@
 							</div>
 
                     </section>
-                                    <section id="eventmaps" class="wrapper">
+				<section id="eventmaps" class="wrapper">
                         <div class="inner">
-                            <header class="major">
-                                <h1>Event Maps</h1>
-                                <img src="map/map1.png" />
-                                <img src="map/map2.png" />
-                                <img src="map/map3.png" />
-                                <img src="map/map6.png" />
-                                <img src="map/map7.png" />
-                                <img src="map/map5.png" />
-                            </header>
+                            <h1>Event Maps</h1>
                         </div>
-                    </section>
+					<div class="inner row">
+
+						<div class="6u 12u$(medium)">
+                                <img src="map/map1.png" />
+						</div>
+						<div class="6u 12u$(medium)">
+                                <img src="map/map2.png" />
+						</div>
+						<div class="6u 12u$(medium)">
+                                <img src="map/map3.png" />
+						</div>
+						<div class="6u 12u$(medium)">
+                                <img src="map/map6.png" />
+						</div>
+						<div class="6u 12u$(medium)">
+                                <img src="map/map7.png" />
+						</div>
+                        <div class="6u 12u$(medium)">
+                                <img src="map/map5.png" />
+						</div>
+
+
+					</div>
+				</section>
                 
                 
                 
