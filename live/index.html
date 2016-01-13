@@ -87,9 +87,9 @@
                             <div class="6u 12u$(medium)">
                                 <h1>Announcements</h1>
                                 <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px">
-                                    <div class="panel-body" style="height:200px; overflow-y:scroll; padding:15px;">
-                                        <ul style="margin-bottom:0; padding-bottom:0; font-size:26px;">
-                                            <li ng-repeat="announcement in a.announcements | orderBy:'reverse'">{{announcement.$value}}</li>
+                                    <div class="panel-body" style="height:450px; overflow-y:scroll; padding:15px;">
+                                        <ul style="margin-bottom:0; padding-bottom:0; font-size:18px; list-style-type:none; padding-left:0; padding-top:15px">
+                                            <li ng-repeat="announcement in a.announcements | orderBy:'-$id'" style="padding-bottom:15px;">{{announcement.$value}}</li>
                                         </ul>
                                     </div>
                                 </div>
