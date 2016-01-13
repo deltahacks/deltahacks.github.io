@@ -80,16 +80,26 @@
 								<header class="major">
 
 <!--    Annoucement feed    -->
-                                    <h1>Announcements</h1>
-                                    <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px">
-                                        <div class="panel-body" style="height:200px; overflow-y:scroll; padding:15px;">
-                                            <ul style="margin-bottom:0; padding-bottom:0; font-size:26px;">
-                                                <li ng-repeat="announcement in a.announcements">{{announcement.$value}}</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
 								</header>
 							</div>
+                        <div class="inner row">
+                            <div class="6u 12u$(medium)">
+                                <h1>Announcements</h1>
+                                <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px">
+                                    <div class="panel-body" style="height:200px; overflow-y:scroll; padding:15px;">
+                                        <ul style="margin-bottom:0; padding-bottom:0; font-size:26px;">
+                                            <li ng-repeat="announcement in a.announcements | orderBy:'reverse'">{{announcement.$value}}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="6u 12u$(medium)">
+                                    <h1>Twitter Feed</h1>
+<a class="twitter-timeline" href="https://twitter.com/HackItMac" data-widget-id="687068577682178048">Tweets by @HackItMac</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </div>
+                        </div>
 
                     </section>
                 
@@ -101,9 +111,7 @@
 								<header class="major">
 
 <!--    Twitter feed    -->
-                                    <h1>Twitter Feed</h1>
-<a class="twitter-timeline" href="https://twitter.com/HackItMac" data-widget-id="687068577682178048">Tweets by @HackItMac</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 								</header>
 							</div>
 

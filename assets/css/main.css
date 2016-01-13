@@ -4142,6 +4142,7 @@
 }
 
 #about {
+        background-image: url("../../images/clouds.png");
 		background-attachment: scroll;
 		background-position: right right;
 		background-repeat: no-repeat;
