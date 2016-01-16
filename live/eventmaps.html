@@ -39,38 +39,88 @@
         <script type="text/javascript" src="app.js"></script>
 	</head>
 	<body class="landing" ng-controller="AnnouncementController as a">
+    
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
+                <!-- Header -->
+                <header id="header" class="alt">
+                    <h1><a href="index.html">DeltaHacks II Live</a></h1>
+                    <nav id="nav">
+                        <ul>
+                            <li><a class="menuMobile" href="#announcements">Announcements</a></li>
+                            <li><a class="menuMobile" href="#prizelist">Prize List</a></li>
+                            <li><a class="menuMobile" href="eventmaps.html">Event Maps</a></li>
+                            <li><a class="menuMobile" href="#schedule">Schedule</a></li>
+                            <li><a class="menuMobile" href="#footer">Contact</a></li>
 
+                            <li class="special">
+                                <a href="#menu" class="menuToggle"><span></span></a>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="#announcements">Announcements</a></li>
+                                        <li><a href="#prizelist">Prize List</a></li>
+                                        <li><a href="eventmaps.html">Event Maps</a></li>
+                                        <li><a href="#schedule">Schedule</a></li>
+                                        <li><a href="#footer">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
 
-
-
-                    <section id="eventmaps" class="wrapper">
-                            <div class="inner">
-                                <h1>Event Maps</h1>
-                            </div>
+                    <section class="eventmaps wrapper" style="padding-top:10%;">
+                        <div class="inner">
+                            <h1>Maps</h1>
+                        </div>
                         <div class="inner row">
-
-                            <div class="6u">
-                                    <img src="map/map1.png" class="img-responsive"/>
-                            </div>
-                            <div class="6u">
-                                    <img src="map/map2.png" class="img-responsive"/>
-                            </div>
-                            <div class="6u">
-                                    <img src="map/map3.png" class="img-responsive"/>
-                            </div>
-                            <div class="6u">
-                                    <img src="map/map6.png" class="img-responsive"/>
-                            </div>
-                            <div class="6u">
-                                    <img src="map/map7.png" class="img-responsive"/>
-                            </div>
-                            <div class="6u">
-                                    <img src="map/map5.png" class="img-responsive"/>
+                            <div class="6u 12u$(medium)">
+                                <h1>Campus Map</h1>
+                                <img src="map/campus-map.jpg" class="img-responsive"/>
                             </div>
 
+                            <div class="6u 12u$(medium)">
+                                <h1>Student Centre 1st Floor</h1>
+                                <img src="map/Musc1.jpg" class="img-responsive"/>
+                            </div>
 
+                            <div class="6u 12u$(medium)">
+                                <h1>Student Centre 2nd Floor</h1>
+                                <img src="map/Musc2.jpg" class="img-responsive"/>
+                            </div>
+
+                            <div class="6u 12u$(medium)">
+                                <h1>Student Centre 3rd Floor</h1>
+                                <img src="map/Musc3.jpg" class="img-responsive"/>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="eventmaps wrapper">
+                        <div class="inner">
+                            <h1>2 Food Areas (TSH Basement)</h1>
+                        </div>
+                        <div class="inner row">
+                            <h1>TSH B128</h1>
+                            <h1>1280 Restaurant</h1>
+                            <img src="map/TSHFood.jpg" class="img-responsive" style="width=0px"/>
+                        </div>
+                    </section>
+
+                    <section class="eventmaps wrapper">
+                        <div class="inner">
+                            <h1>Workshops</h1>
+                        </div>
+                        <div class="inner row">
+                            <div class="6u 12u$(medium)">
+                                <h1>CNH 104</h1>
+                                <img src="map/workshop-cnh104.jpg" class="img-responsive"/>
+                            </div>
+
+                            <div class="6u 12u$(medium)">
+                                <h1>TSH B128</h1>
+                                <img src="map/Musc1.jpg" class="img-responsive"/>
+                            </div>
                         </div>
                     </section>
                 

@@ -3335,6 +3335,7 @@
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
+							display: none;
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
@@ -3352,10 +3353,19 @@
 
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
+									display: inline-block;
 								}
 
 									#header nav > ul > li > a.menuToggle span {
-										display: ;
+										display: none;
+									}
+
+									#header nav > ul > li > a.menuToggle span {
+										display: none;
+									}
+
+									#header nav > ul > li > a.menuMobile {
+										display: none;
 									}
 
 							}
@@ -3364,10 +3374,6 @@
 
 							#header nav > ul > li > a {
 								padding: 0 0 0 1.5em;
-							}
-
-							#header nav {
-								display: none;
 							}
 
 						}
@@ -4404,21 +4410,11 @@ img.img-responsive {
 	width: 100%
 }
 
-#eventmaps .\36 u {
-	min-height: 780px;
+.eventmaps {
+	padding: 10px;
+	margin-bottom: 20px;
+
+	h1 {
+		font-size: 100px;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
