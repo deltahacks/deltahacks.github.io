@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html ng-app="live">
+	<head>
+		<link rel="icon" href="./favicon.ico">
+		<title>DeltaHacks II</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+        <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+        <script type="text/javascript" src="angularfire.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+	</head>
+	<body class="landing" ng-controller="AnnouncementController as a">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+                <!-- Header -->
+                <header id="header">
+                    <h1><a href="/live">DeltaHacks II Live</a></h1>
+                    <nav id="nav">
+                        <ul>
+                            <li><a class="menuMobile" href="/live/prizelist.html">Prize List</a></li>
+                            <li><a class="menuMobile" href="/live/eventmaps.html">Event Maps</a></li>
+                            <li><a class="menuMobile" href="/live/schedule.html">Schedule</a></li>
+                            <li><a class="menuMobile" href="/live/info.html">Info</a></li>
+
+                            <li class="special">
+                                <a href="#menu" class="menuToggle"><span></span></a>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="/live/prizelist.html">Prize List</a></li>
+                                        <li><a href="/live/eventmaps.html">Event Maps</a></li>
+                                        <li><a href="/live/schedule.html">Schedule</a></li>
+                                        <li><a href="/live/info.html">Info</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Schedule -->
+                <section id="schedule" class="wrapper style5">
+                    <div class="inner row">
+                        <div class="6u 12u$(medium)">
+                            <h4>Saturday, Jan 16th</h4>
+                            <div class="table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                            <th>Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>10am-11am</td>
+                                            <td>Registration</td>
+                                            <td>Student Centre 1st Floor</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11am-12:00pm</td>
+                                            <td>Opening Ceremony</td>
+                                            <td>MDCL 1305</td>
+                                        </tr>
+                                        <tr style="background:#36FFA6">
+                                            <td>12:00pm</td>
+                                            <td><strong>Hacking Starts</strong></td>
+                                            <td>Student Centre</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12pm-12:30pm</td>
+                                            <td>
+                                            <h5>Health Symposium</h5>
+                                            <p>Healthcare professional pitch problems. Forming teams around healthcare problems</p>
+                                            </td>
+                                            <td>MDCL 1305</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:00pm-1:30pm</td>
+                                            <td>General Team forming<br>(non healthcare)</td>
+                                            <td>Student Centre 1st Hacking area</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:30pm-1:30pm</td>
+                                            <td>Lunch</td>
+                                            <td>1280 Restaurant</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6pm-7:30pm</td>
+                                            <td>Dinner</td>
+                                            <td>TSH B128</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:00am-1:00am</td>
+                                            <td>Midnight Snack</td>
+                                            <td>TSH B128</td>
+                                        </tr>									
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="6u 12u$(medium)">
+                            <h4>Sunday, Jan 17th</h4>
+                            <div class="table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Event</th>
+                                            <th>Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>8am-9am</td>
+                                            <td>Breakfast</td>
+                                            <td>1280 Restaurant</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:00PM</td>
+                                            <td colspan="2">Submit to Devpost</td>
+                                        </tr>
+                                        <tr style="background:#FF5C83">
+                                            <td>12:00pm</td>
+                                            <td><strong>Hacking Ends</strong></td>
+                                            <td>Student Centre</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:00pm-3:00pm</td>
+                                            <td>Lunch</td>
+                                            <td>TSH B128</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:30pm-1:30pm</td>
+                                            <td>Expo 1</td>
+                                            <td>Student Centre 1st Floor</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2:00pm-3:00pm</td>
+                                            <td>Expo 2</td>
+                                            <td>Student Centre 1st Floor</td>
+                                        </tr>							
+                                        <tr>
+                                            <td>4:00pm-5:00pm</td>
+                                            <td>Closing Ceremonies</td>
+                                            <td>MDCL 1305</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="workshops" class="inner">
+                        <h4>Workshops</h4>
+                        <h4>Saturday, Jan 16th</h4>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1:30pm-2:00pm</td>
+                                    <td>
+                                    Unleash the power of Machine Learning using Azure <br>
+                                    <strong>Microsoft</strong>
+                                    </td>
+                                    <td>CNH 104</td>
+                                </tr>
+                                <tr>
+                                    <td>2:00pm-3:00pm</td>
+                                    <td>
+                                    Talk the Tech (focus on development of communication skills)<br>
+                                    <strong>General Electric Canada</strong>
+                                    </td>
+                                    <td>CNH 104</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30pm-3:30pm</td>
+                                    <td>
+                                    Intro to ResearchKit<br>
+                                    <strong>Apple ResearchKit</strong>
+                                    </td>
+                                    <td>TSH B105</td>
+                                </tr>
+                                <tr>
+                                    <td>3:00pm-4:00pm</td>
+                                    <td>Cloud Computing and Large Scale Infrastructure</td>
+                                    <td>CNH 104</td>
+                                </tr>
+                                <tr>
+                                    <td>3:00pm-4:00pm</td>
+                                    <td>Programming for beginners (Python)</td>
+                                    <td>TSH B105</td>
+                                </tr>
+                                <tr>
+                                    <td>4:00pm-5:00pm</td>
+                                    <td>
+                                    Ardunino Workshop<br>
+                                    Borrow from MLH hardware lab
+                                    </td>
+                                    <td>TSH B105</td>
+                                </tr>                             
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+				
+		<!-- Deer banner -->		
+
+		<section id="prefooter" class="wrapper">
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li><br><br><br><a href="mailto:hello@deltahacks.com?subject=Hello&amp;body=Hello!">hello@deltahacks.com</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://twitter.com/deltahacks" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/DeltaHacks-1548991658675739" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://instagram.com/deltahacks/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="http://medium.com/hackitmac-blog" class="icon fa-medium"><span class="label">Medium</span></a></li>
+			</ul>
+
+<!-- 			<div class="col-lg-8 col-lg-offset-2 text-center">
+	            <p>© 2016 DeltaHacks. All Rights Reserved</p>
+    		</div> -->
+
+		</footer>
+
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/canvasparticles.min.js"></script>
+			<script src="../assets/js/particles.min.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
