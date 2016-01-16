@@ -24,6 +24,14 @@
                 <section class="wrapper">
                     <a href="#" class="button special" ng-if="!a.loggedin()" ng-click="a.login()">Login</a>
                     <div ng-if="a.loggedin()">
+                        <p>The text you enter in the form will be the text that gets posted.</p>
+                        
+                        
+                        
+                        <ul>
+                            <li ng-repeat="a in a.announcements">{{a.$value}}</li>
+                        </ul>
+                        
                         <p>Write up your announcements here:</p>
                         <input type="text" class="form-control" ng-model="a.text"/>
                         <br />
