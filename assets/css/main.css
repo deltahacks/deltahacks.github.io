@@ -3349,7 +3349,7 @@
 								width: 2em;
 							}
 
-							@media screen and (max-width: 736px) {
+							@media screen and (max-width: 950px) {
 
 								#header nav > ul > li > a.menuToggle {
 									padding: 0 1.5em;
