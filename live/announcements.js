@@ -24,6 +24,10 @@
             })
         });
         
+        a.del = function(key){
+            a.announcements.$remove(key);
+        }
+        
         a.loggedin = function(){
             return auth.$getAuth();
         }

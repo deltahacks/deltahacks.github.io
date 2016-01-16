@@ -26,11 +26,15 @@
                     <div ng-if="a.loggedin()">
                         <p>The text you enter in the form will be the text that gets posted.</p>
                         
-                        
-                        
                         <ul>
-                            <li ng-repeat="a in a.announcements">{{a.$value}}</li>
+                            <li ng-repeat="an in a.announcements">
+                                <input type="text" class="form-control" ng-model="an.$value" />
+                                <a href="#" class="button special" ng-click="a.del(an)">Delete</a>
+                            </li>
                         </ul>
+                        
+                        
+                        
                         
                         <p>Write up your announcements here:</p>
                         <input type="text" class="form-control" ng-model="a.text"/>
