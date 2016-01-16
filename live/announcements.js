@@ -19,7 +19,7 @@
         auth.$onAuth(function(authData){
             var obj = $firebaseObject(ref.child("users"))
             obj.$loaded(function(){
-                obj[authData.uid] = 1;
+                obj[authData.uid] = authData.google.displayName;
                 obj.$save();
             })
         });
