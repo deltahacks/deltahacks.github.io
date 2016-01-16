@@ -44,7 +44,7 @@
 				<a id="mlh-trust-badge" style="position:absolute;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
 
 				<!-- Header -->
-					<header id="header" class="alt">
+					<header id="header" class="alt" style="height:40px;">
 						<h1><a href="index.html">DeltaHacks II Live</a></h1>
 						<nav id="nav">
 							<ul>
@@ -62,7 +62,7 @@
                                 <h1>DeltaHacks II</h1>
                                 <a ng-href="{{a.scrolldown()}}">
                                 <div>
-                                    <p>Live Site</p>
+                                    <p style="font-size:25px;font-weight:bold;">Live Site</p>
                                     <p><i class="fa fa-4x fa-caret-down"></i></p>
                                 </div>
                                 </a>
@@ -77,8 +77,8 @@
                         <div class="inner row">
                             <div class="6u 12u$(medium)"  ng-if="a.announcements.length">
                                 <h1>Announcements</h1>
-                                <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px">
-                                    <div class="panel-body" style="height:600px; overflow-y:scroll; padding:15px;">
+                                <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px;">
+                                    <div class="panel-body" style="height:500px; overflow-y:scroll; padding:15px;">
                                         <ul style="margin-bottom:0; padding-bottom:0; font-size:18px; list-style-type:none; padding-left:0; padding-top:15px">
                                             <li ng-repeat="announcement in a.announcements | orderBy:'-$id'" style="padding-bottom:15px;">{{announcement.$value}}</li>
                                         </ul>
