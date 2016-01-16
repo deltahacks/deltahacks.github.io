@@ -48,7 +48,9 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#announcements">Announcements</a></li>
-                                <li><a href="#eventmaps">Event Maps</a></li>
+                                <li><a href="#importantlink">Important Links</a></li>
+                                <li><a href="#prizelist">Prize List</a></li>
+                                <li><a href="eventmaps.html" target="_blank">Event Maps</a></li>
 								<li><a href="#schedule">Schedule</a></li>
 								<li><a href="#footer">Contact</a></li>
 							</ul>
@@ -65,7 +67,7 @@
                             <div class="6u 12u$(medium)"  ng-if="a.announcements.length">
                                 <h1>Announcements</h1>
                                 <div class="panel panel-default" style="border-style:solid; border-color:#7A8794; border-width:1px">
-                                    <div class="panel-body" style="height:600px; overflow-y:scroll; padding:15px;">
+                                    <div class="panel-body" style="height:500px; overflow-y:scroll; padding:15px;">
                                         <ul style="margin-bottom:0; padding-bottom:0; font-size:18px; list-style-type:none; padding-left:0; padding-top:15px">
                                             <li ng-repeat="announcement in a.announcements | orderBy:'-$id'" style="padding-bottom:15px;">{{announcement.$value}}</li>
                                         </ul>
@@ -80,36 +82,34 @@
                         </div>
 
                     </section>
+                    
                 
-
-                    <section id="eventmaps" class="wrapper">
+                    <section id="importantlinks" class="wrapper">
                             <div class="inner">
-                                <h1>Event Maps</h1>
+                                <h1>Important Links</h1>
                             </div>
-                        <div class="inner row">
-
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map1.png" />
-                            </div>
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map2.png" />
-                            </div>
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map3.png" />
-                            </div>
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map6.png" />
-                            </div>
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map7.png" />
-                            </div>
-                            <div class="6u 12u$(medium)">
-                                    <img src="map/map5.png" />
-                            </div>
-
-
+                        <div class="inner">
+                            <ul>
+                                
+<!--                                ADD LINKS HERE-->
+                                <li></li>
+                            </ul>
                         </div>
                     </section>
+                
+                    <section id="prizelist" class="wrapper">
+                            <div class="inner">
+                                <h1>Prize List</h1>
+                            </div>
+                        <div class="inner">
+                            <ul>
+                                
+<!--                                ADD LINKS HERE-->
+                                <li></li>
+                            </ul>
+                        </div>
+                    </section>
+
                 
 
 
@@ -221,6 +221,7 @@
 
                         </div>
                     </section>
+            
 
 				
 		<!-- Deer banner -->		
