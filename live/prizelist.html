@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html ng-app="live">
+    <head>
+        <link rel="icon" href="./favicon.ico">
+        <title>DeltaHacks II</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+        <script type="text/javascript" src="angularfire.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body class="landing" ng-controller="AnnouncementController as a">
+        <!-- Page Wrapper -->
+            <div id="page-wrapper">
+
+                <!-- Header -->
+                <header id="header">
+                    <h1><a href="/live">DeltaHacks II Live</a></h1>
+                    <nav id="nav">
+                        <ul>
+                            <li><a class="menuMobile" href="/live/prizelist.html">Prize List</a></li>
+                            <li><a class="menuMobile" href="/live/eventmaps.html">Event Maps</a></li>
+                            <li><a class="menuMobile" href="/live/schedule.html">Schedule</a></li>
+                            <li><a class="menuMobile" href="/live/info.html">Info</a></li>
+
+                            <li class="special">
+                                <a href="#menu" class="menuToggle"><span></span></a>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="/live/prizelist.html">Prize List</a></li>
+                                        <li><a href="/live/eventmaps.html">Event Maps</a></li>
+                                        <li><a href="/live/schedule.html">Schedule</a></li>
+                                        <li><a href="/live/info.html">Info</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            <!-- FAQ -->
+                <section id="faq" class="wrapper style2 special">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>Prizes</h2>
+                            <div class="row">
+                                <p>
+                                See <a href="http://deltahacks2.devpost.com/">Devpost</a> for a list of challenges and prizes
+                                </p>
+                            </div>
+
+                            <h2 id="credits">API Credits/Free Stuff</h2>
+                            <p>
+                            All sponsor booths are on (Student Centre 1st Floor)
+                            </p>
+                            <div class="row">
+                                <ol>
+                                    <li>
+                                    <a href="https://developers.kloudless.com/c/hack/deltahacks">Kloudless credit ($500)</a>
+                                    </li>
+                                    <li>
+                                        FREE ON-SITE 3-D PRINTING - go to genius booth
+                                    </li>
+                                    <li>
+                                    .TECH domain (claim here - <a href="http://get.tech/startups/">http://get.tech/startups/</a>)
+                                    </li>
+                                    <li>
+                                    Azure credits - claim at Microsoft booth
+                                    </li>
+                                    <li>
+                                        AWS (Amazon Web Service) credits - claim at MLH booth
+                                    </li>
+                                    <li>
+                                        namecheap domain - claim at their booth
+                                    </li>
+                                    <li>
+                                        Soylent bottle / sample - claim at their booth
+                                    </li>
+                                    <li>
+                                        $20 <a href="https://lob.com/">lob.com</a> api credit
+                                        <a href="https://docs.google.com/spreadsheets/d/1xWktL6rQ1JKQYISexMY5a7Qwv5944t2yqAacuv7BHjk/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1xWktL6rQ1JKQYISexMY5a7Qwv5944t2yqAacuv7BHjk/edit?usp=sharing</a>
+                                    </li>
+                                </ol>
+                                </p>
+                            </div>
+
+                            </header>
+                        </div>
+                </section>
+
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <!--<li>Questions? Contact us at <a href="mailto:hello@deltahacks.com?subject=Hello&amp;body=Hello!">hello@deltahacks.com</a>-->
+                <li><br><br><br><a href="mailto:hello@deltahacks.com?subject=Hello&amp;body=Hello!">hello@deltahacks.com</a></li>
+                <!--<span><br><br></span>Built with <i class="fa fa-heart-o"></i> in McMaster University</li>-->
+            </ul>
+            <ul class="icons">
+                <li><a href="https://twitter.com/deltahacks" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/DeltaHacks-1548991658675739" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://instagram.com/deltahacks/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="http://medium.com/hackitmac-blog" class="icon fa-medium"><span class="label">Medium</span></a></li>
+            </ul>
+
+<!--            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>© 2016 DeltaHacks. All Rights Reserved</p>
+            </div> -->
+
+        </footer>
+
+
+        <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/jquery.scrolly.min.js"></script>
+            <script src="../assets/js/skel.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/canvasparticles.min.js"></script>
+            <script src="../assets/js/particles.min.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="../assets/js/main.js"></script>
+
+    </body>
+</html>
