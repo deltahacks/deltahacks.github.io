@@ -9805,7 +9805,7 @@ body:not(.device-touch) .button.button-full strong {
 .button-3d.button-yellow:hover,
 .button-reveal.button-yellow:hover,
 .button-border.button-yellow:hover,
-.button-border.button-yellow.button-fill:before { background-color: #ECD078 !important; }
+.button-border.button-yellow.button-fill:before { background-color: #d10d86 !important; }
 
 .button-border.button-yellow,
 .button-border.button-yellow.button-fill.button-light:hover {
