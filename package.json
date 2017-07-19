@@ -1,30 +1,29 @@
 {
-  "name": "DeltaHacks Website",
-  "version": "0.0.0",
-  "description": "DeltaHacks is the best hackathon ever :3",
-  "main": "Gruntfile.js",
+  "name": "dh4site",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://deltahacks.com",
   "dependencies": {
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-htmlmin": "^0.3.0",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-contrib-uglify": "^0.5.1",
-    "grunt-contrib-less": "^0.11.4"
+    "gh-pages": "^1.0.0",
+    "gsap": "^1.20.2",
+    "material-ui": "^0.18.6",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-youtube": "^7.4.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SuriGill"
-  },
-  "author": "Surinder Gill <gill.surinder@hotmail.com> (http://surindergill.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SuriGill/DeltaHacks/issues"
-  },
-  "homepage": "https://github.com/SuriGill/DeltaHacks"
+    "build-css": "node-sass-chokidar --include-path ./src src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
