@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family==Raleway:900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:200');
 html {
   overflow-x: hidden; }
 
@@ -124,14 +124,14 @@ html {
         font-size: 30px;
         display: flex;
         margin: 0;
-        font-family: "Raleway", serif;
+        font-family: "Roboto", sans-serif;
         color: white; }
       .dh4-website-bg .content-container .center-wrapper .date {
         padding-top: 10px;
         font-size: 16px;
         display: flex;
         margin: 0;
-        font-family: "Raleway", serif;
+        font-family: "Roboto", sans-serif;
         color: white; }
     .dh4-website-bg .content-container .recap-video {
       padding-right: 10px; }
@@ -140,5 +140,5 @@ html {
       padding: 8px;
       display: flex;
       margin: 0;
-      font-family: "Raleway", serif;
+      font-family: "Roboto", sans-serif;
       color: white; }
