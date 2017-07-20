@@ -1,4 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@font-face {
+  font-family: "Petita Light";
+  src: url("fonts/petitalight.ttf"); }
+
+@font-face {
+  font-family: "Petita Medium";
+  src: url("fonts/petitamedium.ttf"); }
+
 html {
   overflow-x: hidden; }
 
@@ -121,18 +129,22 @@ html {
       flex-direction: column; }
       .dh4-website-bg .content-container .center-wrapper .title {
         top: -10%;
-        font-size: 30px;
+        font-size: 52px;
         display: flex;
         margin: 0;
-        font-family: "Roboto", sans-serif;
+        font-family: "Petita Light", sans-serif;
         color: white; }
+        .dh4-website-bg .content-container .center-wrapper .title b {
+          /*font-family: $petitam-slab;*/ }
       .dh4-website-bg .content-container .center-wrapper .date {
-        padding-top: 10px;
-        font-size: 16px;
+        padding-top: 36px;
+        font-size: 18px;
         display: flex;
         margin: 0;
         font-family: "Roboto", sans-serif;
         color: white; }
+    .dh4-website-bg .content-container .button-container {
+      padding: 0 18px; }
     .dh4-website-bg .content-container .recap-video {
       padding-right: 10px; }
     .dh4-website-bg .content-container .sponsors, .dh4-website-bg .content-container .mentors, .dh4-website-bg .content-container .contact {
@@ -142,3 +154,5 @@ html {
       margin: 0;
       font-family: "Roboto", sans-serif;
       color: white; }
+    .dh4-website-bg .content-container .sponsors {
+      padding-top: 24px; }

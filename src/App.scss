@@ -1,6 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@font-face {
+  font-family: "Petita Light";
+  src: url("fonts/petitalight.ttf");
+}
+@font-face {
+  font-family: "Petita Medium";
+  src: url("fonts/petitamedium.ttf");
+}
 
 $roboto-slab: 'Roboto', sans-serif;
+$petita-slab: 'Petita Light', sans-serif;
+$petitam-slab: 'Petita Medium', sans-serif;
 
 .scrollable-container {
 
@@ -131,20 +141,26 @@ html {
                     flex-direction: column;
                     .title {
                         top: -10%;
-                        font-size: 40px;
+                        font-size: 52px;
                         display: flex;
                         margin: 0;
-                        font-family: $roboto-slab;
-                        color: white
+                        font-family: $petita-slab;
+                        color: white;
+                        b {
+                            /*font-family: $petitam-slab;*/
+                        }
                     }
                     .date {
-                        padding-top: 10px;
-                        font-size: 16px;
+                        padding-top: 36px;
+                        font-size: 18px;
                         display: flex;
                         margin: 0;
                         font-family: $roboto-slab;
-                        color: white
+                        color: white;
                     }
+                }
+                .button-container {
+                    padding: 0 18px;
                 }
                 .recap-video {
                     padding-right: 10px;
@@ -156,6 +172,10 @@ html {
                     margin: 0;
                     font-family: $roboto-slab;
                     color: white
+                }
+
+                .sponsors {
+                    padding-top: 24px;
                 }
         }
 

@@ -284,7 +284,7 @@ class App extends Component {
                         <div className="dh4-stars"></div>
                         <div className="content-container">
                             <div className="center-wrapper">
-                                <p className="title">DELTAHACKS 4</p>
+                                <p className="title"><b>Delta</b>Hacks&nbsp;<b>IV</b></p>
                                 <p className="date"> Jan 27 - 28, 2018</p>
                                 {svg}
                                 <div className="button-container">
@@ -309,7 +309,7 @@ class App extends Component {
                                     open={this.state.openShirt}
                                     bodyStyle={{paddingBottom: '5px', display: "flex", overflowY: "auto", justifyContent: "center"}}
                                     onRequestClose={this._handleTshirtContestClose}>
-                                    <img className="contestImage" src={imgAd} onLoad={this._refresh} />
+                                    <a href="http://bit.ly/2tCUlCN" target="_blank"><img className="contestImage" src={imgAd} onLoad={this._refresh} /></a>
                                 </Dialog>
                                 <Dialog
                                     autoScrollBodyContent={true}

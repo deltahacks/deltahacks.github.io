@@ -1,10 +1,16 @@
 # DELTAHACKS 4 WEBSITE
 
 ### Installation and Startup
-The DH4 website consists of a react web app. To start off make sure you have node package manager installed on your machine and then run
+The DH4 website consists of a react web app. To start off make sure you have node package manager and the following packages installed on your machine :
+
+- npm-run-all
+- react-scripts
+- node-sass-chokidar
+- gh-pages
+
+and then run
 
 	npm install
-	
 Once it's done installing packages run
 
     npm start
