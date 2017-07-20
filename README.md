@@ -1,4 +1,4 @@
-# DELTAHACKS 4 WEBSITE
+# DELTAHACKS IV WEBSITE
 
 ### Installation and Startup
 The DH4 website consists of a react web app. To start off make sure you have node package manager and the following packages installed on your machine :
@@ -31,7 +31,7 @@ You should now have a local development server on localhost:3000. Here you can e
 
     npm run deploy 
     
-Creates a minified project that is able to run packages without a server and places the files in a gh-pages branch. You can than copy those files and overwrite the current index.html in the main master branch folder which will update the deltahacks.com page. 
+Creates a minified project that is able to run packages without a server and places the files in a gh-pages branch. You can then copy those files and overwrite the current index.html in the main master branch folder which will update the deltahacks.com page. 
 
 User / Organization pages live in a specially named repository called username.github.io, and publish from the master branch. They can be browsed at http://username.github.io.
 
