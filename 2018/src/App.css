@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@font-face {
+  font-family: "Petita Light";
+  src: url("fonts/petitalight.ttf"); }
+
+@font-face {
+  font-family: "Petita Medium";
+  src: url("fonts/petitamedium.ttf"); }
+
+html {
+  overflow-x: hidden; }
+
+.dh4-website-bg {
+  top: 0;
+  left: 0;
+  display: flex;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  background-color: #22222a; }
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-ms-keyframes move-twink-back {
+  .dh4-website-bg from {
+    background-position: 0 0; }
+  .dh4-website-bg to {
+    background-position: -10000px 5000px; } }
+
+@keyframes move-clouds-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 10000px 0; } }
+
+@-webkit-keyframes move-clouds-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 10000px 0; } }
+
+@-moz-keyframes move-clouds-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 10000px 0; } }
+
+@-ms-keyframes move-clouds-back {
+  .dh4-website-bg from {
+    background-position: 0; }
+  .dh4-website-bg to {
+    background-position: 10000px 0; } }
+  .dh4-website-bg .stars, .dh4-website-bg .twinkling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block; }
+  .dh4-website-bg .dh4-stars {
+    background: transparent url("img/dh4_stars.png") top center;
+    z-index: 4;
+    position: fixed;
+    top: 10%;
+    left: 60%;
+    height: 184px;
+    width: 210px; }
+  .dh4-website-bg .stars {
+    background: #22222A url("img/stars.png") repeat top center;
+    z-index: 0; }
+  .dh4-website-bg .twinkling {
+    background: transparent url("img/twinkling.png") repeat top center;
+    z-index: 1;
+    -moz-animation: move-twink-back 200s linear infinite;
+    -ms-animation: move-twink-back 200s linear infinite;
+    -o-animation: move-twink-back 200s linear infinite;
+    -webkit-animation: move-twink-back 200s linear infinite;
+    animation: move-twink-back 200s linear infinite; }
+  .dh4-website-bg svg {
+    margin-left: 1%;
+    display: flex;
+    width: 50%;
+    z-index: 6;
+    height: 100%; }
+    .dh4-website-bg svg .dh-flag {
+      margin-left: -30px; }
+  .dh4-website-bg a {
+    color: white;
+    padding-left: 5px; }
+  .dh4-website-bg img {
+    padding: 5px; }
+  .dh4-website-bg .content-container {
+    background-color: rgba(60, 60, 60, 0.5);
+    display: flex;
+    padding: 30px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    z-index: 5;
+    border-radius: 25px; }
+    .dh4-website-bg .content-container .center-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .dh4-website-bg .content-container .center-wrapper .title {
+        top: -10%;
+        font-size: 52px;
+        display: flex;
+        margin: 0;
+        font-family: "Petita Light", sans-serif;
+        color: white; }
+        .dh4-website-bg .content-container .center-wrapper .title b {
+          /*font-family: $petitam-slab;*/ }
+      .dh4-website-bg .content-container .center-wrapper .date {
+        padding-top: 36px;
+        font-size: 18px;
+        display: flex;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        color: white; }
+    .dh4-website-bg .content-container .button-container {
+      padding: 0 18px; }
+    .dh4-website-bg .content-container .recap-video {
+      padding-right: 10px; }
+    .dh4-website-bg .content-container .sponsors, .dh4-website-bg .content-container .mentors, .dh4-website-bg .content-container .contact {
+      font-size: 16px;
+      padding: 8px;
+      display: flex;
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      color: white; }
+    .dh4-website-bg .content-container .sponsors {
+      padding-top: 24px; }
