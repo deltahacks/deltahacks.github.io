@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>T-Shirt Design Contest</title>
+	<link rel="stylesheet" href="">
+
+	<style>
+      .fullscreen:-webkit-full-screen {
+      width: auto !important;
+      height: auto !important;
+      margin:auto !important;
+  }
+     .fullscreen:-moz-full-screen {
+      width: auto !important;
+      height: auto !important;
+      margin:auto !important;
+  }
+     .fullscreen:-ms-fullscreen {
+      width: auto !important;
+      height: auto !important;
+      margin:auto !important;
+  }     
+     </style>
+     <script>
+        function makeFullScreen() {
+         var divObj = document.getElementById("theImage");
+       //Use the specification method before using prefixed versions
+      if (divObj.requestFullscreen) {
+        divObj.requestFullscreen();
+      }
+      else if (divObj.msRequestFullscreen) {
+        divObj.msRequestFullscreen();               
+      }
+      else if (divObj.mozRequestFullScreen) {
+        divObj.mozRequestFullScreen();      
+      }
+      else if (divObj.webkitRequestFullscreen) {
+        divObj.webkitRequestFullscreen();       
+      } else {
+        console.log("Fullscreen API is not supported");
+      } 
+
+    }
+     </script>
+
+</head>
+<body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105802545-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
+
+    <img id="theImage" style="width:50%; height:auto;"  class="fullscreen" src="tshirtad.png" onfocus="makeFullScreen()"></img>
+	
+</body>
+</html>
