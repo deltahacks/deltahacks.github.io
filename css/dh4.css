@@ -353,6 +353,7 @@ header.masthead {
       text-transform: none; }
   .panel.panel-help .panel-body {
     background-color: #fff;
+    padding: 16px;
     border-top: 1px solid #ddd;
     border-radius: 2px;
     border-top-right-radius: 0;
