@@ -317,6 +317,9 @@ header.masthead {
             margin-left: auto; }
           header.masthead .header-content .header-content-inner img {
             max-width: 20%;
+            height: auto;
+            width: auto;
+          }
  }
 
 .no-padding {
