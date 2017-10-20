@@ -314,13 +314,7 @@ header.masthead {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
-            margin-left: auto; }
-          header.masthead .header-content .header-content-inner img {
-            max-width: 20%;
-            height: auto;
-            width: auto;
-          }
- }
+            margin-left: auto; } }
 
 .no-padding {
   padding-top: 0px; }
@@ -359,7 +353,6 @@ header.masthead {
       text-transform: none; }
   .panel.panel-help .panel-body {
     background-color: #fff;
-    padding: 16px;
     border-top: 1px solid #ddd;
     border-radius: 2px;
     border-top-right-radius: 0;
