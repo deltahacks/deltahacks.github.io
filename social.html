@@ -3,11 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>404! Page not found</title>
+	<title>Social Media</title>
 	<base href="deltahacks.com/index.html">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		@import url(http://fonts.googleapis.com/css?family=Roboto:Light);
-
+		
 		body {
 			display: flex;
 			justify-content: center;
@@ -18,17 +19,6 @@
 			text-align : center;
 			margin-top : 4%;
     		overflow:hidden;
-		}
-		
-		img.center {
-    		display: block;
-		}
-		a {
-    		color: cyan;
-    		text-decoration: none;
-		}
-		a:hover {
-    		color: hotpink;
 		}
 
 		@keyframes move-twink-back {
@@ -105,6 +95,19 @@
 		.content {
 			z-index: 4;
 		}
+
+		a {
+			color: cyan;
+		}
+
+		a:hover {
+			color: hotpink;
+		}
+
+		p {
+			font-size: 32px !important;
+			margin: 10px;
+		}
 	</style>    	
 </head>
 <body bgcolor="#000000">
@@ -120,10 +123,18 @@
 	<div class="stars"></div>
     <div class="twinkling"></div>
     <div class="content">
-		<div style="font-size:100px; color:gray;">404</div><br>
-		<div style="font-size:32px;">New page, who dis?</div>
-		<a href="javascript:history.back()">Go back</a> or <a href="http://deltahacks.com">go home</a>.<br>
-		<img src="../404.png"> <br>
+		<div class="container">
+			<div style="font-size:60px; color:gray; font-size: 60px;padding: 30px; padding-bottom: 10px;">Social Media</div><br>
+			<div style="max-width:1200px;height:395px;-webkit-border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;background-color: rgba(60, 60, 60, 0.5); overflow-y: auto;">
+				<div style="max-width:1200px;padding: 40px 40px;">
+					<p style="margin-bottom: 5px;"><p href="#" class="fa fa-internet-explorer"></p><a href="http://deltahacks.com">www.deltahacks.com</a></p>
+					<p style="margin-bottom: 5px;"><p href="#" class="fa fa-facebook"></p><a href="http://facebook.com/thedeltahacks">facebook.com/theDeltaHacks </a></p>
+					<p style="margin-bottom: 5px;"><p href="#" class="fa fa-instagram"></p><a href="http://instagram.com/deltahacks">instagram.com/deltahacks</a> </p>
+					<p style="margin-bottom: 5px;"><p href="#" class="fa fa-twitter"></p><a href="http://twitter.com/deltahacks">twitter.com/deltahacks</a> </p>
+					<p style="margin-bottom: 5px;"><p href="#" class="fa fa-envelope"></p> <a href="mailto:hello@deltahacks.com">hello@deltahacks.com</a></p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
