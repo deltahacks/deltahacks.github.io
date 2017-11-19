@@ -5,11 +5,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:Light);
 @font-face {
   font-family: "Petita Light";
-  src: url("fonts/petitalight.ttf"); }
+  src: url("../fonts/petitalight.ttf"); }
 
 @font-face {
   font-family: "Petita Medium";
-  src: url("fonts/petitamedium.ttf"); }
+  src: url("../fonts/petitamedium.ttf"); }
 
 body,
 html {
@@ -19,10 +19,22 @@ html {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #23b7c9; }
+  border-color: #23b7c9;}
 
 hr.light {
   border-color: white; }
+
+hr.tall {
+    margin: 1.5rem auto 2rem;
+}
+
+hr.long {
+  max-width: 100%;
+}
+
+hr.thin {
+  border-width: 2px;
+}
 
 a {
   font-family: "Roboto", sans-serif;
@@ -34,7 +46,9 @@ a {
     color: #23b7c9; }
 
 h1,
-h2,
+h2 {
+  font-family: "Petita Medium", sans-serif; }
+
 h3,
 h4,
 h5,
@@ -58,7 +72,7 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 100px 0; }
+  padding: 60px 0 80px; }
 
 .section-heading {
   margin-top: 0; }
@@ -144,14 +158,6 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #23b7c9; } }
-
-@font-face {
-  font-family: "Petita Light";
-  src: url("fonts/petitalight.ttf"); }
-
-@font-face {
-  font-family: "Petita Medium";
-  src: url("fonts/petitamedium.ttf"); }
 
 @keyframes move-twink-back {
   from {
@@ -287,11 +293,8 @@ header.masthead {
       font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 300;
-      margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7);
-      display: inline; }
-    header.masthead .header-content .header-content-inner a {
-      font-family: "Roboto", sans-serif; }
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, 1);}
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -317,7 +320,7 @@ header.masthead {
             margin-left: auto; } }
 
 .no-padding {
-  padding-top: 0px; }
+  padding: 0px; }
 
 .tab-content.panels-faq {
   padding: 0;
@@ -357,16 +360,63 @@ header.masthead {
     border-radius: 2px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    margin-top: 0; }
+    margin-top: 0;
+    padding: 6px 12px; }
     .panel.panel-help .panel-body p {
       margin: 0 0 16px; }
       .panel.panel-help .panel-body p:last-of-type {
         margin: 0; }
 
-.call-to-action {
+
+
+#sponsors {
   padding: 50px 0; }
-  .call-to-action h2 {
+  #sponsors h2 {
     margin: 0 auto 20px; }
+
+  #sponsors img {
+    width: 100%;
+    padding: 20px;
+    vertical-align: middle;
+  }
+
+  #sponsors .level5 img {
+    min-width: 60px;
+    max-width: 120px;
+  }
+
+  #sponsors .level4 img {
+    min-width: 120px;
+    max-width: 180px;
+  }
+
+  #sponsors .level3 img {
+    min-width: 180px;
+    max-width: 240px;
+  }
+
+  #sponsors .level2 img {
+    min-width: 240px;
+    max-width: 300px;
+  }
+
+  #sponsors .level1 img {
+    min-width: 300px;
+    max-width: 360px;
+  }
+
+  #sponsors .title img {
+    min-width: 360px;
+    max-width: 420px;
+  }
+
+#sponsor-images a {
+    Text-decoration: none;
+    outline: none;
+    border: 0px none transparent;
+}
+
+
 
 .text-primary {
   color: #23b7c9 !important; }
