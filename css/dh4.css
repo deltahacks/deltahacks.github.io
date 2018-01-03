@@ -370,7 +370,37 @@ header.masthead {
       .panel.panel-help .panel-body p:last-of-type {
         margin: 0; }
 
+section#showcase {
+  padding: 60px 0 60px;
+}
 
+#showcase .arrow-left {
+  background-image: url('../img/arrow-left.png');
+  background-position: 0 center;
+}
+
+#showcase .arrow-right {
+  background-image: url('../img/arrow-right.png');
+  background-position: center;
+}
+
+#showcase .arrow-right, .arrow-left {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#showcase .dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 0px 2px #efefef;
+  border: 2px solid #23b7c9;
+  background-color: #efefef;
+  margin: 30px auto;
+  cursor: pointer;
+}
 
 #sponsors {
   padding: 50px 0; }
