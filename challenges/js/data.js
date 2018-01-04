@@ -20,9 +20,9 @@ var exampleData = [
 		The app presents the user with a variety of options: 
 
 		<ul> 
-			<li> Option 1: Pick up a bike at a hub nearby, bring it to destination, walk to destination (duration 10 mins, cost $0)
-			<li> Option 2: Walk to a out-of-hub bike, bring to a destination hub, walk to destination (duration 15 mins, credit 75 cents) 
-			<li> Option 3: Pick bike up at a hub, ride to destination, park at front door at any rack (duration 7 mins, $1 cost) 
+			<li> Option 1: Pick up a bike at a hub nearby, bring it to destination, walk to destination (duration 10 mins, cost $0)</li> 
+			<li> Option 2: Walk to a out-of-hub bike, bring to a destination hub, walk to destination (duration 15 mins, credit 75 cents) </li> 
+			<li> Option 3: Pick bike up at a hub, ride to destination, park at front door at any rack (duration 7 mins, $1 cost) </li> 
 
 		</ul> 
 
@@ -78,7 +78,7 @@ var exampleData = [
 		<ul> 
 			<li> Analysis can be in real-time or post-hoc </li> 
 			<li> Some basic hardware may be provided by Major League Hacking, but participants may require a microphone, or some way to create their own way of recording data accurately </li> 
-			<li> Bonus point if smart phone accelerometer is incorporated (ie: phone attached to person with armband) 
+			<li> Bonus point if smart phone accelerometer is incorporated (ie: phone attached to person with armband) </li> 
 		</ul> 
 
 		<br> `		
@@ -101,10 +101,95 @@ var exampleData = [
 		analysis such as: <br><br> 
 
 		<ul> 
-			<li> Analysis should be done post-hoc, so app should be able to store ~8h of data  
-			<li> May require more hardware such as a bluetooth-enabled microcontroller, Muse/Myoware, and batteries
-			<li> Some of this hardware may be provided by MLH
+			<li> Analysis should be done post-hoc, so app should be able to store ~8h of data  </li> 
+			<li> May require more hardware such as a bluetooth-enabled microcontroller, Muse/Myoware, and batteries</li> 
+			<li> Some of this hardware may be provided by MLH</li> 
 		</ul> `
+	},
+	{ 
+		videPath: "",
+		name: "Athlete_Interface_For_Sprint_Canoe/Kayak", 
+		author: ["Stephen Tullis"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/kayak.png", 
+		desc: `Sprint canoe and kayak are Olympic Sports that Canada traditionally does well in. However, there is currently very little technology 
+		in the sport. My group has developed instrumental paddles to measure blade forces and orientation, 
+		currently used in research. The objective is to provide 
+		real time data such as: <br> <br> 
+
+		<ul> 
+			<li> Boatspeed</li> 
+			<li> Stroke rate </li> 
+			<li> Time profiles: propulsive force, efficiency </li> 
+			<li> Stroke average: total force, propulsive force, efficiency  </li> 
+		</ul> `
+	},
+
+	{ 
+		videPath: "",
+		name: "Pocket_Size_Mobile_Personal_Amplifier", 
+		author: ["Anick Lamarche"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/amp.png", 
+		desc: `A <b> pocket sized mobile personal amplifier </b> where you can amplify your voice where you go, so it is extremely useful 
+		for presentations, teaching, and talking over lots of noise. <br><br> 
+
+		Some important criteria: 
+		<ul> 
+			<li> Only amplification of the voice (ie: only amplifying your voice and not the noise around you) </li> 
+			<li> Noise cancellation built in </li> 
+			<li> Cosmetically appealing </li> 
+			<li> Versatile and multiplatform </li> 
+		</ul> `
+	},
+
+	{ 
+		videPath: "",
+		name: "Health_Care_GPS_For_Youth", 
+		author: ["Anick Lamarche"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/healthcaregps.png", 
+		desc: `A fun and safe environment that helps youth track health related resources, appointments, short term and long term care plans. 
+
+		Important Criteria: 
+		<ul> 
+			<li> Needs to be appealing to youth</li> 
+			<li> Simple and intuitive </li> 
+			<li> Encrypted (as it will hold private information such as prescriptions and passport-like information such as medical history and allergies)</li> 
+		</ul> `
+	}, 
+	{ 
+		videPath: "",
+		name: "Voice_Analyzer", 
+		author: ["Anick Lamarche"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/voiceuse.png", 
+		desc: `Personal device that indicates patterns of voice, measures of timings on voice (like Spire/FitBit/BellaBeat Apps), loudness and lets individuals know that they have reached 
+		their goals and/or their limits.  Currently, voice dosimeters are extremely complicated and not easily worn. 
+		`
+	}, 
+	{ 
+		videPath: "",
+		name: "Virtual_World_Game", 
+		author: ["Anick Lamarche"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/game.png", 
+		desc: ` Virtual World Game like minecraft, which patients will need to accomplish tasks to motivate compliance to therapeutic exercises while also making it fun. <br><br> 
+
+		Important Criteria: 
+		<ul> 
+			<li> Needs to be interactive </li> 
+			<li> Record voice </li> 
+			<li> Accept voice commands and offer rewards </li> 
+			<li> May be adapted by clinicians to set goals/task thresholds </li> 
+			<li> May be adapted to various age groups, but focus for kids </li> 
+		</ul> 
+		`
 	}
 
 
