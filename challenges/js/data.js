@@ -32,7 +32,7 @@ var exampleData = [
 	},
 	{ 
 		videPath: "",
-		name: "Home_Care", 
+		name: "Olive Us Care", 
 		author: ["Olive Us Care"], 
 		year: 2018, 
 		filePath: "", 
