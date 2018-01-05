@@ -62,23 +62,23 @@ var exampleData = [
 
 	{ 
 		videPath: "",
-		name: "Sleep_Apnea__Diagnosis_-_Software", 
-		author: ["Om Batt"], 
+		name: "Sleep_Apnea__Diagnosis_-_App_Dev", 
+		author: ["Om Bhatt"], 
 		year: 2018, 
 		filePath: "", 
 		imgPath: "images/2018/sleepsoft.png", 
-		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic to diagnose sleep-related 
-		problems such as sleep apnea. 
-		Much of the information gained through these sleep tests can be done easily at home using technology on your phone, or external hardware. 
-
-		Track a person’s breathing as they sleep with a microphone (up to 8h), 
-		analyze the data for breathing rate/pauses in breathing/snoring and then provide
-		analysis such as: <br><br> 
+		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic 
+		to diagnose sleep-related problems such as sleep apnea. Much of the information gained through these sleep 
+		tests can be done easily at home using technology on your phone, with minimal external hardware (a simple microphone, for ex). 
+		Track a person’s breathing as they sleep with a microphone (up to 8 hours), analyze the data for snoring, 
+		breathing rate and long pauses in breathing which could indicate sleep apnea, and then provide analysis such as:<br><br> 
 
 		<ul> 
+			<li> Snoring (yes/no) and duration of snoring; Breathing rate; Pauses in breathing (apneic spells) and other relevant metrics </li> 
+			<li> Some basic hardware may be provided by Major League Hacking, but participants may require a microphone, or some way to create their own way of recording data accurately</li> 
+			<li> Bonus point if smart phone accelerometer is incorporated (ie: phone attached to person with armband) to assess for movement during sleep </li> 
 			<li> Analysis can be in real-time or post-hoc </li> 
-			<li> Some basic hardware may be provided by Major League Hacking, but participants may require a microphone, or some way to create their own way of recording data accurately </li> 
-			<li> Bonus point if smart phone accelerometer is incorporated (ie: phone attached to person with armband) </li> 
+
 		</ul> 
 
 		<br> `		
@@ -87,23 +87,22 @@ var exampleData = [
 
 	{ 
 		videPath: "",
-		name: "Sleep_Apnea_Diagnosis_-_Hardware", 
-		author: ["Om Batt"], 
+		name: "Sleep_Apnea_Diagnosis_-_REM_Sleep_Hardware_Challenge", 
+		author: ["Om Bhattt"], 
 		year: 2018, 
 		filePath: "", 
 		imgPath: "images/2018/sleephard.png", 
-		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic to diagnose sleep-related 
-		problems such as sleep apnea. 
-		Much of the information gained through these sleep tests can be done easily at home using external hardware. <br><br>
-
-		Track a person’s breathing and eye movements using Myoware/Muse technologies as patients sleep with a microphone (up to 8h), 
-		analyze the data for breathing rate/pauses in breathing/snoring and then provide
-		analysis such as: <br><br> 
+		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic to diagnose 
+		sleep-related problems such as sleep apnea. Much of the information gained through these sleep tests can be done easily at 
+		home using technology on your phone, with minimal external hardware (a simple EMG sensor, for ex). Eye movements, 
+		in particular, can be used to detect when a patient has entered REM sleep, which is the most restful sleep and also the time 
+		for memory formation. Eye movements can be picked up by an EMG sensor, such as the "Myoware" or the Muse headband. <br><br> 
 
 		<ul> 
-			<li> Analysis should be done post-hoc, so app should be able to store ~8h of data  </li> 
-			<li> May require more hardware such as a bluetooth-enabled microcontroller, Muse/Myoware, and batteries</li> 
-			<li> Some of this hardware may be provided by MLH</li> 
+			<li> Develop a system (with Muse or Myoware) to collect data of a person moving their eyes and 
+			then develop an algorithm to figure out whether a person's 
+			eyes are moving or not using machine learning techniques  </li> 
+			<li> OR develop any other system to determine if a patient is in REM sleep or not </li> 
 		</ul> `
 	},
 	{ 
