@@ -88,7 +88,7 @@ var exampleData = [
 	{ 
 		videPath: "",
 		name: "Sleep_Apnea_Diagnosis_-_REM_Sleep_Hardware_Challenge", 
-		author: ["Om Bhattt"], 
+		author: ["Om Bhatt"], 
 		year: 2018, 
 		filePath: "", 
 		imgPath: "images/2018/sleephard.png", 
