@@ -413,19 +413,9 @@ section#showcase {
     vertical-align: middle;
   }
 
-  #sponsors .level5 img {
-    min-width: 60px;
-    max-width: 120px;
-  }
-
-  #sponsors .level4 img {
-    min-width: 120px;
-    max-width: 180px;
-  }
-
-  #sponsors .level3 img {
-    min-width: 180px;
-    max-width: 240px;
+  #sponsors .level1 img {
+    min-width: 300px !important;
+    max-width: 360px !important;
   }
 
   #sponsors .level2 img {
@@ -433,9 +423,19 @@ section#showcase {
     max-width: 300px;
   }
 
-  #sponsors .level1 img {
-    min-width: 300px;
-    max-width: 360px;
+  #sponsors .level3 img {
+    min-width: 180px;
+    max-width: 240px;
+  }
+
+  #sponsors .level4 img {
+    min-width: 120px;
+    max-width: 180px;
+  }
+
+  #sponsors .level5 img {
+    min-width: 60px;
+    max-width: 120px;
   }
 
   #sponsors .title img {
