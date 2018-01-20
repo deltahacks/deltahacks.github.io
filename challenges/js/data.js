@@ -189,8 +189,8 @@ var exampleData = [
 		`
 	},
 	{ 
-		videPath: "",
-		name: "Do_I_Have_This_Disease?", 
+		videoPath: "", 
+		name: "Do_I_Have_This_Disease", 
 		author: ["Dr. David Chan"], 
 		year: 2018, 
 		filePath: "", 
@@ -198,8 +198,7 @@ var exampleData = [
 		desc: ` A consumer facing scientific calculator to calculate the probability of having a disease. 
 		This project takes from an existing library of risk calculators (know2act.org by McMaster University) to 
 		turn them into a consumer friendly App similar to an award winning iOS App called SnapDx Clinical (by SnapDx.co) which is 
-		designed for physicians.
-		`
+		designed for physicians.`
 	}
 
 
