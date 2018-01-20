@@ -32,19 +32,18 @@ var exampleData = [
 	},
 	{ 
 		videPath: "",
-		name: "Olive Us Care", 
+		name: "Olive_Us_Care", 
 		author: ["Olive Us Care"], 
 		year: 2018, 
 		filePath: "", 
 		imgPath: "images/2018/Home_Care.png", 
 		desc: `A scheduling app that would allow volunteers and families to login to book, coordinate, 
-		accept/decline and remind of visits up to 10 hours per month.  <br> <br> 
+		accept/decline and remind of visits up to 10 hours per month.
 
 		This app would allow the client families and volunteers to directly communicate via login, 
 		while protecting both the volunteers and clients personal contact info (email and phone #). `
 
-	}, 
-
+	}, 	
 	{ 
 		videPath: "",
 		name: "Green_Venture", 
@@ -84,7 +83,6 @@ var exampleData = [
 		<br> `		
 
 	}, 	
-
 	{ 
 		videPath: "",
 		name: "Sleep_Apnea_Diagnosis_-_REM_Sleep_Hardware_Challenge", 
@@ -100,14 +98,14 @@ var exampleData = [
 
 		<ul> 
 			<li> Develop a system (with Muse or Myoware) to collect data of a person moving their eyes and 
-			then develop an algorithm to figure out whether a person's 
+			then develop an algorithm to figure out whether a persons'' 
 			eyes are moving or not using machine learning techniques  </li> 
 			<li> OR develop any other system to determine if a patient is in REM sleep or not </li> 
 		</ul> `
 	},
 	{ 
 		videPath: "",
-		name: "Athlete_Interface_For_Sprint_Canoe/Kayak", 
+		name: "Athlete_Interface_For_Sprint_Canoe", 
 		author: ["Stephen Tullis"], 
 		year: 2018, 
 		filePath: "", 
@@ -189,8 +187,19 @@ var exampleData = [
 			<li> May be adapted to various age groups, but focus for kids </li> 
 		</ul> 
 		`
+	},
+	{ 
+		videoPath: "", 
+		name: "Do_I_Have_This_Disease", 
+		author: ["Dr. David Chan"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/iphoneclipart.png", 
+		desc: ` A consumer facing scientific calculator to calculate the probability of having a disease. 
+		This project takes from an existing library of risk calculators (know2act.org by McMaster University) to 
+		turn them into a consumer friendly App similar to an award winning iOS App called SnapDx Clinical (by SnapDx.co) which is 
+		designed for physicians.`
 	}
-
 
 
 ]
