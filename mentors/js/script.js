@@ -13,10 +13,11 @@ var template = $(`<div class="icon">
 			 		<div class="picture">
 			 		</div>
 			 		<div class="info">
-				 		<p class="name"></p>
+				 		<p><span class="name"></span>
+				 			<a href="" target="_blank">Talk to me on Slack!</a>
+				 		</p>
 				 		<p class="desc"></p>
 				 		<p>Skills: <span class="skills"></span </p>
-				 		<p class="slack"><a href="" target="_blank">Talk to me on Slack!</a></p>
 			 		</div>
 			 	</div>`);
 
