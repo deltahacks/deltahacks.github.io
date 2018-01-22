@@ -10,7 +10,7 @@ var yearData =[
 var exampleData = [
 	{ 
 		name: "Yervant Kulbashian", 
-		imgPath: "images/stack.jpg",
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAVYAAAAJGE2ZDc2NGU2LTkyNTUtNGM1ZC04MjliLWUwMTZjOTQzNmQ2Yg.jpg",
 		desc: `<ul> 
 					<li> Setting up an environment, best practices, code design</li>
 					<li> High level design/concept and mechanism design </li>
