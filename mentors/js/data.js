@@ -10,7 +10,7 @@ var yearData =[
 var exampleData = [
 	{ 
 		name: "Yervant Kulbashian", 
-		imgPath: "images/stack.jpg",
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAVYAAAAJGE2ZDc2NGU2LTkyNTUtNGM1ZC04MjliLWUwMTZjOTQzNmQ2Yg.jpg",
 		desc: `<ul> 
 					<li> Setting up an environment, best practices, code design</li>
 					<li> High level design/concept and mechanism design </li>
@@ -46,7 +46,7 @@ var exampleData = [
 	},	
 	{ 
 		name: "Pratik Mehta", 
-		imgPath: "images/Pratik.jpg",
+		imgPath: "images/pratik.jpg",
 		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
 		skills: ["web"],
 		slack: "slack id"
@@ -74,7 +74,7 @@ var exampleData = [
 	},	
 	{ 
 		name: "Tomasz Drwięga", 
-		imgPath: "images/Tomasz.jpg",
+		imgPath: "images/tomasz.jpg",
 		desc: `<ul> 
 			<li>Rust - Core developer of Parity Ethereum Client, author of rust-web3 library. 
 		Happy to help you build Rust backend services for your dapp (including webservers and REST APIs)</li> 
@@ -87,7 +87,7 @@ var exampleData = [
 	},	
 	{ 
 		name: "Kemal Ahmed", 
-		imgPath: "images/Kemal.jpg",
+		imgPath: "images/kemal.jpg",
 		desc: `<ul> 
 				 <li> front end developer at AT&T (Polymer.js / HTML / CSS) </li> 
 				 <li>  runs own startup (Tornado.py / express.js / vue.js / MongoDB / Couchbase) </li> 
