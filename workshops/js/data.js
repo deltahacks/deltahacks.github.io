@@ -17,7 +17,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		slack: "U8VB173M4"
 	},
 	{ 
-		name: "TBD", 
+		name: "ArcelorMittal Dofasco", 
 		author: "ArcelorMittal Dofasco",
 		time: "",
 		location: "ETB 230",
