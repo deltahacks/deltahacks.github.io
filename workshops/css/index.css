@@ -61,3 +61,6 @@ header a:hover {
 .author {
 	font-weight: 900;
 }
+p.desc {
+    margin-left: 2em;
+}

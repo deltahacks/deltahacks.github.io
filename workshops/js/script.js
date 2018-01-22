@@ -13,7 +13,7 @@ var template = $(`<div class="icon">
 			 		<div class="info">
 				 		<div class="name"></div>
 				 		<!-- <a href="" target="_blank">Talk to me on Slack!</a> -->
-				 		<div><span class="time"> </span>at <span class="location"> </span></div>
+				 		<div><span class="time"> </span> at <span class="location"> </span></div>
 				 		<div>Presented by: <span class="author"></span></div>
 				 		<p class="desc"></p>
 			 		</div>
