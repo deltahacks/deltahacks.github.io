@@ -16,21 +16,254 @@ var exampleData = [
 					<li> High level design/concept and mechanism design </li>
 					<li> Android/Mobile dev </li> 
 			   </ul>`,
-		skills: ["android", "solidity"],
+		skills: ["android", "solidity", "code design"],
 		slack: "U8VB173M4"
 	},
 	{ 
-		name: "Natalie Chin", 
-		imgPath: "",
-		desc: `A cool mentor`,
-		skills: ["javascript", "html"],
+		name: "Denis Milicevic", 
+		imgPath: "images/oraclize.png",
+		desc: `Contributed to a number of smart contracts, that cumulatively exceed a million transactions on the Ethereum network, 
+		these include the Oraclize infrastructure, along with building the prototype contract the AmIOnTheFork contract was based off. 
+		Creator of Oraclize's Proof-of-Identity DApp and E-Wallet, which uses Estonian Digital Citizen smart cards for verification
+		 and allows them to use their card as a crypto wallet. Engages in bug bounty hunts, having found bugs in anything from smart contracts 
+		 to Ethereum client software.`,
+		skills: ["solidity", "react", "nodejs", "python"],
 		slack: "slack id"
 	},
 	{ 
-		name: "Abhay", 
-		imgPath: "",
-		desc: `A cool mentor`,
-		skills: ["javascript", "html"],
+		name: "Uday Sharma", 
+		imgPath: "images/uday.jpg",
+		desc: `HTML (have designed website), Python 3 (advanced)`,
+		skills: ["web", "python"],
 		slack: "slack id"
 	},
+	{ 
+		name: "Audun Bjornerud Mo", 
+		imgPath: "",
+		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
+		skills: ["nodejs", "react-redux"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Pratik Mehta", 
+		imgPath: "images/Pratik.jpg",
+		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
+		skills: ["web"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Colin Grey", 
+		imgPath: "images/colin.jpg",
+		desc: `Business Analysis, Project Management, QA, HTML`,
+		skills: ["business analysis", "project management", "QA", "web"],
+		slack: "slack id"
+	},			
+	{ 
+		name: "Nermin Jasarevic", 
+		imgPath: "",
+		desc: ``,
+		skills: ["web"],
+		slack: "slack id"
+	},		
+	{ 
+		name: "Patrick Carter", 
+		imgPath: "images/patrick.jpg",
+		desc: `Python, Data Scientist`,
+		skills: ["python", "data"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Tomasz Drwięga", 
+		imgPath: "images/Tomasz.jpg",
+		desc: `<ul> 
+			<li>Rust - Core developer of Parity Ethereum Client, author of rust-web3 library. 
+		Happy to help you build Rust backend services for your dapp (including webservers and REST APIs)</li> 
+			<li> React - Long-time frontend developer, can help with any parts of frontend development (including build setup, html, css, 
+				Vanilla JavaScript) and building Ethereum dapps with React+Redux stack. 
+				Happy to introduce you to Parity's frontend toolchain (oo7) for rapid dapp prototyping and building. </li> 
+			<li> I also have some experience with React Native.`,
+		skills: ["solidity", "react", "react native", "parity"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Kemal Ahmed", 
+		imgPath: "images/Kemal.jpg",
+		desc: `<ul> 
+				 <li> front end developer at AT&T (Polymer.js / HTML / CSS) </li> 
+				 <li>  runs own startup (Tornado.py / express.js / vue.js / MongoDB / Couchbase) </li> 
+				 <li> came second in ryerson hackathon last year building android app with Firebase</li> 
+			   </ul>`,
+		skills: ["web", "Firebase"],
+		slack: "slack id"
+	},			
+	{ 
+		name: "Ming", 
+		imgPath: "images/mingyuan_li.png",
+		desc: `<ul> 
+					<li> Systems Architecture - architecting full stack from choosing backend technologies to middleware message queuing 
+					mechanisms, to API design, to frontend technologies
+					=>involved in the design and delivery of large scale electronic health information systems at eHealth Ontario during coop term. </ul> 
+				<ul> Machine Learning - choosing machine learning algorithms
+					=>co-founded Catalytics Inc (https://www.catalyticsinc.com) - currently developing an analytical 
+					platform with hospitals to capture and analyze relevant patient information.</ul> 
+				<ul> Java, HTML5, CSS3, javascript, jQuery, NodeJS, Android (native Java) </ul> 
+			   </ul> `,
+		skills: ["system architecture", "machine learning", "web", "NodeJS", "Android"],
+		slack: "slack id"
+	},		
+	{ 
+		name: "Ridhwan Chowdhury", 
+		imgPath: "images/ridhwan.jpg",
+		desc: `<ul> 
+				<li> Python - Created a program that calculates a cumulative GPA based off of a students marks inputed into a simple notepad file</li> 
+				</ul>`,
+		skills: ["python"],
+		slack: "slack id"
+	},		
+
+
+	{ 
+		name: "Jeff Zagorac", 
+		imgPath: "",
+		desc: `<ul> 
+<li>back-end: Java, C#, Kotlin, SQL Server, DB2, Kafka, Corda, SOAP, ReST, XML, JSON, SSL, OAuth2, JWT, Kerberos, WebSphere, Spring Boot, Bluemix, CloudFoundry, Docker: 10+ years experience developing back-end applications for RBC</li>
+<li>front-end: HTML/CSS/JavaScript, JQuery, React: developed several employee-facing applications for use in RBC Branches </li>
+<li>business areas of experience: Client Profile, Cash Management, Investments, Appointment Booking, Payments/Blockchain</li>
+<li>DevOps: Git, SVN, Maven, Gradle, Ant, Jenkins, UCD, TFS, MSBuild, DynaTrace</li>
+<li>GNU/Linux: passionate free software advocate and daily Linux user</li>
+			   </ul>`,
+		skills: ["web", "version control", "react", "kotlin"],
+		slack: "slack id"
+	},		
+	{ 
+		name: "Jena Krukowski", 
+		imgPath: "https://media.licdn.com/media/p/3/000/05a/225/1d44850.jpg",
+		desc: `<ul> 
+				<li>Java - created backend API for analytics project </li>
+				<li>DB2 - database admin and design work  </li>
+				<li>HTML/java - utilized for front-end web development</li>
+			   </ul>`,
+		skills: ["java", "database", "web"],
+		slack: "slack id"
+	},		
+	{ 
+		name: "Nadya Zubkova", 
+		imgPath: "https://media.licdn.com/media/p/7/005/014/36e/2301838.jpg",
+		desc: `Python, Data Scientist`,
+		skills: ["python", "data"],
+		slack: "slack id"
+	},		
+	{ 
+		name: "Damian Tran", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAzfAAAAJGRiN2I1MmZmLTM2OTMtNDJlMS1hNDYyLTk4YTljZjQwODRmNQ.jpg",
+		desc: `<ul> <li>Android
+ Worked on 2 apps using Android camera and microphone APIs
+	<ol> 
+		<li> app integrating camera API and Google Barcode API, and custom web-scraping code to search pharma info from drug barcode ID in Android Studio
+		<li> app implementing camera and microphone APIs for stealthy camera access in React Native
+	</ol> 
+<li> C/C++
+Neural networks, genetic algorithms, and other AI/ML used for discovering cancer therapeutics (Masters Thesis), and for image processing (previous hackathon)
+	<ol> 
+		<li> Cross-platform GPU acceleration with OpenCL </li> 
+		<li> Cross-platform UI engine design with SFML libraries </li> 
+</ul> `,
+		skills: ["android", "machine learning", "artificial intelligence"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Matthew Nero", 
+		imgPath: "",
+		desc: `HTML/CSS/Javascript/Java`,
+		skills: ["web", "java"],
+		slack: "slack id"
+	},	
+
+	{ 
+		name: "Jimmy Wang", 
+		imgPath: "",
+		desc: `<ul> 
+<li>HTML/CSS: Built my own website.</li>
+<li>Node.js</li>
+<ol>
+<li> Knows Express, MongoDB.</li>
+<li> Built a web app for caregivers of dementia. Electronic profile. Option to get email notifications.</li>
+</ol>
+<li>Javascript:  can help with web technologies, DOM, promises, async, JSON</li> 
+
+APIs
+<ol> 
+<li> If you need help working with an API.</li>
+<li> Built a Slack chat game</li>
+</ol>
+<li>Git</li>
+- Can help you get setup. rebase flow, etc.	
+</ul> `,
+		skills: ["web", "java"],
+		slack: "slack id"
+	},
+
+
+	{ 
+		name: "Marek Kotewicz", 
+		imgPath: "",
+		desc: `
+		<ul> 
+		<li>iOS: Worked as mobile application developer for 2 years</li>
+		<li>Blockchain / Ethereum / Bitcoin: Worked for Ethereum Foundation on the first, C++ implementation of Ethereum in 2014. Joined parity at the end of 2015 to create parity-ethereum client in rust. Authored parity-bitcoin - full bitcoin implementation written in rust.</li>
+		<li> Rust: Used this cutting edge technology in production since 2015. </li> 
+
+		</ul>`,
+		skills: ["parity", "solidity", "rust", "ios"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Rakesh", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAVHAAAAJGQ0ZWQyYmVhLTNlZTQtNGVjMi04MTU1LWRjMjk2ZDBkODYxZQ.jpg",
+		desc: `<ul> 
+			<li>StackOverflow: Can look things up on StackOverflow and help you figure out how to fix your bugs</li>
+			<li>Google: Can also search Google for API docs, tutorials, examples, and best practices to try and help you</li>
+				</ul> 
+				`,
+		skills: [""],
+		slack: "slack id"
+	},
+	{ 
+		name: "Khalid Asad", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAUlAAAAJGI3ZWMxYmZiLWNmMTctNDQzZS04YTExLWQ0YjNkMmY2YWZmMQ.jpg",
+		desc: `<ul> 
+		<li>C/C++/Java/Python: Worked with EmbeddedSystems/Multithreading/SocketProgramming/Scripting and made apps and relevant games.</li>
+		<li>SQL/JavaScript/VBA/VB.NET/PowerShell: Experience working with these in a full time role.</li>
+		</ul> `,
+		skills: ["java", "python", "SQL"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Jennifer Mangaliman", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAsDAAAAJGY2NWQxMzBhLWU0NDUtNGYyOS05MTlkLTg1MzQ1YzIwM2ZmYQ.jpg",
+		desc: `
+<ul>		
+<li>User Experience Design</li>
+<li>Business Systems Analysis</li>
+<li>Web architectural patterns</li>
+<li>Agile Methodology</li>
+<li>Project Management</li>
+<li>Product Ownership</li>
+<li>Scrum Mastering</li>
+</ul>`,
+		skills: ["user experience, business systems, web architecture"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Evan Skeete", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAh5AAAAJDQwYWY0MTBhLTc2NTYtNDMwZS04MzNkLWNiMmExYjNhZmUzOA.jpg",
+		desc: `HTML/CSS/Javascript/React - Industry experience in full stack web development`,
+		skills: ["web", "react"],
+		slack: "slack id"
+	},	
+
+
+
+
+
 ];
