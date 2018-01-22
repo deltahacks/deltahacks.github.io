@@ -11,7 +11,6 @@ var initCounter = 0;
 
 var template = $(`<div class="icon">
 			 		<div class="picture">
-			 			<img src="" alt="">
 			 		</div>
 			 		<div class="info">
 				 		<p class="name"></p>
@@ -34,10 +33,11 @@ function projIconGen() {
 				$.each(exampleData, function(index, mentor) {
 					var temp = $(template).clone();
 					if (mentor.imgPath == "") {
-						$(temp).find('img').attr('src', "images/default.png");
+	/*background-image: url(../images/stack.jpg);*/
+						$(temp).find('.picture').css('background-image', "url(images/default.png)");
 
 					}else {
-						$(temp).find('img').attr('src', mentor.imgPath);
+						$(temp).find('.picture').css('background-image', "url("+mentor.imgPath+")");
 					}
 					$(temp).find('img').attr('alt', mentor.name);
 					$(temp).find('.name').html(mentor.name);
