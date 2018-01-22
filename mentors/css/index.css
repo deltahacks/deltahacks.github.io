@@ -54,6 +54,7 @@ header a:hover {
 }
 
 .icon .picture img {
+	border-radius: 10px;
 	width: 100%;
 }
 

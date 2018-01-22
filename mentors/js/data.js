@@ -11,7 +11,7 @@ var exampleData = [
 	{ 
 		name: "Alic Jiang", 
 		year: 2018, 
-		imgPath: "images/2018/mentor1.png", 
+		imgPath: "",
 		desc: `A cool mentor`,
 		skills: ["javascript", "html"],
 		slack: "D61CLF5TP"
@@ -19,7 +19,7 @@ var exampleData = [
 	{ 
 		name: "Natalie Chin", 
 		year: 2018, 
-		imgPath: "images/2018/mentor2.png", 
+		imgPath: "",
 		desc: `A cool mentor`,
 		skills: ["javascript", "html"],
 		slack: "slack id"
@@ -27,7 +27,7 @@ var exampleData = [
 	{ 
 		name: "Abhay", 
 		year: 2018, 
-		imgPath: "images/2018/mentor3.png", 
+		imgPath: "",
 		desc: `A cool mentor`,
 		skills: ["javascript", "html"],
 		slack: "slack id"

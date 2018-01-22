@@ -33,10 +33,13 @@ function projIconGen() {
 				var html = $('<div></div>');
 				$.each(exampleData, function(index, mentor) {
 					var temp = $(template).clone();
-					$(temp).find('img').attr({
-						src: mentor.imgPath,
-						alt: mentor.name
-					});
+					if (mentor.imgPath == "") {
+						$(temp).find('img').attr('src', "images/default.png");
+
+					}else {
+						$(temp).find('img').attr('src', mentor.imgPath);
+					}
+					$(temp).find('img').attr('alt', mentor.name);
 					$(temp).find('.name').html(mentor.name);
 					$(temp).find('.desc').html(mentor.desc);
 					$(temp).find('.skills').append(mentor.skills.join(", "));
