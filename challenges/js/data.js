@@ -199,7 +199,29 @@ var exampleData = [
 		This project takes from an existing library of risk calculators (know2act.org by McMaster University) to 
 		turn them into a consumer friendly App similar to an award winning iOS App called SnapDx Clinical (by SnapDx.co) which is 
 		designed for physicians.`
-	}
+	},
+	{ 
+		videoPath: "", 
+		name: "Preventing_Roadkill", 
+		author: ["Sai Sudheer Guptha Gannavarapu"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/duck.jpg", 
+		desc: `An app that can detect small objects near a car, and provide information and/or warnings to drivers based on potential 
+		objects. This app would aim to reduce animal deaths (such as ducks, snakes, and puppies) due to cars.`
+	},
+	{ 
+		videoPath: "", 
+		name: "Alzheimers_Disease", 
+		author: ["Sai Sudheer Guptha Gannavarapu"], 
+		year: 2018, 
+		filePath: "", 
+		imgPath: "images/2018/medication.jpg", 
+		desc: `The old aged people and patients who are suffering from Alzheimers disease 
+		have to take a lot of medications and they used to forget what to take on when.
+		This app reminds them at a particular time, what medication to take to ensure timely treatment plan.`
+	}		
+
 
 
 ]
