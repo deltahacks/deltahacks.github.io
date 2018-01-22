@@ -9,16 +9,18 @@ var yearData =[
 
 var exampleData = [
 	{ 
-		name: "Alic Jiang", 
-		year: 2018, 
-		imgPath: "",
-		desc: `A cool mentor`,
-		skills: ["javascript", "html"],
-		slack: "D61CLF5TP"
+		name: "Yervant Kulbashian", 
+		imgPath: "images/stack.jpg",
+		desc: `<ul> 
+					<li> Setting up an environment, best practices, code design</li>
+					<li> High level design/concept and mechanism design </li>
+					<li> Android/Mobile dev </li> 
+			   </ul>`,
+		skills: ["android", "solidity"],
+		slack: "U8VB173M4"
 	},
 	{ 
 		name: "Natalie Chin", 
-		year: 2018, 
 		imgPath: "",
 		desc: `A cool mentor`,
 		skills: ["javascript", "html"],
@@ -26,7 +28,6 @@ var exampleData = [
 	},
 	{ 
 		name: "Abhay", 
-		year: 2018, 
 		imgPath: "",
 		desc: `A cool mentor`,
 		skills: ["javascript", "html"],
