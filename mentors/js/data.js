@@ -352,5 +352,16 @@ APIs
 		numerous open source projects along the way.`,
 		skills: ["android"],
 		slack: "slack id"
+	},	
+
+	{ 
+		name: "Ocean Cheung", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAjMAAAAJGIyY2E0MmYxLTQyMjQtNGJkOC1iMjk0LTg4NDFlZmVhYTQ0OQ.jpg	",
+		desc: `<ul>
+<li>iOS / Android: Worked as an iOS / Android developer on separate occasions</li>
+<li>Python: Worked as a python developer before as well</li>
+</li>`,
+		skills: ["android", "ios", "python"],
+		slack: "slack id"
 	},		
 ];
