@@ -307,6 +307,7 @@ APIs
 		skills: ["java", "python", "bash", "golang", "c"],
 		slack: "slack id"
 	},	
+
 	{ 
 		name: "Emil Sekerinski", 
 		imgPath: "",
@@ -315,4 +316,32 @@ APIs
 		slack: "slack id"
 	},
 
+	{ 
+		name: "Mayank Arora", 
+		imgPath: "",
+		desc: `Android: Created a few apps in Android using Restful Web services and firebase messaging.`,
+		skills: ["android", "web", "firebase"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Kamaldeep Kaur", 
+		imgPath: "",
+		desc: `Java, SQL, Unix, HTML/CSS, Hadoop, OOAD, Practical Project Management, Project Scheduling, Android Programming`,
+		skills: ["android", "java", "sql", "web", "project management"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Gharnata Khan", 
+		imgPath: "",
+		desc: `Java/HTML - Developed web/mobile treasure hunting game applications using Google Maps API`,
+		skills: ["web", "google maps api"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Hussain Subhani", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAgWAAAAJDA0NzNiNzAzLTFiOGMtNGU2Yy05ZDgwLTRhYTlmOTg1MzAxMg.jpg",
+		desc: `JWebapps, JS, Angular, Spring`,
+		skills: ["web", "angular", "spring"],
+		slack: "slack id"
+	},	
 ];
