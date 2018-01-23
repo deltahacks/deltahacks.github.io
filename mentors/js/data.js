@@ -344,4 +344,13 @@ APIs
 		skills: ["web", "angular", "spring"],
 		slack: "slack id"
 	},	
+	{ 
+		name: "Afzal Najam (remote)", 
+		imgPath: "",
+		desc: `Afzal is the Lead Android Developer and main analytics guy at Kiwi Wearables, 
+		developing motion recognition algorithms. He's been developing for Android for 4 years, contributing to 
+		numerous open source projects along the way.`,
+		skills: ["android"],
+		slack: "slack id"
+	},		
 ];
