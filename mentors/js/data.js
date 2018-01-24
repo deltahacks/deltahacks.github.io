@@ -28,14 +28,14 @@ var exampleData = [
 		 and allows them to use their card as a crypto wallet. Engages in bug bounty hunts, having found bugs in anything from smart contracts 
 		 to Ethereum client software.`,
 		skills: ["solidity", "react", "nodejs", "python"],
-		slack: "slack id"
+		slack: "U8W66AZ0S"
 	},
 	{ 
 		name: "Uday Sharma", 
 		imgPath: "images/uday.jpg",
 		desc: `HTML (have designed website), Python 3 (advanced)`,
 		skills: ["web", "python"],
-		slack: "slack id"
+		slack: "U8XJKE7DL"
 	},
 	{ 
 		name: "Audun Bjornerud Mo", 
@@ -49,7 +49,7 @@ var exampleData = [
 		imgPath: "images/pratik.jpg",
 		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
 		skills: ["web"],
-		slack: "slack id"
+		slack: "U8XCE1AV6"
 	},	
 	{ 
 		name: "Colin Grey", 
@@ -83,7 +83,7 @@ var exampleData = [
 				Happy to introduce you to Parity's frontend toolchain (oo7) for rapid dapp prototyping and building. </li> 
 			<li> I also have some experience with React Native.`,
 		skills: ["solidity", "react", "react native", "parity"],
-		slack: "slack id"
+		slack: "U8V9U5UEL"
 	},	
 	{ 
 		name: "Kemal Ahmed", 
@@ -94,7 +94,7 @@ var exampleData = [
 				 <li> came second in ryerson hackathon last year building android app with Firebase</li> 
 			   </ul>`,
 		skills: ["web", "Firebase"],
-		slack: "slack id"
+		slack: "U8VG27W2V"
 	},			
 	{ 
 		name: "Ming", 
@@ -109,7 +109,7 @@ var exampleData = [
 				<ul> Java, HTML5, CSS3, javascript, jQuery, NodeJS, Android (native Java) </ul> 
 			   </ul> `,
 		skills: ["system architecture", "machine learning", "web", "NodeJS", "Android"],
-		slack: "slack id"
+		slack: "U8UFHTYP4"
 	},		
 	{ 
 		name: "Ridhwan Chowdhury", 
@@ -118,7 +118,7 @@ var exampleData = [
 				<li> Python - Created a program that calculates a cumulative GPA based off of a students marks inputed into a simple notepad file</li> 
 				</ul>`,
 		skills: ["python"],
-		slack: "slack id"
+		slack: "U8V4S8Q7Q"
 	},		
 
 
@@ -169,7 +169,7 @@ Neural networks, genetic algorithms, and other AI/ML used for discovering cancer
 		<li> Cross-platform UI engine design with SFML libraries </li> 
 </ul> `,
 		skills: ["android", "machine learning", "artificial intelligence"],
-		slack: "slack id"
+		slack: "U8UJ96RAR"
 	},
 	{ 
 		name: "Matthew Nero", 
