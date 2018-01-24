@@ -14,7 +14,7 @@ var template = $(`<div class="icon">
 			 		</div>
 			 		<div class="info">
 				 		<p><span class="name"></span>
-				 			<a href="" target="_blank">Talk to me on Slack!</a>
+				 			<a class="slack" href="" target="_blank">Talk to me on Slack!</a>
 				 		</p>
 				 		<p class="desc"></p>
 				 		<p>Skills: <span class="skills"></span </p>
