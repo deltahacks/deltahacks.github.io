@@ -34,9 +34,7 @@ function projIconGen() {
 				$.each(exampleData, function(index, mentor) {
 					var temp = $(template).clone();
 					if (mentor.imgPath == "") {
-	/*background-image: url(../images/stack.jpg);*/
 						$(temp).find('.picture').css('background-image', "url(images/default.png)");
-
 					}else {
 						$(temp).find('.picture').css('background-image', "url("+mentor.imgPath+")");
 					}
@@ -44,7 +42,11 @@ function projIconGen() {
 					$(temp).find('.name').html(mentor.name);
 					$(temp).find('.desc').html(mentor.desc);
 					$(temp).find('.skills').append(mentor.skills.join(", "));
-					$(temp).find('.slack').attr('href', "https://deltahacks4.slack.com/messages/" + mentor.slack);
+					if (mentor.slack.length < 1) {
+						$(temp).find('.slack').remove();
+					}else {
+						$(temp).find('.slack').attr('href', "https://deltahacks4.slack.com/messages/" + mentor.slack);
+					}
 					$(html).append(temp);
 				});
 				return html;

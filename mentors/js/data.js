@@ -42,7 +42,7 @@ var exampleData = [
 		imgPath: "",
 		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
 		skills: ["nodejs", "react-redux"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Pratik Mehta", 
@@ -56,21 +56,21 @@ var exampleData = [
 		imgPath: "images/colin.jpg",
 		desc: `Business Analysis, Project Management, QA, HTML`,
 		skills: ["business analysis", "project management", "QA", "web"],
-		slack: "slack id"
+		slack: ""
 	},			
 	{ 
 		name: "Nermin Jasarevic", 
 		imgPath: "",
 		desc: ``,
 		skills: ["web"],
-		slack: "slack id"
+		slack: ""
 	},		
 	{ 
 		name: "Patrick Carter", 
 		imgPath: "images/patrick.jpg",
 		desc: `Python, Data Scientist`,
 		skills: ["python", "data"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Tomasz Drwięga", 
@@ -133,7 +133,7 @@ var exampleData = [
 <li>GNU/Linux: passionate free software advocate and daily Linux user</li>
 			   </ul>`,
 		skills: ["web", "version control", "react", "kotlin"],
-		slack: "slack id"
+		slack: ""
 	},		
 	{ 
 		name: "Jena Krukowski", 
@@ -144,14 +144,14 @@ var exampleData = [
 				<li>HTML/java - utilized for front-end web development</li>
 			   </ul>`,
 		skills: ["java", "database", "web"],
-		slack: "slack id"
+		slack: ""
 	},		
 	{ 
 		name: "Nadya Zubkova", 
 		imgPath: "https://media.licdn.com/media/p/7/005/014/36e/2301838.jpg",
 		desc: `Python, Data Scientist`,
 		skills: ["python", "data"],
-		slack: "slack id"
+		slack: ""
 	},		
 	{ 
 		name: "Damian Tran", 
@@ -176,7 +176,7 @@ Neural networks, genetic algorithms, and other AI/ML used for discovering cancer
 		imgPath: "",
 		desc: `HTML/CSS/Javascript/Java`,
 		skills: ["web", "java"],
-		slack: "slack id"
+		slack: ""
 	},	
 
 	{ 
@@ -200,7 +200,7 @@ APIs
 - Can help you get setup. rebase flow, etc.	
 </ul> `,
 		skills: ["web", "java"],
-		slack: "slack id"
+		slack: ""
 	},
 
 
@@ -215,7 +215,7 @@ APIs
 
 		</ul>`,
 		skills: ["parity", "solidity", "rust", "ios"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Rakesh", 
@@ -226,7 +226,7 @@ APIs
 				</ul> 
 				`,
 		skills: [""],
-		slack: "slack id"
+		slack: ""
 	},
 	{ 
 		name: "Khalid Asad", 
@@ -236,7 +236,7 @@ APIs
 		<li>SQL/JavaScript/VBA/VB.NET/PowerShell: Experience working with these in a full time role.</li>
 		</ul> `,
 		skills: ["java", "python", "SQL"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Jennifer Mangaliman", 
@@ -264,7 +264,7 @@ APIs
 <li>OCaml - I held an undergraduate research position over the summer adding features to theorem proof assistant software written in OCaml.</li>
 </ul>`,
 		skills: ["assembly", "java", "python", "artificial intelligence"],
-		slack: "slack id"
+		slack: ""
 	},	
 
 	{ 
@@ -272,7 +272,7 @@ APIs
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAh5AAAAJDQwYWY0MTBhLTc2NTYtNDMwZS04MzNkLWNiMmExYjNhZmUzOA.jpg",
 		desc: `HTML/CSS/Javascript/React - Industry experience in full stack web development`,
 		skills: ["web", "react"],
-		slack: "slack id"
+		slack: ""
 	},
 
 
@@ -287,7 +287,7 @@ APIs
 <li>Framework: Hadoop/Hive, XAMPP		</li>
 </ul>`,
 		skills: ["web", "sql", "hadoop", "machine learning", "architecture design"],
-		slack: "slack id"
+		slack: ""
 	},
 	{ 
 		name: "Yiguo Sun", 
@@ -298,14 +298,14 @@ APIs
 		He has knowledge and experiences with mobile device development languages like C++, Java, QML; machine learning algorithm design 
 		tools like Python, Anaconda.`,
 		skills: ["java", "machine learning", "algorithm design", "python", "anaconda"],
-		slack: "slack id"
+		slack: ""
 	},
 	{ 
 		name: "Umme Salma Gadriwala", 
 		imgPath: "",
 		desc: `Java, Python, BASH, GoLang, and a little bit of C.`,
 		skills: ["java", "python", "bash", "golang", "c"],
-		slack: "slack id"
+		slack: ""
 	},	
 
 	{ 
@@ -313,7 +313,7 @@ APIs
 		imgPath: "",
 		desc: `Python, Java, and in particular object-oriented design, concurrency, compilers, embedded systems.`,
 		skills: ["java", "python", "concurrency", "compilers", "embedded systems"],
-		slack: "slack id"
+		slack: ""
 	},
 
 	{ 
@@ -321,28 +321,28 @@ APIs
 		imgPath: "",
 		desc: `Android: Created a few apps in Android using Restful Web services and firebase messaging.`,
 		skills: ["android", "web", "firebase"],
-		slack: "slack id"
+		slack: ""
 	},
 	{ 
 		name: "Kamaldeep Kaur", 
 		imgPath: "",
 		desc: `Java, SQL, Unix, HTML/CSS, Hadoop, OOAD, Practical Project Management, Project Scheduling, Android Programming`,
 		skills: ["android", "java", "sql", "web", "project management"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Gharnata Khan", 
 		imgPath: "",
 		desc: `Java/HTML - Developed web/mobile treasure hunting game applications using Google Maps API`,
 		skills: ["web", "google maps api"],
-		slack: "slack id"
+		slack: ""
 	},
 	{ 
 		name: "Hussain Subhani", 
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAgWAAAAJDA0NzNiNzAzLTFiOGMtNGU2Yy05ZDgwLTRhYTlmOTg1MzAxMg.jpg",
 		desc: `JWebapps, JS, Angular, Spring`,
 		skills: ["web", "angular", "spring"],
-		slack: "slack id"
+		slack: ""
 	},	
 	{ 
 		name: "Afzal Najam (remote)", 
@@ -361,7 +361,7 @@ APIs
 <li>Python: Worked as a python developer before as well</li>
 </li>`,
 		skills: ["android", "ios", "python"],
-		slack: "slack id"
+		slack: ""
 	}, 
 	{	
 		name: "Ben Miller", 
