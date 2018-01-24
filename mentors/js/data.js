@@ -256,7 +256,7 @@ APIs
 	},	
 	{ 
 		name: "Patrick Laskowski", 
-		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=16104b68fde15dcf&attid=0.1&disp=emb&realattid=ii_16104b24ba6998b9&attbid=ANGjdJ9NYnnhynw5EnwhScCibCN1F3mT-E8R56GbL4reyVDWgSY0P_wcdAVjKgBCGRJDblQzfTlX5nF6rnvVC2ISL2BAgIlLElv_l5XGHJOt3lSrKqazKJnv5DkFJSM&sz=w628-h838&ats=1516657469930&rm=16104b68fde15dcf&zw&atsh=1",
+		imgPath: "https://media.licdn.com/media/AAMAAgDGAAwAAQAAAAAAAA2DAAAAJGJmYzBjYjkzLTY3ODQtNDQ5Ni04ZDU3LWU5MzI2NjJiYjA2Nw.jpg",
 		desc: `<ul>
 <li>General knowledge of Windows/Linux - I frequently use both</li>
 <li>x86 assembly, C, C++ -  no professional experience but I frequently use these for hobby projects, primarily specializing in very low level code.</li>
@@ -278,7 +278,7 @@ APIs
 
 	{ 
 		name: "Zheng Zheng", 
-		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=15fd0b6f683da62c&attid=0.1&disp=emb&realattid=15fd0b68aa4c7597e591&attbid=ANGjdJ_1fvaa9iGrQwgaES2pkjvj7EyqEnAqKJCogk6zvsUtPXaezo0XLaH-vBjFXHHeeeubK1r9aGYJjgtD-y8MZn8i5L-xoL6l6srO6A5MGbi9GPHzWWmCi5Ap3zg&sz=s0-l75-ft&ats=1516658091945&rm=15fd0b6f683da62c&zw&atsh=1",
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAoPAAAAJDYwYjI4MzgxLTc4NTYtNDhhZi1iMDI5LTMzNDhjMGQ0MDNjNg.jpg",
 		desc: `
 <ul> 
 <li>Good at architecture design, and machine learning algorithms (NN, SVM, LR, etc.)</li>
@@ -291,7 +291,7 @@ APIs
 	},
 	{ 
 		name: "Yiguo Sun", 
-		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=15fc13fd0cb6618a&attid=0.1&disp=emb&realattid=ii_15fc13deb0d13fbb&attbid=ANGjdJ8iRfr7pM80LGlWtJNT65MjrpGfzK_roGf-pnG4j90Nq_Cvx5L35mrKRWBG5CctM2fZAgK-C3W-J6xUoebPJY_48WM8BYSIgyJ092o5258j6tmY8Z3rCEfNvb0&sz=w788-h784&ats=1516658382355&rm=15fc13fd0cb6618a&zw&atsh=1",
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAqBAAAAJGZhZGMxZDliLWE3NzAtNGE3YS05YjJkLWVmYmY5OWE4MTE3YQ.jpg",
 		desc: `Yiguo is a software developer for clinic trial data management. 
 		Yiguo is finishing cross-platform mobile apps development for clinical trial data under online and offline situation. 
 		He has developed some apps which predict falls, heart attack and other aging-associated diseases by analyzing bio-sensor data. 
