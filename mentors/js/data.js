@@ -364,10 +364,56 @@ APIs
 		slack: ""
 	}, 
 	{	
-		name: "Ben Miller", 
+		name: "Benjamin Miller", 
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAUuAAAAJGNiYzgwYzQ4LWY4YTQtNDdlNy1hOGUxLWRlZTZiZmEyNjAwOQ.jpg",
 		desc: `<ul><li>Python: Created and maintained automation frameworks written in selenium and python</li></ul>`,
 		skills: ["python"],
 		slack: "D8XJUAN65"
-	}	
+	},
+	{	
+		name: "Benjamin Fonooni", 
+		imgPath: "https://media.licdn.com/media/p/1/000/254/0b2/05d6ba3.jpg",
+		desc: `<ul>
+<li>HTML/CSS/JavaScript</li>
+<li>Artificial Intelligence/Machine Learning/Deep Learning</li>
+<ol><li>10 years of research and development in both academia and industry
+<li>PhD in Robotics and Cognitive Science</ol>
+</ul>`,
+		skills: ["web", "artificial intelligence"],
+		slack: ""
+	},
+	{ 
+		name: "Charles Tsang", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAg-AAAAJDg1YjVmMzQ2LTIwNDEtNGRkZC04NDc1LTZiMTU0ZjBlOTc3OA.jpg",
+		desc: `Python coding; Java, created an app using android studio. `,
+		skills: ["python", "java", "android"],
+		slack: ""
+	},
+
+	{ 
+		name: "Mustafa Haddara", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAaVAAAAJDI4NDNlOGE5LTUxOTYtNDMwYi05NDk1LWEzOTQ2MWY2OTBkZA.jpg",
+		desc: `Currently working as a full stack developer (back end = Java/Hibernate, 
+			front end = Javascript/backbone.js) at Vena Solutions, where I am currently leading development on a 
+			custom programming language for defining relationships between data in our multidimensional OLAP database. `,
+		skills: ["web"],
+		slack: "U8Y395E0L"
+	},
+	{ 
+		name: "Aaron Nwabouku", 
+		imgPath: "https://media.licdn.com/media/AAIABADGAAwAAQAAAAAAAAz2AAAAJDM2ZTc5Yjc1LWNlOGUtNGY0Zi05NDIzLTE0MDY1YjFlZWU0Yg.jpg",
+		desc: `<ul>		
+<li>Java/Kotlin Drop Wizard/Spring Boot stack. </li>
+<li>Android: Written and published multiple Android applications.</li>
+</ul>`,
+		skills: ["web" , "android"],
+		slack: "U8XHXPKED"
+	},	
+	{ 
+		name: "Dananjay Prabaharan", 
+		imgPath: "images/dj.jpg",
+		desc: `<ul><li>Knowledge on the Arduino and Front-End Web Development</li></ul>`,
+		skills: ["web" , "arduino"],
+		slack: "U8UAQJ1C7"
+	}
 ];
