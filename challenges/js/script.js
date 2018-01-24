@@ -8,6 +8,7 @@ var EXAMPLES = [];
 // ]
 
 var initCounter = 0;
+var slackUrl = 'https://deltahacks4.slack.com/messages/'
 
 $(document).ready(function() {
 	genProjs();
@@ -203,16 +204,7 @@ function indivProjGen(target) {
 	// console.log(proj);
 	// appending project data
 	$('#project').find('.name h2').html(proj.name.replace(/_/g, ' '));
-	$('#project').find('.author p').html(function(){
-		var string = 'By ';
-		$.each(proj.author, function(index, auth) {
-			string += auth;
-			if(index != proj.author.length - 1){
-				string += ', '
-			}
-		});
-		return string;
-	});
-	$('#project').find('.slack').html(proj.slack);
+	$('#project').find('.author p').html(proj.author);
+	$('#project').find('.slack').attr('href', slackUrl + proj.slack);
 	$('#project').find('.desc').html(proj.desc);
 }

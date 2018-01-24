@@ -9,13 +9,11 @@ var yearData =[
 
 var exampleData = [
 	{ 
-		videPath: "",
 		name: "Hamilton_Bike_Share", 
-		author: ["McMaster ITE Student Chapter"], 
+		author: "McMaster ITE Student Chapter", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/Hamilton_Bike_Share.png", 
-		slack: "",
+		slack: "C8P49J9DJ",
 		desc: `An app that allows better tracking of SOBI Bikes that are used by residents all over Hamilton. 
 		When a user enters desired destination, the app knows the user’s location and figures out the closest bike and/or hub. 
 		The app presents the user with a variety of options: 
@@ -32,13 +30,11 @@ var exampleData = [
 
 	},
 	{ 
-		videPath: "",
 		name: "Olive_Us_Care", 
-		author: ["Olive Us Care"], 
+		author: "Olive Us Care", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/Home_Care.png",  
-		slack: "",
+		slack: "C8SJSDMG8",
 		desc: `A scheduling app that would allow volunteers and families to login to book, coordinate, 
 		accept/decline and remind of visits up to 10 hours per month.
 
@@ -47,13 +43,11 @@ var exampleData = [
 
 	}, 	
 	{ 
-		videPath: "",
 		name: "Green_Venture", 
-		author: ["Green Venture"], 
+		author: "Green Venture", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/Green_Venture.png",  
-		slack: "",
+		slack: "C8UD9TT8D",
 		desc: `Green Venture currently runs guided education programs of EcoHouse, 
 		a converted 1850’s farmhouse. 
 		The EcoHouse features displays on environmental themes, as well as historical information on the site. 
@@ -63,13 +57,11 @@ var exampleData = [
 
 
 	{ 
-		videPath: "",
 		name: "Sleep_Apnea__Diagnosis_-_App_Dev", 
-		author: ["Om Bhatt"], 
+		author: "Om Bhatt", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/sleepsoft.png",  
-		slack: "",
+		slack: "C8P12H9FD",
 		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic 
 		to diagnose sleep-related problems such as sleep apnea. Much of the information gained through these sleep 
 		tests can be done easily at home using technology on your phone, with minimal external hardware (a simple microphone, for ex). 
@@ -88,13 +80,11 @@ var exampleData = [
 
 	}, 	
 	{ 
-		videPath: "",
 		name: "Sleep_Apnea_Diagnosis_-_REM_Sleep_Hardware_Challenge", 
-		author: ["Om Bhatt"], 
+		author: "Om Bhatt", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/sleephard.png",  
-		slack: "",
+		slack: "C8P12H9FD",
 		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic to diagnose 
 		sleep-related problems such as sleep apnea. Much of the information gained through these sleep tests can be done easily at 
 		home using technology on your phone, with minimal external hardware (a simple EMG sensor, for ex). Eye movements, 
@@ -109,13 +99,11 @@ var exampleData = [
 		</ul> `
 	},
 	{ 
-		videPath: "",
 		name: "Athlete_Interface_For_Sprint_Canoe", 
-		author: ["Stephen Tullis"], 
+		author: "Stephen Tullis", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/kayak.png",  
-		slack: "",
+		slack: "C8P12JYQ3",
 		desc: `Sprint canoe and kayak are Olympic Sports that Canada traditionally does well in. However, there is currently very little technology 
 		in the sport. My group has developed instrumental paddles to measure blade forces and orientation, 
 		currently used in research. The objective is to provide 
@@ -130,11 +118,9 @@ var exampleData = [
 	},
 
 	{ 
-		videPath: "",
 		name: "Pocket_Size_Mobile_Personal_Amplifier", 
-		author: ["Anick Lamarche"], 
+		author: "Anick Lamarche", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/amp.png",  
 		slack: "",
 		desc: `A <b> pocket sized mobile personal amplifier </b> where you can amplify your voice where you go, so it is extremely useful 
@@ -150,11 +136,9 @@ var exampleData = [
 	},
 
 	{ 
-		videPath: "",
 		name: "Health_Care_GPS_For_Youth", 
-		author: ["Anick Lamarche"], 
+		author: "Anick Lamarche", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/healthcaregps.png",  
 		slack: "",
 		desc: `A fun and safe environment that helps youth track health related resources, appointments, short term and long term care plans. 
@@ -167,11 +151,9 @@ var exampleData = [
 		</ul> `
 	}, 
 	{ 
-		videPath: "",
 		name: "Voice_Analyzer", 
-		author: ["Anick Lamarche"], 
+		author: "Anick Lamarche", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/voiceuse.png",  
 		slack: "",
 		desc: `Personal device that indicates patterns of voice, measures of timings on voice (like Spire/FitBit/BellaBeat Apps), loudness and lets individuals know that they have reached 
@@ -179,11 +161,9 @@ var exampleData = [
 		`
 	}, 
 	{ 
-		videPath: "",
 		name: "Virtual_World_Game", 
-		author: ["Anick Lamarche"], 
+		author: "Anick Lamarche", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/game.png",  
 		slack: "",
 		desc: ` Virtual World Game like minecraft, which patients will need to accomplish tasks to motivate compliance to therapeutic exercises while also making it fun. <br><br> 
@@ -201,9 +181,8 @@ var exampleData = [
 	{ 
 		videoPath: "", 
 		name: "Do_I_Have_This_Disease", 
-		author: ["Dr. David Chan"], 
+		author: "Dr. David Chan", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/iphoneclipart.png",  
 		slack: "",
 		desc: ` A consumer facing scientific calculator to calculate the probability of having a disease. 
@@ -214,9 +193,8 @@ var exampleData = [
 	{ 
 		videoPath: "", 
 		name: "Preventing_Roadkill", 
-		author: ["Sai Sudheer Guptha Gannavarapu"], 
+		author: "Sai Sudheer Guptha Gannavarapu", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/duck.jpg",  
 		slack: "",
 		desc: `An app that can detect small objects near a car, and provide information and/or warnings to drivers based on potential 
@@ -225,9 +203,8 @@ var exampleData = [
 	{ 
 		videoPath: "", 
 		name: "Alzheimers_Disease", 
-		author: ["Sai Sudheer Guptha Gannavarapu"], 
+		author: "Sai Sudheer Guptha Gannavarapu", 
 		year: 2018, 
-		filePath: "", 
 		imgPath: "images/2018/medication.jpg",  
 		slack: "",
 		desc: `The old aged people and patients who are suffering from Alzheimers disease 
@@ -238,16 +215,3 @@ var exampleData = [
 
 
 ]
-// New example format:
-//	{
-//		vid eoPath: url to youtube video or a image,
-//		name: 		name of the project,
-//		author: 	the author(s),
-// 		year: 		2013
-//	}
-// Moreover, the sample picture of each example is named
-// EXACTLY the same as the name of the example, with png format
-// and is put under 'images' folder.
-// The pictures are all squares, i.e., the width and height are
-// the same, and should be bigger than 200px * 200px for better
-// performance on various devices.

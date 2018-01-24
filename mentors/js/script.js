@@ -8,6 +8,7 @@ var EXAMPLES = [];
 // ]
 
 var initCounter = 0;
+var slackUrl = 'https://deltahacks4.slack.com/messages/'
 
 var template = $(`<div class="icon">
 			 		<div class="picture">
@@ -45,7 +46,7 @@ function projIconGen() {
 					if (mentor.slack.length < 1) {
 						$(temp).find('.slack').remove();
 					}else {
-						$(temp).find('.slack').attr('href', "https://deltahacks4.slack.com/messages/" + mentor.slack);
+						$(temp).find('.slack').attr('href', slackUrl + mentor.slack);
 					}
 					$(html).append(temp);
 				});
