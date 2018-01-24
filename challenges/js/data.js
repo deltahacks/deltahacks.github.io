@@ -15,6 +15,7 @@ var exampleData = [
 		year: 2018, 
 		filePath: "", 
 		imgPath: "images/2018/Hamilton_Bike_Share.png", 
+		slack: "",
 		desc: `An app that allows better tracking of SOBI Bikes that are used by residents all over Hamilton. 
 		When a user enters desired destination, the app knows the user’s location and figures out the closest bike and/or hub. 
 		The app presents the user with a variety of options: 
@@ -36,7 +37,8 @@ var exampleData = [
 		author: ["Olive Us Care"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/Home_Care.png", 
+		imgPath: "images/2018/Home_Care.png",  
+		slack: "",
 		desc: `A scheduling app that would allow volunteers and families to login to book, coordinate, 
 		accept/decline and remind of visits up to 10 hours per month.
 
@@ -50,7 +52,8 @@ var exampleData = [
 		author: ["Green Venture"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/Green_Venture.png", 
+		imgPath: "images/2018/Green_Venture.png",  
+		slack: "",
 		desc: `Green Venture currently runs guided education programs of EcoHouse, 
 		a converted 1850’s farmhouse. 
 		The EcoHouse features displays on environmental themes, as well as historical information on the site. 
@@ -65,7 +68,8 @@ var exampleData = [
 		author: ["Om Bhatt"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/sleepsoft.png", 
+		imgPath: "images/2018/sleepsoft.png",  
+		slack: "",
 		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic 
 		to diagnose sleep-related problems such as sleep apnea. Much of the information gained through these sleep 
 		tests can be done easily at home using technology on your phone, with minimal external hardware (a simple microphone, for ex). 
@@ -89,7 +93,8 @@ var exampleData = [
 		author: ["Om Bhatt"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/sleephard.png", 
+		imgPath: "images/2018/sleephard.png",  
+		slack: "",
 		desc: `Currently, many Canadians wait a long time to book a night at a sleep clinic to diagnose 
 		sleep-related problems such as sleep apnea. Much of the information gained through these sleep tests can be done easily at 
 		home using technology on your phone, with minimal external hardware (a simple EMG sensor, for ex). Eye movements, 
@@ -109,7 +114,8 @@ var exampleData = [
 		author: ["Stephen Tullis"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/kayak.png", 
+		imgPath: "images/2018/kayak.png",  
+		slack: "",
 		desc: `Sprint canoe and kayak are Olympic Sports that Canada traditionally does well in. However, there is currently very little technology 
 		in the sport. My group has developed instrumental paddles to measure blade forces and orientation, 
 		currently used in research. The objective is to provide 
@@ -129,7 +135,8 @@ var exampleData = [
 		author: ["Anick Lamarche"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/amp.png", 
+		imgPath: "images/2018/amp.png",  
+		slack: "",
 		desc: `A <b> pocket sized mobile personal amplifier </b> where you can amplify your voice where you go, so it is extremely useful 
 		for presentations, teaching, and talking over lots of noise. <br><br> 
 
@@ -148,7 +155,8 @@ var exampleData = [
 		author: ["Anick Lamarche"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/healthcaregps.png", 
+		imgPath: "images/2018/healthcaregps.png",  
+		slack: "",
 		desc: `A fun and safe environment that helps youth track health related resources, appointments, short term and long term care plans. 
 
 		Important Criteria: 
@@ -164,7 +172,8 @@ var exampleData = [
 		author: ["Anick Lamarche"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/voiceuse.png", 
+		imgPath: "images/2018/voiceuse.png",  
+		slack: "",
 		desc: `Personal device that indicates patterns of voice, measures of timings on voice (like Spire/FitBit/BellaBeat Apps), loudness and lets individuals know that they have reached 
 		their goals and/or their limits.  Currently, voice dosimeters are extremely complicated and not easily worn. 
 		`
@@ -175,7 +184,8 @@ var exampleData = [
 		author: ["Anick Lamarche"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/game.png", 
+		imgPath: "images/2018/game.png",  
+		slack: "",
 		desc: ` Virtual World Game like minecraft, which patients will need to accomplish tasks to motivate compliance to therapeutic exercises while also making it fun. <br><br> 
 
 		Important Criteria: 
@@ -194,7 +204,8 @@ var exampleData = [
 		author: ["Dr. David Chan"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/iphoneclipart.png", 
+		imgPath: "images/2018/iphoneclipart.png",  
+		slack: "",
 		desc: ` A consumer facing scientific calculator to calculate the probability of having a disease. 
 		This project takes from an existing library of risk calculators (know2act.org by McMaster University) to 
 		turn them into a consumer friendly App similar to an award winning iOS App called SnapDx Clinical (by SnapDx.co) which is 
@@ -206,7 +217,8 @@ var exampleData = [
 		author: ["Sai Sudheer Guptha Gannavarapu"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/duck.jpg", 
+		imgPath: "images/2018/duck.jpg",  
+		slack: "",
 		desc: `An app that can detect small objects near a car, and provide information and/or warnings to drivers based on potential 
 		objects. This app would aim to reduce animal deaths (such as ducks, snakes, and puppies) due to cars.`
 	},
@@ -216,7 +228,8 @@ var exampleData = [
 		author: ["Sai Sudheer Guptha Gannavarapu"], 
 		year: 2018, 
 		filePath: "", 
-		imgPath: "images/2018/medication.jpg", 
+		imgPath: "images/2018/medication.jpg",  
+		slack: "",
 		desc: `The old aged people and patients who are suffering from Alzheimers disease 
 		have to take a lot of medications and they used to forget what to take on when.
 		This app reminds them at a particular time, what medication to take to ensure timely treatment plan.`

@@ -213,5 +213,6 @@ function indivProjGen(target) {
 		});
 		return string;
 	});
+	$('#project').find('.slack').html(proj.slack);
 	$('#project').find('.desc').html(proj.desc);
 }
