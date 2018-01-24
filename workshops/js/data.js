@@ -67,7 +67,7 @@ UI for presenting information in an easy to understand format that does not inte
 		name: "StdLib", 
 		author: "StdLib",
 		time: "TBD",
-		location: "ETB 230",
+		location: "ETB 126",
 		desc: ``,
 		slack: "slackId"
 	},
@@ -102,7 +102,8 @@ The world of virtual assistants powered by AI is growing — Siri, Cortana, Alex
 		author: "Jimmy Wang",
 		time: "TBD",
 		location: "ETB 228",
-		desc: ``,
+		desc: `Learn express, node, integrating APIs and web technologies to help get your hack started. Beginner workshop. Targeted towards first time hackers.
+Seen by Jimmy Wang at 3:48pm`,
 		slack: "slackId"
 	},
 	{ 
