@@ -252,7 +252,7 @@ APIs
 <li>Scrum Mastering</li>
 </ul>`,
 		skills: ["user experience, business systems, web architecture"],
-		slack: "slack id"
+		slack: "D8Z79M771"
 	},	
 	{ 
 		name: "Patrick Laskowski", 
@@ -351,7 +351,7 @@ APIs
 		developing motion recognition algorithms. He's been developing for Android for 4 years, contributing to 
 		numerous open source projects along the way.`,
 		skills: ["android"],
-		slack: "slack id"
+		slack: "D8Y2MS85R"
 	},	
 	{ 
 		name: "Ocean Cheung", 
@@ -368,6 +368,6 @@ APIs
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAUuAAAAJGNiYzgwYzQ4LWY4YTQtNDdlNy1hOGUxLWRlZTZiZmEyNjAwOQ.jpg",
 		desc: `<ul><li>Python: Created and maintained automation frameworks written in selenium and python</li></ul>`,
 		skills: ["python"],
-		slack: "slack id"
+		slack: "D8XJUAN65"
 	}	
 ];
