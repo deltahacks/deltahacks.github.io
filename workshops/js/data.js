@@ -22,7 +22,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		time: "TBD",
 		location: "ETB 230",
 		desc: `This session will focus on the new technologies, modernization, and continuous improvement activities taking place at ArcelorMittal Dofasco.`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Legacy Technologies in the Modern World", 
@@ -30,7 +30,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		time: "TBD",
 		location: "ETB 230",
 		desc: `Legacy Technologies you weren't expecting in 2018 and how to mix the old with the new technologies`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Prioritizing Machine Learning", 
@@ -38,7 +38,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		time: "TBD",
 		location: "ETB 228",
 		desc: `A deep dive into how students can mesh tech with business and what skills they need to build a marketable product.`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Personalized Development At Scale (with Books and Robots!)", 
@@ -46,7 +46,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		time: "TBD",
 		location: "ETB 230",
 		desc: `Our tech stack is as diverse and experimental as our digital catalog of books. Our R&D folks are a special group - In the morning, we take a splash of RUM with our customer feedback to kick off the next day of continuous improvement. We make our robots come alive to double check the software we write and the hardware we design, and we show our work to millions of people each day. Join us in our workshop where we’ll talk about the fascinating revolution going on in the book industry, our experimental api’s, developer motivation, robot motivation, and how we intertwine personalization at a global scale.`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Leveraging AR glasses/phone/tablet to identify process equipment and to display general information for a specific piece of equipment", 
@@ -61,7 +61,7 @@ Tracking the physical location and identifying equipment in relation to the user
 <br/><br/>
 UI for presenting information in an easy to understand format that does not interfere with the users vision and awareness of their surroundings for safety.
 "`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "StdLib", 
@@ -69,7 +69,7 @@ UI for presenting information in an easy to understand format that does not inte
 		time: "TBD",
 		location: "ETB 126",
 		desc: ``,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Build your own AI assistant using Google Assistant and Google Home", 
@@ -79,7 +79,7 @@ UI for presenting information in an easy to understand format that does not inte
 		desc: `
 The world of virtual assistants powered by AI is growing — Siri, Cortana, Alexa, Google Assistant, Facebook M to name just a few.  However, did you know it’s quite easy to build your own AI assistant too!  In this workshop you will learn how to create your own AI assistant application using Google Assistant and Dialogflow (natural language processing engine) and integrate it with Google Home.
 		`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Working with gestures", 
@@ -87,7 +87,7 @@ The world of virtual assistants powered by AI is growing — Siri, Cortana, Alex
 		time: "TBD",
 		location: "ETB 230",
 		desc: `We'll get you set up to make really cool interactive, touchless applications!`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Bridging the Gap – The Journey from Academia to the Professional World - Exploring Object Oriented Development with Unity Game Engine", 
@@ -95,23 +95,25 @@ The world of virtual assistants powered by AI is growing — Siri, Cortana, Alex
 		time: "TBD",
 		location: "ETB 228",
 		desc: `The workshop is aiming to create a 3D ‘Blind Bridge Building’ Game (3rd Person Perspective) with Unity Game Engine. We are going to use Playmaker Finite-State-Machine and JavaScript or C# code to develop and deploy the game. We will step through certain parts of the game to demonstrate core OOD principles and how the Algorithms work, in real-time, through the Playmaker FSM. In addition, we will interact with the Algorithm, game-objects, and environment and see the effects in real-time.`,
-		slack: "slackId"
+		slack: ""
 	},
 	{ 
 		name: "Jump start your hackathon project (with NodeJS, APIs, and git)", 
 		author: "Jimmy Wang",
 		time: "TBD",
 		location: "ETB 228",
-		desc: `Learn express, node, integrating APIs and web technologies to help get your hack started. Beginner workshop. Targeted towards first time hackers.
-Seen by Jimmy Wang at 3:48pm`,
-		slack: "slackId"
+		desc: `Learn express, node, integrating APIs and web technologies to help get your hack started. Beginner workshop. Targeted towards first time hackers.`,
+		slack: ""
 	},
 	{ 
 		name: "Intro to Game Dev", 
 		author: "Justin Licari",
 		time: "TBD",
 		location: "ETB 230",
-		desc: ``,
-		slack: "slackId"
+		desc: `The workshop will go over Unity basics to give people an idea on how to start making a 3D game. It'll be an interactive coding/design tutorial, with concepts discussed being physics, controllers, gameObjects, Unity editor, C# scripting in Monodevelop, and basic AI in games
+		<br/>
+		 You should download the <a href="https://drive.google.com/file/d/1MizWudgRD70iJpVo2UVbVReyTpmWxvAa/view?usp=sharing">following files</a>
+		  and install <a href="https://store.unity.com/download?ref=personal">Unity</a> before the workshop`,
+		slack: ""
 	}
 ];
