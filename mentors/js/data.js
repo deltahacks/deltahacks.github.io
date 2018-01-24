@@ -255,15 +255,113 @@ APIs
 		slack: "slack id"
 	},	
 	{ 
+		name: "Patrick Laskowski", 
+		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=16104b68fde15dcf&attid=0.1&disp=emb&realattid=ii_16104b24ba6998b9&attbid=ANGjdJ9NYnnhynw5EnwhScCibCN1F3mT-E8R56GbL4reyVDWgSY0P_wcdAVjKgBCGRJDblQzfTlX5nF6rnvVC2ISL2BAgIlLElv_l5XGHJOt3lSrKqazKJnv5DkFJSM&sz=w628-h838&ats=1516657469930&rm=16104b68fde15dcf&zw&atsh=1",
+		desc: `<ul>
+<li>General knowledge of Windows/Linux - I frequently use both</li>
+<li>x86 assembly, C, C++ -  no professional experience but I frequently use these for hobby projects, primarily specializing in very low level code.</li>
+<li>Java, Python - Coursework including AI for simple games such as Tic Tac Toe, big data applications, and the design and implementation of data structures and algorithms </li>
+<li>OCaml - I held an undergraduate research position over the summer adding features to theorem proof assistant software written in OCaml.</li>
+</ul>`,
+		skills: ["assembly", "java", "python", "artificial intelligence"],
+		slack: "slack id"
+	},	
+
+	{ 
 		name: "Evan Skeete", 
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAh5AAAAJDQwYWY0MTBhLTc2NTYtNDMwZS04MzNkLWNiMmExYjNhZmUzOA.jpg",
 		desc: `HTML/CSS/Javascript/React - Industry experience in full stack web development`,
 		skills: ["web", "react"],
 		slack: "slack id"
+	},
+
+
+	{ 
+		name: "Zheng Zheng", 
+		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=15fd0b6f683da62c&attid=0.1&disp=emb&realattid=15fd0b68aa4c7597e591&attbid=ANGjdJ_1fvaa9iGrQwgaES2pkjvj7EyqEnAqKJCogk6zvsUtPXaezo0XLaH-vBjFXHHeeeubK1r9aGYJjgtD-y8MZn8i5L-xoL6l6srO6A5MGbi9GPHzWWmCi5Ap3zg&sz=s0-l75-ft&ats=1516658091945&rm=15fd0b6f683da62c&zw&atsh=1",
+		desc: `
+<ul> 
+<li>Good at architecture design, and machine learning algorithms (NN, SVM, LR, etc.)</li>
+<li>Language: good at Java, PHP, JavaScript, Octave; familiar with C/C++</li>
+<li>Database: MySQL, Oracle, DB2</li>
+<li>Framework: Hadoop/Hive, XAMPP		</li>
+</ul>`,
+		skills: ["web", "sql", "hadoop", "machine learning", "architecture design"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Yiguo Sun", 
+		imgPath: "https://mail.google.com/mail/u/2/?ui=2&ik=db21b131f3&view=fimg&th=15fc13fd0cb6618a&attid=0.1&disp=emb&realattid=ii_15fc13deb0d13fbb&attbid=ANGjdJ8iRfr7pM80LGlWtJNT65MjrpGfzK_roGf-pnG4j90Nq_Cvx5L35mrKRWBG5CctM2fZAgK-C3W-J6xUoebPJY_48WM8BYSIgyJ092o5258j6tmY8Z3rCEfNvb0&sz=w788-h784&ats=1516658382355&rm=15fc13fd0cb6618a&zw&atsh=1",
+		desc: `Yiguo is a software developer for clinic trial data management. 
+		Yiguo is finishing cross-platform mobile apps development for clinical trial data under online and offline situation. 
+		He has developed some apps which predict falls, heart attack and other aging-associated diseases by analyzing bio-sensor data. 
+		He has knowledge and experiences with mobile device development languages like C++, Java, QML; machine learning algorithm design 
+		tools like Python, Anaconda.`,
+		skills: ["java", "machine learning", "algorithm design", "python", "anaconda"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Umme Salma Gadriwala", 
+		imgPath: "",
+		desc: `Java, Python, BASH, GoLang, and a little bit of C.`,
+		skills: ["java", "python", "bash", "golang", "c"],
+		slack: "slack id"
 	},	
 
+	{ 
+		name: "Emil Sekerinski", 
+		imgPath: "",
+		desc: `Python, Java, and in particular object-oriented design, concurrency, compilers, embedded systems.`,
+		skills: ["java", "python", "concurrency", "compilers", "embedded systems"],
+		slack: "slack id"
+	},
 
+	{ 
+		name: "Mayank Arora", 
+		imgPath: "",
+		desc: `Android: Created a few apps in Android using Restful Web services and firebase messaging.`,
+		skills: ["android", "web", "firebase"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Kamaldeep Kaur", 
+		imgPath: "",
+		desc: `Java, SQL, Unix, HTML/CSS, Hadoop, OOAD, Practical Project Management, Project Scheduling, Android Programming`,
+		skills: ["android", "java", "sql", "web", "project management"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Gharnata Khan", 
+		imgPath: "",
+		desc: `Java/HTML - Developed web/mobile treasure hunting game applications using Google Maps API`,
+		skills: ["web", "google maps api"],
+		slack: "slack id"
+	},
+	{ 
+		name: "Hussain Subhani", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAgWAAAAJDA0NzNiNzAzLTFiOGMtNGU2Yy05ZDgwLTRhYTlmOTg1MzAxMg.jpg",
+		desc: `JWebapps, JS, Angular, Spring`,
+		skills: ["web", "angular", "spring"],
+		slack: "slack id"
+	},	
+	{ 
+		name: "Afzal Najam (remote)", 
+		imgPath: "",
+		desc: `Afzal is the Lead Android Developer and main analytics guy at Kiwi Wearables, 
+		developing motion recognition algorithms. He's been developing for Android for 4 years, contributing to 
+		numerous open source projects along the way.`,
+		skills: ["android"],
+		slack: "slack id"
+	},	
 
-
-
+	{ 
+		name: "Ocean Cheung", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAjMAAAAJGIyY2E0MmYxLTQyMjQtNGJkOC1iMjk0LTg4NDFlZmVhYTQ0OQ.jpg	",
+		desc: `<ul>
+<li>iOS / Android: Worked as an iOS / Android developer on separate occasions</li>
+<li>Python: Worked as a python developer before as well</li>
+</li>`,
+		skills: ["android", "ios", "python"],
+		slack: "slack id"
+	},		
 ];
