@@ -274,8 +274,6 @@ APIs
 		skills: ["web", "react"],
 		slack: ""
 	},
-
-
 	{ 
 		name: "Zheng Zheng", 
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAoPAAAAJDYwYjI4MzgxLTc4NTYtNDhhZi1iMDI5LTMzNDhjMGQ0MDNjNg.jpg",
