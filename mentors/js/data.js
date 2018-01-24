@@ -413,5 +413,12 @@ APIs
 		desc: `<ul><li>Knowledge on the Arduino and Front-End Web Development</li></ul>`,
 		skills: ["web" , "arduino"],
 		slack: "U8UAQJ1C7"
-	}
+	},
+	{ 
+		name: "Abhayraj Jain", 
+		imgPath: "http://www.abhayraj.net/images/mug.jpg",
+		desc: `<ul><li>Hardware, Arduino</li></ul>`,
+		skills: ["hardware" , "arduino"],
+		slack: "U8TSYBEN8"
+	}	
 ];
