@@ -264,7 +264,7 @@ APIs
 <li>OCaml - I held an undergraduate research position over the summer adding features to theorem proof assistant software written in OCaml.</li>
 </ul>`,
 		skills: ["assembly", "java", "python", "artificial intelligence"],
-		slack: ""
+		slack: "U8UCV5FAR"
 	},	
 
 	{ 
@@ -311,7 +311,7 @@ APIs
 		imgPath: "",
 		desc: `Python, Java, and in particular object-oriented design, concurrency, compilers, embedded systems.`,
 		skills: ["java", "python", "concurrency", "compilers", "embedded systems"],
-		slack: ""
+		slack: "U8U8V5B28"
 	},
 
 	{ 
