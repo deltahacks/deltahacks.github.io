@@ -353,7 +353,6 @@ APIs
 		skills: ["android"],
 		slack: "slack id"
 	},	
-
 	{ 
 		name: "Ocean Cheung", 
 		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAjMAAAAJGIyY2E0MmYxLTQyMjQtNGJkOC1iMjk0LTg4NDFlZmVhYTQ0OQ.jpg	",
@@ -363,5 +362,12 @@ APIs
 </li>`,
 		skills: ["android", "ios", "python"],
 		slack: "slack id"
-	},		
+	}, 
+	{	
+		name: "Ben Miller", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAAUuAAAAJGNiYzgwYzQ4LWY4YTQtNDdlNy1hOGUxLWRlZTZiZmEyNjAwOQ.jpg",
+		desc: `<ul><li>Python: Created and maintained automation frameworks written in selenium and python</li></ul>`,
+		skills: ["python"],
+		slack: "slack id"
+	}	
 ];
