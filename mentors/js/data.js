@@ -420,5 +420,19 @@ APIs
 		desc: `<ul><li>Hardware, Arduino</li></ul>`,
 		skills: ["hardware" , "arduino"],
 		slack: "U8TSYBEN8"
-	}	
+	},
+	{ 
+		name: "Shyam Shah", 
+		imgPath: "",
+		desc: `<ul><li>Java</li><li>Python</li></ul>`,
+		skills: ["java", "python", "general programming"],
+		slack: "U8P9E5ZGV"
+	},	
+	{ 
+		name: "Natalie Chin", 
+		imgPath: "https://www.softwarehamilton.com/wp-content/uploads/2018/01/nataliechin.jpg",
+		desc: `<ul><li>Java</li><li>Python</li><li>Solidity</li></ul>`,
+		skills: ["java", "python", "solidity"],
+		slack: "D8MQV4JV9"
+	}
 ];
