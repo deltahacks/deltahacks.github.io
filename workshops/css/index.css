@@ -46,6 +46,7 @@ header a:hover {
 .icon .name {
 	font-size: 20px;
 	font-weight: 700;
+  margin: 0 0 5px;
 }
 .icon p {
 	margin: 0 0 5px;
