@@ -72,13 +72,14 @@ UI for presenting information in an easy to understand format that does not inte
 		slack: ""
 	},
 	{ 
-		name: "Build your own AI assistant using Google Assistant and Google Home", 
+		name: "Build your own AI assistant using Dialogflow", 
 		author: "RBC",
 		time: "TBD",
 		location: "ETB 230",
 		desc: `
-The world of virtual assistants powered by AI is growing — Siri, Cortana, Alexa, Google Assistant, Facebook M to name just a few.  However, did you know it’s quite easy to build your own AI assistant too!  In this workshop you will learn how to create your own AI assistant application using Google Assistant and Dialogflow (natural language processing engine) and integrate it with Google Home.
-		`,
+The world of virtual assistants powered by AI is growing — Siri, Cortana, Alexa, Google Assistant to name just a few.  However, did you know it’s quite easy to build your own AI assistant too?  In this workshop, you will learn how to create your own chatbot using Dialogflow (natural language processing engine) to connect to users with Google Assistant via Google Home.
+<br/>
+Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		slack: ""
 	},
 	{ 
