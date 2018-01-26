@@ -31,13 +31,6 @@ var exampleData = [
 		slack: "U8W66AZ0S"
 	},
 	{ 
-		name: "Uday Sharma", 
-		imgPath: "images/uday.jpg",
-		desc: `HTML (have designed website), Python 3 (advanced)`,
-		skills: ["web", "python"],
-		slack: "U8XJKE7DL"
-	},
-	{ 
 		name: "Audun Bjornerud Mo", 
 		imgPath: "",
 		desc: `Created the technology behind Xesto and its APIs. <br> Built the API Portal in react-redux with webpack.`,
@@ -428,6 +421,57 @@ APIs
 		skills: ["java", "python", "general programming"],
 		slack: "U8P9E5ZGV"
 	},	
+	{ 
+		name: "Roxanna Wong", 
+		imgPath: "https://media.licdn.com/media/p/1/005/048/138/098a5d7.jpg",
+		desc: `<ul><li>- General software development - Studied to be a software engineer but working in QA now</li></ul>`,
+		skills: ["general software development"],
+		slack: ""
+	},	
+	{ 
+		name: "Suraj Vijayakumar", 
+		imgPath: "",
+		desc: `<ul>
+<li>Android (created a simple voice based dating app)</li>
+<li>C#</li>
+<li>Java</li>
+<li>Ruby (worked on a bunch of full-stack enterprise systems)				</li>
+</ul>`,
+		skills: ["ruby", "java", "c#", "android"],
+		slack: ""
+	},
+	{ 
+		name: "Roberto Loja", 
+		imgPath: "",
+		desc: `<ul>
+<li>Android: Created SmartHive, a platform for measuring key beehive metrics remotely via an Android app. Made use of GPS, Google Maps, OAuth2, Firebase database.</li>
+<li>iOS: Recreated the above app, natively. </li>
+<li>HTML/CSS/Javascript: Developing web apps for 5+ years, including Node/Meteor/Django backends and Angular/React frontends.</li>
+<li>Java: 3+ years of experience, including Android development.</li>
+<li>Python: Go-to scripting language for as long as I've programmed.</li>
+</ul>`,
+		skills: ["general software development"],
+		slack: ""
+	},	
+	{ 
+		name: "Nalina Channenahalli Karagaih", 
+		imgPath: "",
+		desc: `<ul><li>Java back end developer. </li></ul>`,
+		skills: ["java"],
+		slack: ""
+	},		
+	{ 
+		name: "Mohamed Fouda", 
+		imgPath: "https://media.licdn.com/media/AAEAAQAAAAAAAA0DAAAAJDg3MTQwNTdhLTNmMjMtNDBkMS1hMjY0LWQ5Y2YwYTVlYzdmNQ.jpg",
+		desc: `<ul>		
+<li>Product management. Product/experience designer: Know a thing or two about behaviours and users and thinking from their experience, as well as designing an experience for these users.</li>
+<li>Problem solving. The engineering way. </li>
+<li>How electronics, software, and mechanics work together in a product. I did study Mechatronics engineering after all. </li>
+<li>A bit of jack of all trades (master of none!) 		</li>
+</ul>`,
+		skills: ["java"],
+		slack: ""
+	},		
 	{ 
 		name: "Natalie Chin", 
 		imgPath: "https://www.softwarehamilton.com/wp-content/uploads/2018/01/nataliechin.jpg",
