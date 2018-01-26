@@ -32,7 +32,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		slack: ""
 	},
 	{ 
-		name: "Prioritizing Machine Learning", 
+		name: "Productizing Machine Learning", 
 		author: "Indellient",
 		time: "4:00PM",
 		location: "ETB 228",
