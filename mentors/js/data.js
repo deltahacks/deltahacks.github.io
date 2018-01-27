@@ -478,5 +478,12 @@ APIs
 		desc: `<ul><li>Java</li><li>Python</li><li>Solidity</li></ul>`,
 		skills: ["java", "python", "solidity"],
 		slack: "D8MQV4JV9"
+	},
+	{ 
+		name: "Rumsha Siddiqui", 
+		imgPath: "",
+		desc: `<ul><li>Swift (Apple App Development)</li><li>Python</li><li>Java</li></ul>`,
+		skills: ["swift", "python", "java"],
+		slack: ""
 	}
 ];
