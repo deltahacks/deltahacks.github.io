@@ -32,7 +32,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		slack: ""
 	},
 	{ 
-		name: "Prioritizing Machine Learning", 
+		name: "Productizing Machine Learning", 
 		author: "Indellient",
 		time: "4:00PM",
 		location: "ETB 228",
@@ -52,14 +52,14 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		author: "StdLib",
 		time: "4:45PM",
 		location: "ETB 126",
-		desc: `TBA`,
+		desc: `It's a surprise!`,
 		slack: ""
 	},
 	{ 
 		name: "Leveraging AR glasses/phone/tablet to identify process equipment and to display general information for a specific piece of equipment", 
 		author: "Hatch",
-		time: "4:45PM",
-		location: "ETB 228",
+		time: "2:05PM",
+		location: "ETB 230",
 		desc: `Vision: <br/>
 A plant maintenance worker is walking through an operating industrial facility. As they move their AR glasses/phone/tablet is continuously identifying the process equipment around them and displaying a general information for that specific equipment such as name and alarm conditions or required maintenance. The worker notices one piece of equipment (i.e. pump) indicating a problem and requests more detailed information such as time to next maintenance, data from IoT sensors (i.e. vibration, temperature), operating instructions, flow curves, etc). The worker reviews the data and decides to submit a maintenance request to resolve the issue.
 <br/><br/>
