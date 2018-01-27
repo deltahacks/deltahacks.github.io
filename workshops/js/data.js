@@ -5,6 +5,16 @@
 
 var exampleData = [
 	{ 
+		name: "Leveraging AR glasses/phone/tablet to identify process equipment and to display general information for a specific piece of equipment", 
+		author: "Hatch Ltd.",
+		time: "2:00PM-2:20pm",
+		location: "ETB 230",
+		desc: `
+Vision:
+A plant maintenance worker is walking through an operating industrial facility. As they move their AR glasses/phone/tablet is continuously identifying the process equipment around them and displaying a general information for that specific equipment such as name and alarm conditions or required maintenance. The worker notices one piece of equipment (i.e. pump) indicating a problem and requests more detailed information such as time to next maintenance, data from IoT sensors (i.e. vibration, temperature), operating instructions, flow curves, etc). The worker reviews the data and decides to submit a maintenance request to resolve the issue.
+`, slack: ""
+	},
+	{ 
 		name: "Build your own AI assistant using Dialogflow", 
 		author: "RBC",
 		time: "3:15PM",
