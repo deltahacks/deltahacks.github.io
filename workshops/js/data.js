@@ -94,14 +94,6 @@ The second part of the discussion will focus on the traction voice platforms are
 		slack: ""
 	},
 	{ 
-		name: "Jump start your hackathon project (with NodeJS, APIs, and git)", 
-		author: "Jimmy Wang",
-		time: "6:25PM",
-		location: "ETB 228",
-		desc: `Learn express, node, integrating APIs and web technologies to help get your hack started. Beginner workshop. Targeted towards first time hackers.`,
-		slack: ""
-	},
-	{ 
 		name: "Intro to Game Dev", 
 		author: "Justin Licari",
 		time: "6:25PM",
