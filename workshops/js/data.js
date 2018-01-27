@@ -44,7 +44,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 	{ 
 		name: "Productizing Machine Learning", 
 		author: "Indellient",
-		time: "4:00PM",
+		time: "4:05PM",
 		location: "ETB 228",
 		desc: `A deep dive into how students can mesh tech with business and what skills they need to build a marketable product.`,
 		slack: ""
