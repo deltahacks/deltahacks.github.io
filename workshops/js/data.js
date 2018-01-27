@@ -66,21 +66,6 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		slack: ""
 	},
 	{ 
-		name: "Leveraging AR glasses/phone/tablet to identify process equipment and to display general information for a specific piece of equipment", 
-		author: "Hatch",
-		time: "2:05PM",
-		location: "ETB 230",
-		desc: `Vision: <br/>
-A plant maintenance worker is walking through an operating industrial facility. As they move their AR glasses/phone/tablet is continuously identifying the process equipment around them and displaying a general information for that specific equipment such as name and alarm conditions or required maintenance. The worker notices one piece of equipment (i.e. pump) indicating a problem and requests more detailed information such as time to next maintenance, data from IoT sensors (i.e. vibration, temperature), operating instructions, flow curves, etc). The worker reviews the data and decides to submit a maintenance request to resolve the issue.
-<br/><br/>
-Problem(s):<br/>
-Tracking the physical location and identifying equipment in relation to the users movements. In some instances the discrete pieces of equipment to be tracked and identified are within inches of each other or are physically attached. Achieving a high a level of spatial accuracy or other method for recognizing individual equipment pieces is required.  
-<br/><br/>
-UI for presenting information in an easy to understand format that does not interfere with the users vision and awareness of their surroundings for safety.
-"`,
-		slack: ""
-	},
-	{ 
 		name: "Digital Conversations– AI and Voice First Experiences", 
 		author: "TD",
 		time: "5:45PM",
