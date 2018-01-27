@@ -103,5 +103,13 @@ The second part of the discussion will focus on the traction voice platforms are
 		 You should download the <a href="https://drive.google.com/file/d/1MizWudgRD70iJpVo2UVbVReyTpmWxvAa/view?usp=sharing">following files</a>
 		  and install <a href="https://store.unity.com/download?ref=personal">Unity</a> before the workshop`,
 		slack: ""
+	},
+{ 
+		name: "Web Apis (Building a slack bot)", 
+		author: "Jimmy",
+		time: "6:30PM",
+		location: "ETB 228",
+		desc: `Setup a slack bot using node!`,
+		slack: ""
 	}
 ];
