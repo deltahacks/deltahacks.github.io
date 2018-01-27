@@ -18,7 +18,7 @@ A plant maintenance worker is walking through an operating industrial facility. 
 		name: "Build your own AI assistant using Dialogflow", 
 		author: "RBC",
 		time: "3:15PM",
-		location: "ETB 230",
+		location: "ETB 228",
 		desc: `
 The world of virtual assistants powered by AI is growing — Siri, Cortana, Alexa, Google Assistant to name just a few.  However, did you know it’s quite easy to build your own AI assistant too?  In this workshop, you will learn how to create your own chatbot using Dialogflow (natural language processing engine) to connect to users with Google Assistant via Google Home.
 <br/>
@@ -29,7 +29,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		name: "Bridging the Gap – The Journey from Academia to the Professional World - Exploring Object Oriented Development with Unity Game Engine", 
 		author: "FDM Group",
 		time: "3:15PM",
-		location: "ETB 228",
+		location: "ETB 230",
 		desc: `The workshop is aiming to create a 3D ‘Blind Bridge Building’ Game (3rd Person Perspective) with Unity Game Engine. We are going to use Playmaker Finite-State-Machine and JavaScript or C# code to develop and deploy the game. We will step through certain parts of the game to demonstrate core OOD principles and how the Algorithms work, in real-time, through the Playmaker FSM. In addition, we will interact with the Algorithm, game-objects, and environment and see the effects in real-time.`,
 		slack: ""
 	},
@@ -37,7 +37,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		name: "Legacy Technologies in the Modern World", 
 		author: "Rogers",
 		time: "3:35PM",
-		location: "ETB 230",
+		location: "ETB 228",
 		desc: `Legacy Technologies you weren't expecting in 2018 and how to mix the old with the new technologies`,
 		slack: ""
 	},
@@ -69,7 +69,7 @@ Speaker: Pratik Mehta, Senior Technical Systems Analyst		`,
 		name: "Digital Conversations– AI and Voice First Experiences", 
 		author: "TD",
 		time: "5:45PM",
-		location: "ETB 228",
+		location: "ETB 230",
 		desc: `
 A host of technologies are emerging that broadly fall under the umbrella of artificial intelligence (AI) and are revolutionizing how we design and deliver digital experiences. In this talk, we'll discuss how as AI evolves the conversations we have will give us better opportunities to meet customer needs directly through new connected products that go well beyond smartphones and the AI frameworks currently available within this space.
 <br/> <br/>
@@ -81,7 +81,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		name: "Your Role in the Digital Transformation", 
 		author: "ArcelorMittal Dofasco",
 		time: "5:45PM",
-		location: "ETB 230",
+		location: "ETB 228",
 		desc: `This session will focus on the new technologies, modernization, and continuous improvement activities taking place at ArcelorMittal Dofasco. `,
 		slack: ""
 	},
@@ -89,7 +89,7 @@ The second part of the discussion will focus on the traction voice platforms are
 		name: "Working with gestures", 
 		author: "Xesto",
 		time: "6:05PM",
-		location: "ETB 230",
+		location: "ETB 228",
 		desc: `We'll get you set up to make really cool interactive, touchless applications!`,
 		slack: ""
 	},
