@@ -7,7 +7,7 @@ var exampleData = [
 	{ 
 		name: "Leveraging AR glasses/phone/tablet to identify process equipment and to display general information for a specific piece of equipment", 
 		author: "Hatch Ltd.",
-		time: "2:00PM-2:20pm",
+		time: "2:00PM",
 		location: "ETB 230",
 		desc: `
 Vision:
