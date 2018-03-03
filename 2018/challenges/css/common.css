@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@font-face {
+  font-family: "Petita Light";
+  src: url("../fonts/petitalight.ttf"); }
+
+@font-face {
+  font-family: "Petita Medium";
+  src: url("../fonts/petitamedium.ttf"); }
+html, body {
+  font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Petita Medium", sans-serif; }
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Petita Light", sans-serif; }
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  overflow-y: scroll;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+/* Custom footer
+-----------------------------------------------------------*/
