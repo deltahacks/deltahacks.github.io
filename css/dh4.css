@@ -537,7 +537,8 @@ section#showcase {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px; }
 
 .btn-xl {
   padding: 15px 30px; }
