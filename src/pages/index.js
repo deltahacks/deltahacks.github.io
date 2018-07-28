@@ -8,6 +8,7 @@ import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
 
+
 const BGvideoOptions = {
     height: '500',
     width: '100%',
@@ -138,7 +139,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Sponsors!</h3>
                             </header>
-                            <p>Our sponsors help us food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
+                            <p>Our sponsors help us put food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
                             {/* <ul className="actions">
                                 <li><Link to="/sponsors" className="button disabled">Our Sponsors</Link></li>
                             </ul> */}
