@@ -40,9 +40,9 @@ module.exports = {
         trackingId: "UA-105802545-1",
         // Puts tracking script in the head instead of the body
         head: false,
-        // Setting this parameter is optional
+        // Allows anonymous tracking (mandatory true for Germany)
         anonymize: false,
-        // Setting this parameter is also optional
+        // Respects Do Not Track
         respectDNT: false,
         // Avoids sending pageview hits from custom paths
         exclude: [],

@@ -6,6 +6,7 @@ const BannerLanding = (props) => (
             <header className="major">
                 <h1>DeltaHacks V</h1>
             </header>
+
             <div className="content">
                 <p>Jan 26-27, 2019   /   McMaster University</p>
                 <a href="#who" className="button down scrolly">Tell Me More!</a>
@@ -18,7 +19,27 @@ const BannerLanding = (props) => (
                     <li><a href="https://www.instagram.com/deltahacks/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                     <li><a href="https://www.linkedin.com/company/deltahacks/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
                 </ul>
+                <br />
             </div>
+
+            <form action="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=7f28a270ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="hidden" name="bot-field" />
+                <div className="row uniform">
+                    <div className="6u 12u(xsmall)">
+                        <label><input type="text" name="NAME" placeholder="Name"/></label>   
+                    </div>
+                    <div className="6u 12u(xsmall)">
+                        <label><input type="email" name="EMAIL" id="email" placeholder="Email" /></label>
+                    </div>
+                    <div className="12u">
+                        <ul className="actions">
+                            <li><input type="submit" value="Join Mailing List" className="special" /></li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+
         </div>
     </section>
 )
