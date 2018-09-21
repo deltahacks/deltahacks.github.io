@@ -34,20 +34,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-105802545-1",
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Allows anonymous tracking (mandatory true for Germany)
-        anonymize: false,
-        // Respects Do Not Track
-        respectDNT: false,
-        // Avoids sending pageview hits from custom paths
-        exclude: [],
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,

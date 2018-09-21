@@ -36,11 +36,18 @@ class Template extends React.Component {
         })
     }
 
+    googleAnalytics() {
+        return {
+            __html: '<script src="https://www.googletagmanager.com/gtag/js?id=UA-105802545-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-105802545-1")</script>'
+        };
+    }
+
     render() {
         const { children } = this.props
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+                <div dangerouslySetInnerHTML={this.googleAnalytics()} />
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
                 </Helmet>
