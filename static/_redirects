@@ -1,0 +1,2 @@
+#Netlify redirects
+/apply  https://my.deltahacks.com   301
