@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
+import FAQ from '../components/FAQ'
 import YouTube from 'react-youtube'
 
 import hackers from '../assets/images/hackers.jpg'
@@ -131,7 +132,7 @@ const Landing = (props) => (
 
 
                 <section id="sponsors">
-                    <Link to="#" className="image">
+                    <Link to="#sponsors" className="image">
                         <img src={sponsors} alt="" />
                     </Link>
                     <div className="content">
@@ -147,10 +148,10 @@ const Landing = (props) => (
                     </div>
                 </section>
 
-
             </section>
         </div>
 
+        <FAQ />
     </div>
 )
 

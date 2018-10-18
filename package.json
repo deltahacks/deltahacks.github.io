@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "anchorate": "^1.2.3",
+    "gatsby": "^1.9.279",
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-netlify": "^1.0.21",
@@ -17,10 +18,11 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-sharp": "^1.6.22",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.11",
+    "react-accessible-accordion": "^2.4.4",
     "react-icons": "^2.2.7",
     "react-parallax": "^1.8.0",
-    "react-youtube": "^7.6.0"
+    "react-youtube": "^7.8.0"
   },
   "homepage": "https://github.com/ChangoMan/gatsby-starter-forty",
   "keywords": [

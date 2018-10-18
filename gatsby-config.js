@@ -34,6 +34,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `anchorate`,
+      options: {
+        scroller: function (element) {
+          if (!element) return false
+          element.scrollIntoView({ behavior: 'smooth' })
+          return true
+        },
+        callback: function (error) {
+          if (error) {
+            console.log("didn't work")
+          }
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
