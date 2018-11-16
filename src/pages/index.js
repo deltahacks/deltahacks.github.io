@@ -62,7 +62,7 @@ const Landing = (props) => (
             <div className="video-background">
                 <div className="video-foreground">
                     <YouTube
-                        videoId="3SizoIuIedc"
+                        videoId="tJA4XoCAs1Y"
                         opts={BGvideoOptions}
                         className="video-iframe"
                         onReady={function(e) {
