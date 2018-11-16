@@ -15,7 +15,7 @@ const BannerLanding = (props) => (
                     <p>+ When is the deadline to apply?</p>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>The deadline is Nov 15th at 11:59 PM!</p>
+                    <p>The deadline is Sunday, Nov 25th at 11:59 PM!</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
@@ -23,7 +23,7 @@ const BannerLanding = (props) => (
                     <p>+ When are acceptances/rejections going out?</p>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>We'll be sending out acceptances on a rolling basis. For the most up to date result, check your dash board at <a href="https://my.deltahacks.com">my.deltahacks.com</a>! If you know someone who's been accepted, but you haven't received word back from us yet, don't worry - we aren't releasing all acceptances at the same time.</p>
+                    <p>We'll be sending out acceptances on a rolling basis. For the most up to date result, check your dashboard at <a href="https://my.deltahacks.com">my.deltahacks.com</a>! If you know someone who's been accepted, but you haven't received word back from us yet, don't worry - we aren't releasing all acceptances at the same time.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
