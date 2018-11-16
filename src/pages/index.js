@@ -8,6 +8,7 @@ import YouTube from 'react-youtube'
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
+import MLH from '../assets/images/mlh.svg'
 
 
 const BGvideoOptions = {
@@ -46,6 +47,9 @@ const FGvideoOptions = {
 
 const Landing = (props) => (
     <div>
+        <a id="mlh" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank">
+            <img id="mlhimg" src={MLH} alt="Major League Hacking 2019 Hackathon Season"/>
+        </a>
         <Helmet>
             <title>DeltaHacks V</title>
             <meta name="description" content="Landing Page" />

@@ -78,3 +78,22 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+
+
+
+	a#mlh {
+		display:block;
+		max-width:100px;
+		min-width:60px;
+		position:fixed;
+		right:12.5%;
+		top:0;
+		width:10%;
+		z-index:10000;
+		text-decoration: none;
+		border-bottom-style: none;
+	}
+
+	img#mlhimg {
+		width:65%;
+	}
