@@ -10,7 +10,7 @@ const BannerLanding = (props) => (
             <div className="content">
                 <p>Jan 26-27, 2019   /   McMaster University</p>
                 <a href="#contact" className="button scrolly">Contact Us</a>
-                <a href="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=7f28a270ff" className="button">Mailing List</a>
+                {/* <a href="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=7f28a270ff" className="button">Mailing List</a> */}
                 {/* <button>Scroll</button> */}
                 <br />
                 <ul className="icons">
@@ -39,7 +39,9 @@ const BannerLanding = (props) => (
                     </div>
                 </div>
             </form> */}
-            <a href="/apply" className="12u button special">Apply By Nov 25</a>
+            <a href="/apply" className="6u button special">Apply By Nov 25</a> 
+            <a href="/mentor" className="6u button">Be a Mentor</a>
+
 
 
         </div>

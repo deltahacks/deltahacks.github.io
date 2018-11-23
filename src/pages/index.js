@@ -8,6 +8,7 @@ import YouTube from 'react-youtube'
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
+import mentor from '../assets/images/mentor.jpg'
 import MLH from '../assets/images/mlh.svg'
 
 
@@ -78,21 +79,6 @@ const Landing = (props) => (
 
 
             {/* <section id="one"> */}
-            <section id="recap">
-                <div className="inner">
-                    <YouTube
-                        videoId="3SizoIuIedc"
-                        opts={FGvideoOptions}
-                        className="video-iframe"
-                        onReady={null}
-                        onEnd={null}
-                    />
-                    {/* <header className="major">
-                        <h2>Sed amet aliquam</h2>
-                    </header>
-                    <p>Nullam et orci eu.</p> */}
-                </div>
-            </section>
         
 
             <section id="who" className="spotlights">
@@ -109,8 +95,28 @@ const Landing = (props) => (
 
                             The ultimate goal behind this hackathon is to include, not only the engineering and computer science students, but all talented individuals from all backgrounds to collaborate, create, and bring ideas to life. We want you to shoot for the stars.
                             </p>
+                            {/* <ul className="actions">
+                                <li><Link to="#workshops" className="button next scrolly">Keep going!</Link></li>
+                            </ul> */}
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section id="mentor">
+                    <Link to="#" className="image">
+                        <img src={mentor} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Mentors!</h3>
+                            </header>
+                            <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community. As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at! As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
+                            </p>
                             <ul className="actions">
-                                <li><Link to="#workshops" className="button down scrolly">Keep going!</Link></li>
+                                <li><Link to="/mentor" className="button">I want to help!</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -127,9 +133,9 @@ const Landing = (props) => (
                                 <h3>Workshops!</h3>
                             </header>
                             <p>An integral part of the hackathon experience is you - the hacker! We want to make sure you have plenty of opportunities to learn that one skill you always wanted to. What better place than surrounded by the best coders around? We partner with industry professionals to host workshops that teach you exactly what you need to get that project working.</p>
-                            <ul className="actions">
-                                <li><Link to="#sponsors" className="button next scrolly">Any other cool stuff?</Link></li>
-                            </ul>
+                            {/* <ul className="actions">
+                                <li><Link to="#mentor" className="button next scrolly">Any other cool stuff?</Link></li>
+                            </ul> */}
                         </div>
                     </div>
                 </section>
@@ -153,9 +159,30 @@ const Landing = (props) => (
                 </section>
 
             </section>
+
+            <section id="recap">
+                <div className="inner">
+                    <YouTube
+                        videoId="3SizoIuIedc"
+                        opts={FGvideoOptions}
+                        className="video-iframe"
+                        onReady={null}
+                        onEnd={null}
+                    />
+                    {/* <header className="major">
+                        <h2>Sed amet aliquam</h2>
+                    </header>
+                    <p>Nullam et orci eu.</p> */}
+                </div>
+            </section>
+
         </div>
 
+        
+
         <FAQ />
+
+
     </div>
 )
 
