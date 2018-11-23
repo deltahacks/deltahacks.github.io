@@ -12,7 +12,7 @@ const Menu = (props) => (
             </ul>
             <ul className="actions vertical">
                 <li><a href="https://my.deltahacks.com" className="button special fit">Apply</a></li>
-                <li><a href="/mentor" className="button special fit">Be a Mentor</a></li>
+                <li><a href="/mentor" className="button special fit">Be A Mentor</a></li>
                 <li><a href="#" className="button fit disabled">Volunteer</a></li>
             </ul>
         </div>
