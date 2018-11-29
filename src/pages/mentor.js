@@ -153,7 +153,7 @@ class Mentor extends React.Component {
 
                             <div className="12u">
                             <div className="12u 12u">
-                                <label>Why do you want to be a mentor? * (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4" required ></textarea></label>
+                                <label>Why do you want to be a mentor? * (~300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4" required ></textarea></label>
                             </div>
 
                             <div className="12u 12u(small)">
