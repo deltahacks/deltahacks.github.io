@@ -1,2 +1,3 @@
 #Netlify redirects
 /apply  https://my.deltahacks.com   301
+/localhackday  https://localhackday.mlh.io/lhd-2018/events/854-deltahacks  301

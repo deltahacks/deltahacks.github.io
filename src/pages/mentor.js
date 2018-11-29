@@ -6,7 +6,8 @@ import mentor from '../assets/images/mentor.jpg'
 
 class Mentor extends React.Component {
     handleSubmit(event){
-        alert("Form submitted. Thank you for your interest in DeltaHacks!");
+        alert("Form submitted. Thank you for your interest in DeltaHacks!");   
+        // setTimeout(document.getElementById("mentor-signup-form").reset(), 5000);
     }
 
     render() {
@@ -18,7 +19,8 @@ class Mentor extends React.Component {
         </Helmet>
         
         <div id="main" className="gradient">
-            <section id="why" className="spotlights">
+
+            {/* <section id="why" className="spotlights">
                 <section>
                     <Link to="#" className="image">
                         <img src={mentor} alt="" />
@@ -40,6 +42,42 @@ class Mentor extends React.Component {
                         </div>
                     </div>
                 </section>
+            </section> */}
+
+            <section id="description">
+                <div className="inner">
+                    <h4>How can you help?</h4>
+                    <p>We're looking for mentors to help fill the following roles:</p>
+                    <div className="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Role</th>
+                                    <th>Description</th>
+                                    <th>Time Commitment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Technical Mentor</td>
+                                    <td>Provide guidance for participants using your expertise.</td>
+                                    <td>At least 2 hours anytime between 12:00pm, January 26th and 12:00pm, January 27th.</td>
+                                </tr>
+                                <tr>
+                                    <td>Challenger Mentor</td>
+                                    <td>Inspire attendees to come up with innovative ideas. Pitch a project idea to teams during an Idea Generation Session on January 26th from 12PM to 3PM. Answer any questions the team may have about your idea.</td>
+                                    <td>12pm - 3pm on Saturday, January 26th. Remain available, either in-person or remotely until noon on January 27th.</td>
+                                </tr>
+                                <tr>
+                                    <td>Judge</td>
+                                    <td>Critically analyze and evaluate finished projects at the Project Expo.</td>
+                                    <td>3 hours on Sunday, January 27th.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>If you think you could help, please fill the form below! If you have questions, email us at <a href="mailto:relations@deltahacks.com">relations@deltahacks.com</a> and we'd be happy to answer them!</p>
+                </div>
             </section>
 
             <section id="signup">
@@ -62,11 +100,12 @@ class Mentor extends React.Component {
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>Type of Mentor *
+                                <label>Role *
                                 <div className="select-wrapper">
                                     <select name="type" id="type">
-                                        <option value="0">Technical Mentor</option>
-                                        <option value="1">Challenger Mentor</option>
+                                        <option value="Technical">Technical Mentor</option>
+                                        <option value="Challenger">Challenger Mentor</option>
+                                        <option value="Judge">Judge</option>
                                     </select>
                                 </div>
                                 </label>
@@ -84,16 +123,15 @@ class Mentor extends React.Component {
                                 <label>Dietary Restrictions *
                                 <div className="select-wrapper">
                                     <select name="diet" id="diet">
-                                        <option value="0">None</option>
-                                        <option value="1">Vegetarian</option>
-                                        <option value="2">Vegan</option>
-                                        <option value="3">Halal</option>
-                                        <option value="4">Gluten Free</option>
-                                        <option value="5">Kosher</option>
-                                        <option value="6">No Beef</option>
-                                        <option value="7">Lactose Intolerant</option>
-                                        <option value="8">Food/Nut Allergy</option>
-
+                                        <option value="None">None</option>
+                                        <option value="Vegetarian">Vegetarian</option>
+                                        <option value="Vegan">Vegan</option>
+                                        <option value="Halal">Halal</option>
+                                        <option value="Gluten Free">Gluten Free</option>
+                                        <option value="Kosher">Kosher</option>
+                                        <option value="No Beef">No Beef</option>
+                                        <option value="Lactose Intolerant">Lactose Intolerant</option>
+                                        <option value="Food/Nut Allergy">Food/Nut Allergy</option>
                                     </select>
                                 </div>
                                 </label>
@@ -103,11 +141,11 @@ class Mentor extends React.Component {
                                 <label>T-Shirt Size *
                                 <div className="select-wrapper">
                                     <select name="tshirt" id="tshirt">
-                                        <option value="">Select a size</option>
-                                        <option value="1">S</option>
-                                        <option value="2">M</option>
-                                        <option value="3">L</option>
-                                        <option value="4">XL</option>
+                                        <option value="Error">Select a size</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
                                     </select>
                                 </div>
                                 </label>

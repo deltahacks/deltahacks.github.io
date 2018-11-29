@@ -15,7 +15,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-question"></span>
                         <h3>Get Involved</h3>
-                        <span>Want to be a mentor or pose challenges to the hackers? <a href="mailto:relations@deltahacks.com">relations@deltahacks.com</a></span>
+                        <span>Want to be a mentor or pose challenges to the hackers? <a href="/mentor">deltahacks.com/mentor</a></span>
                     </div>
                 </section>
             </section>

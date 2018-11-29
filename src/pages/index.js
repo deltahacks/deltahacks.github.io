@@ -83,8 +83,8 @@ const Landing = (props) => (
 
             <section id="who" className="spotlights">
                 <section>
-                    <Link to="#" className="image">
-                        <img src={hackers} alt="" />
+                    <Link to="#who" className="image">
+                        <img src={hackers} alt="Hackers" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -105,8 +105,8 @@ const Landing = (props) => (
 
 
                 <section id="mentor">
-                    <Link to="#" className="image">
-                        <img src={mentor} alt="" />
+                    <Link to="/mentor" className="image">
+                        <img src={mentor} alt="Mentor assisting hackers" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -124,7 +124,7 @@ const Landing = (props) => (
 
 
                 <section id="workshops">
-                    <Link to="#" className="image">
+                    <Link to="#workshops" className="image">
                         <img src={workshop} alt="" />
                     </Link>
                     <div className="content">

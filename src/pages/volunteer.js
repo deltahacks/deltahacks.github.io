@@ -7,6 +7,7 @@ import volunteer from '../assets/images/volunteer.jpg'
 class Volunteer extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");
+        // setTimeout(document.getElementById("volunteer-signup-form").reset(), 5000);
     }
 
     render() {
@@ -42,7 +43,7 @@ class Volunteer extends React.Component {
                     <section id="signup">
                         <section>
                             <iframe width="0" height="0" name="hidden-form"></iframe>  
-                            <form id="mentor-signup-form" onSubmit={this.handleSubmit} method="post" target='hidden-form' action="https://script.google.com/macros/s/AKfycbyA4Vl3vhjYBRstmeW5-HhEHBiK8Oyyq6N1P-E3Ps0F0VBYgZU/exec">
+                            <form id="volunteer-signup-form" onSubmit={this.handleSubmit} method="post" target='hidden-form' action="https://script.google.com/macros/s/AKfycbyA4Vl3vhjYBRstmeW5-HhEHBiK8Oyyq6N1P-E3Ps0F0VBYgZU/exec">
                                 <input type="hidden" name="bot-field" />
                                 <div className="row uniform">
 
@@ -66,15 +67,15 @@ class Volunteer extends React.Component {
                                         <label>Dietary Restrictions
                                         <div className="select-wrapper">
                                             <select name="diet" id="diet">
-                                                <option value="0">None</option>
-                                                <option value="1">Vegetarian</option>
-                                                <option value="2">Vegan</option>
-                                                <option value="3">Halal</option>
-                                                <option value="4">Gluten Free</option>
-                                                <option value="5">Kosher</option>
-                                                <option value="6">No Beef</option>
-                                                <option value="7">Lactose Intolerant</option>
-                                                <option value="8">Food/Nut Allergy</option>
+                                            <option value="None">None</option>
+                                            <option value="Vegetarian">Vegetarian</option>
+                                            <option value="Vegan">Vegan</option>
+                                            <option value="Halal">Halal</option>
+                                            <option value="Gluten Free">Gluten Free</option>
+                                            <option value="Kosher">Kosher</option>
+                                            <option value="No Beef">No Beef</option>
+                                            <option value="Lactose Intolerant">Lactose Intolerant</option>
+                                            <option value="Food/Nut Allergy">Food/Nut Allergy</option>
                                             </select>
                                         </div>
                                         </label>
@@ -84,17 +85,18 @@ class Volunteer extends React.Component {
                                         <label>T-Shirt Size
                                         <div className="select-wrapper">
                                             <select name="tshirt" id="tshirt">
-                                                <option value="">Select a size</option>
-                                                <option value="1">S</option>
-                                                <option value="2">M</option>
-                                                <option value="3">L</option>
-                                                <option value="4">XL</option>
+                                            <option value="Error">Select a size</option>
+                                            <option value="S">S</option>
+                                            <option value="M">M</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
                                             </select>
                                         </div>
                                         </label>
                                     </div>
 
                                     <div className="12u 12u(small)">
+                                    <p>Volunteers wanted for Friday night from 7PM - 9PM and Saturday 8AM - Sunday 7PM.</p>
                                         <label>I'm not available to volunteer between ...<input type="text" name="busy" id="busy" placeholder="1PM to 4PM on Saturday" /></label>
                                     </div>
 

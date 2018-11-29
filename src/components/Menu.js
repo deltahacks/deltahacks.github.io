@@ -9,11 +9,12 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="#contact">Contact Us</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/#faq">FAQs</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/team">Our Team</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/apply">myDeltaHacks</Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="https://my.deltahacks.com" className="button special fit">Apply</a></li>
-                <li><a href="/mentor" className="button special fit">Be A Mentor</a></li>
-                <li><a href="#" className="button fit disabled">Volunteer</a></li>
+                <li><a href="/mentor" className="button special fit">Be a Mentor</a></li>
+                <li><a href="#" className="button fit">Volunteer</a></li>
+                <li><a href="https://my.deltahacks.com" className="button fit disabled">Apply</a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>

@@ -22,6 +22,11 @@ const BannerLanding = (props) => (
                 <br />
             </div>
 
+
+            {/* <a href="/localhackday" className="12u button special">Local Hack Day on Dec 1st</a>  */}
+            <a href="/mentor" className="6u button special">Be a Mentor</a>
+            <a href="/volunteer" className="6u button ">Volunteer</a>
+
             {/* <form action="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=7f28a270ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <input type="hidden" name="bot-field" />
                 <div className="row uniform">
@@ -39,9 +44,6 @@ const BannerLanding = (props) => (
                     </div>
                 </div>
             </form> */}
-            <a href="/apply" className="6u button special">Apply By Nov 25</a> 
-            <a href="/mentor" className="6u button">Be a Mentor</a>
-
 
 
         </div>
