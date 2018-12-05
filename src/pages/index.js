@@ -142,7 +142,7 @@ const Landing = (props) => (
 
 
                 <section id="sponsors">
-                    <Link to="#sponsors" className="image">
+                    <Link to="/sponsors" className="image">
                         <img src={sponsors} alt="" />
                     </Link>
                     <div className="content">
@@ -151,9 +151,9 @@ const Landing = (props) => (
                                 <h3>Sponsors!</h3>
                             </header>
                             <p>Our sponsors help us put food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
-                            {/* <ul className="actions">
-                                <li><Link to="/sponsors" className="button disabled">Our Sponsors</Link></li>
-                            </ul> */}
+                            <ul className="actions">
+                                <li><Link to="/sponsors" className="button">Our Sponsors</Link></li>
+                            </ul>
                         </div>
                     </div>
                 </section>
