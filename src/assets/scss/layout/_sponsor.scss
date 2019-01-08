@@ -8,6 +8,7 @@ img.logos {
     padding-left: 2.5%;
     padding-right: 2.5%;
     vertical-align: middle;
+    transition: 0.2s ease-out;
 }
 
 img.logos:hover {
@@ -17,7 +18,6 @@ img.logos:hover {
 a:link {
     border-bottom: none;
 }
-
 
 //COMPANIES
 
@@ -30,50 +30,77 @@ img.microsoft {
 img.IF {
     width:40%;
 }
-img.td {
+img.cancart{
     width:20%;
+}
+img.td {
+    width:22%;
 }
 
 //silver
 img.rbc {
-    width:12%;
+    width:14%;
 }
 img.cibc {
-    width:15%;
+    width:18%;
+}
+img.mse{
+    width: 32%
 }
 
 //copper
 img.cse {
-    width:10%;
+    width:26%;
 }
 img.loyaltyone {
-    width:25%;
+    width:31%;
 }
 img.synopsys {
-    width:25%;
+    width:29%;
 }
 
 
 //base
 img.rogers {
-    width:20%;
+    width:22%;
 }
 img.fdm {
     width:15%;
 }
+img.am {
+    width:19%;
+}
+img.forge{
+    width: 19%;
+}
+img.sketch{
+    width: 12%;
+}
+img.maplesoft{
+    width: 21%;
+}
 
 //in-kind
 img.bitalino {
-    width:20%;
+    width:16%;
+}
+img.hypercare{
+    width:24%;
 }
 img.obie {
-    width:12%;
+    width:15%;
 }
 img.stickermule {
     width:25%;
 }
 img.wolfram {
-    width:15%;
+    width:20%;
+}
+img.balsamiq {
+    width: 18%;
+}
+img.stickeryou {
+    width: 15%;
 }
 
 //food
@@ -95,6 +122,4 @@ img.mes {
     width:12%;
 }
 
-
-//Not Determined
 
