@@ -15,7 +15,7 @@ const BannerLanding = (props) => (
                     <p>+ When is the deadline to apply?</p>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>The deadline was Sunday, Nov 25th at 11:59 PM. If you missed it, but really want to attend, we're looking for volunteers to help us run the event! Sign up at <a href="/volunteer">deltahacks.com/volunteer</a></p>
+                    <p>The deadline was Sunday, Nov 25th at 11:59 PM. If you missed it, but really want to attend, we're looking for volunteers to help us run the event! Sign up by Jan 15 at <a href="/volunteer">deltahacks.com/volunteer</a>!</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>

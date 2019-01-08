@@ -32,6 +32,9 @@ class Volunteer extends React.Component {
                                     <p>
                                         Volunteers are the people that keep DeltaHacks running on the weekend of the event.
                                     </p>
+                                    <p>
+                                        Sign ups close on Tuesday, Jan 15th at 11:59 PM!
+                                    </p>
                                     <ul className="actions">
                                         <li><Link to="#signup" className="button down scrolly">Count me in!</Link></li>
                                     </ul>

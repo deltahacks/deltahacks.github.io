@@ -25,10 +25,15 @@ import BitAlino from '../assets/images/sponsors/bitalino_logo.png'
 import ObieAi from '../assets/images/sponsors/obie_logo.png'
 import StickerMule from '../assets/images/sponsors/stickermule_logo.png'
 import Wolfram from '../assets/images/sponsors/wolfram_logo.png'
-
-
-
-
+import Hypercare from '../assets/images/sponsors/hypercare_logo.png'
+import Balsamiq from '../assets/images/sponsors/balsamiq_logo.svg'
+import AM from '../assets/images/sponsors/am_logo.svg'
+import StickerYou from '../assets/images/sponsors/stickeryou_logo.png'
+import MSE from '../assets/images/sponsors/mse_logo.jpg'
+import CanCart from '../assets/images/sponsors/canadacartage_logo.png'
+import Forge from '../assets/images/sponsors/forge_logo.png'
+import Sketch from '../assets/images/sponsors/sketch_logo.svg'
+import Maplesoft from '../assets/images/sponsors/maplesoft_logo.png'
 
 const BGvideoOptions = {
     height: '500',
@@ -93,6 +98,8 @@ const Sponsors = (props) => (
             <div className="box alt">
                 <div className="boxcontent sponsored">
                     <a href="https://www.innovationfactory.ca" target="_blank"><img className="logos IF" src={IF} alt="Innovation Factory" /></a>
+                    <a href="https://www.canadacartage.com/" target="_blank"><img className="logos cancart" src={CanCart} alt="Canada Cartage" /></a>
+
                 </div>
             </div>    
 
@@ -108,54 +115,62 @@ const Sponsors = (props) => (
             {/* Silver */}
             <div className="box alt">
                 <div className="boxcontent silver">
-                    <a href="https://www.cibc.com" target="_blank"><img className="logos cibc" src={CIBC} alt=""/></a>
-                    <a href="https://www.rbcroyalbank.com" target="_blank"><img className="logos rbc" src={RBC} alt=""/></a>
+                    <a href="https://www.cibc.com" target="_blank"><img className="logos cibc" src={CIBC} alt="CIBC"/></a>
+                    <a href="https://www.rbcroyalbank.com" target="_blank"><img className="logos rbc" src={RBC} alt="RBC"/></a>
+                    <a href="https://www.eng.mcmaster.ca/materials" target="_blank"><img className="logos mse" src={MSE} alt="Materials Science and Engineering"/></a>
                 </div>
             </div>
 
             {/* Copper */}
             <div className="box alt">
                 <div className="boxcontent copper"> 
-                    <a href="https://www.cse-cst.gc.ca/en" target="_blank"><img className="logos cse" src={CSE} alt=""/></a>
-                    <a href="https://www.loyalty.com" target="_blank"><img className="logos loyaltyone" src={Loyalty} alt=""/></a>
-                    <a href="https://www.synopsys.com" target="_blank"><img className="logos synopsys" src={Synopsys} alt=""/></a>
+                    <a href="https://www.cse-cst.gc.ca/en" target="_blank"><img className="logos cse" src={CSE} alt="CSE"/></a>
+                    <a href="https://www.loyalty.com" target="_blank"><img className="logos loyaltyone" src={Loyalty} alt="Loyalty One"/></a>
+                    <a href="https://www.synopsys.com" target="_blank"><img className="logos synopsys" src={Synopsys} alt="Synopsys"/></a>
                 </div>
             </div>    
 
             {/* Base */}
             <div className="box alt">
                 <div className="boxcontent base">
-                    <a href="https://www.fdmgroup.com" target="_blank"><img className="logos fdm" src={FDM} alt=""/></a>
-                    <a href="https://www.rogers.com" target="_blank"><img className="logos rogers" src={Rogers} alt=""/></a>
+                    <a href="https://www.fdmgroup.com" target="_blank"><img className="logos fdm" src={FDM} alt="FDM Group"/></a>
+                    <a href="https://corporate.arcelormittal.com/" target="_blank"><img className="logos am" src={AM} alt="Arcelor Mittal"/></a>
+                    <a href="https://www.sketchapp.com/" target="_blank"><img className="logos sketch" src={Sketch} alt="Sketch"/></a>
+                    <a href="https://www.rogers.com" target="_blank"><img className="logos rogers" src={Rogers} alt="Rogers"/></a>
+                    <a href="https://www.maplesoft.com/" target="_blank"><img className="logos maplesoft" src={Maplesoft} alt="Maplesoft"/></a>
+                    <a href="https://theforge.mcmaster.ca/" target="_blank"><img className="logos forge" src={Forge} alt="The Forge"/></a>
                 </div>
             </div>
 
             {/* In Kind */}
-            <h4>In-kind:</h4>
+            In-kind:
             <div className="box alt">
                 <div className="boxcontent inkind">
-                    <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt=""/></a>
-                    <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt=""/></a>
-                    <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img className="logos stickermule" src={StickerMule} alt=""/></a>
-                    <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt=""/></a>
+                    <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt="Bit Alino"/></a>
+                    <a href="https://www.hypercare.com" target="_blank"><img className="logos hypercare" src={Hypercare} alt="Hypercare"/></a>
+                    <a href="https://www.stickeryou.com/" target="_blank"><img className="logos stickeryou" src={StickerYou} alt="Sticker You"/></a>
+                    <a href="https://balsamiq.com/" target="_blank"><img className="logos balsamiq" src={Balsamiq} alt="Balsamiq"/></a>
+                    <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt="Obie Ai"/></a>
+                    <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img className="logos stickermule" src={StickerMule} alt="Sticker Mule"/></a>
+                    <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt="Wolfram"/></a>
                 </div>
             </div>
 
             {/* Food */}
-            <h4>Food:</h4>
+            Food:
             <div className="box alt">
                 <div className="boxcontent food">
-                    <a href="https://www.facebook.com/pinksburgers/" target="_blank"><img className="logos pinks" src={Pinks} alt=""/></a>
+                    <a href="https://www.facebook.com/pinksburgers/" target="_blank"><img className="logos pinks" src={Pinks} alt="Pinks Burgers"/></a>
                 </div>
             </div>
 
-            <h4>Partners:</h4>
+            Partners:
             <div className="box alt">
                 <div className="boxcontent partners">
                     <a href="https://mlh.io" target="_blank"><img className="logos mlh" src={MLH} alt="" /></a>
-                    <a href="https://www.eng.mcmaster.ca/" target="_blank"><img className="logos maceng" src={MacEng} alt="" /></a>
-                    <a href="https://library.mcmaster.ca/" target="_blank"><img className="logos maclib" src={MacLib} alt="" /></a>
-                    <a href="http://www.macengsociety.ca/" target="_blank"><img className="logos mes" src={MES} alt="" /></a>
+                    <a href="https://www.eng.mcmaster.ca/" target="_blank"><img className="logos maceng" src={MacEng} alt="McMaster Engineering" /></a>
+                    <a href="https://library.mcmaster.ca/" target="_blank"><img className="logos maclib" src={MacLib} alt="McMaster Libraries" /></a>
+                    <a href="http://www.macengsociety.ca/" target="_blank"><img className="logos mes" src={MES} alt="McMaster Engineering Society" /></a>
                 </div>
             </div>              
             
