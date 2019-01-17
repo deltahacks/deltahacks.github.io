@@ -1,3 +1,4 @@
 #Netlify redirects
 /apply  https://my.deltahacks.com   301
 /bus    https://www.bus.com/events/773833272-delta-hacks-january-2019?tripType=roundtrip    301
+/innovationfactory  https://deltahacks5.typeform.com/to/Hhh00N  301
