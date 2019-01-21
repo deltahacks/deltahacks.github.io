@@ -105,7 +105,7 @@ const Landing = (props) => (
 
 
                 <section id="mentor">
-                    <Link to="/mentor" className="image">
+                    <Link to="#mentor" className="image">
                         <img src={mentor} alt="Mentor assisting hackers" />
                     </Link>
                     <div className="content">
@@ -116,7 +116,7 @@ const Landing = (props) => (
                             <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community. As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at! As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
                             </p>
                             <ul className="actions">
-                                <li><Link to="/mentor" className="button">I want to help!</Link></li>
+                                {/* <li><Link to="/mentors" className="button">I want to help!</Link></li> */}
                             </ul>
                         </div>
                     </div>
