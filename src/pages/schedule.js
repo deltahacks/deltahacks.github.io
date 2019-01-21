@@ -2,9 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import mentor from '../assets/images/mentor.jpg'
-
-class Mentor extends React.Component {
+class Schedule extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");   
         // setTimeout(document.getElementById("mentor-signup-form").reset(), 5000);
@@ -18,7 +16,7 @@ class Mentor extends React.Component {
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
-        <div id="main" className="gradient">
+        <div id="main" className="gradient3">
 
             <section id="description">
                 <div className="inner">
@@ -156,4 +154,4 @@ class Mentor extends React.Component {
 }
 }
 
-export default Mentor
+export default Schedule
