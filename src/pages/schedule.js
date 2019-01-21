@@ -25,7 +25,7 @@ class Mentor extends React.Component {
                     <h2>DeltaHacks V :: Schedule</h2>
                     <div className="table-wrapper">
                         {/* SATURDAY */}
-                        <h4>SATURDAY</h4>
+                        <h4>SATURDAY : JAN 26, 2019</h4>
                         <table>
                             <thead>
                                 <tr>
@@ -87,7 +87,7 @@ class Mentor extends React.Component {
                         </table>
 
                         {/* SUNDAY */}
-                        <h4>SUNDAY</h4>
+                        <h4>SUNDAY : JAN 27, 2019</h4>
                         <table >
                             <thead>
                                 <tr>
