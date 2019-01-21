@@ -38,7 +38,7 @@ class Mentor extends React.Component {
                                 <tr>
                                     <td>9:30 AM - 11:00 AM</td>
                                     <td>Registration & Breakfast</td>
-                                    <td>Thode Library <i>Lobby</i></td>
+                                    <td><a href="https://goo.gl/maps/dYT67hzPPX52"><u>Thode Library</u></a> <i>Lobby</i></td>
                                 </tr>
 
                                 <tr>
