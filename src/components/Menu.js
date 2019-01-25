@@ -15,7 +15,7 @@ const Menu = (props) => (
 
             </ul>
             <ul className="actions vertical">
-                <li><a href="/live" className="button fit">Schedule</a></li>
+                <li><a href="/schedule" className="button fit">Schedule</a></li>
                 <li><a href="/live" className="button special fit disabled">Live</a></li>
             </ul>
         </div>
