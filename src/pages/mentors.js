@@ -88,7 +88,7 @@ class Mentors extends React.Component {
                     <p><span className="image left"><img src={Chamu} alt="" /></span><h3><br/>Chamu Rajasekera</h3><code>AR/VR,CG,NodeJS,React,Full Stack Web,C/C++,Python,Raspberry Pi,Arduino</code></p>
                     <p><span className="image left"><img src={Natalie} alt="" /></span><h3><br/>Natalie Chin</h3><code>Blockchain - Ethereum/State Channels</code></p>
                     <p><span className="image left"><img src={Zichen} alt="" /></span><h3><br/>Zichen Jiang</h3><code>Database, full stack</code></p>
-                    <p><span className="image left"><img src={Umme} alt="" /></span><h3><br/>Umme Salma</h3><code>Python, Full-stack, C#, C, Java, Blockchain, Cryptography</code></p>
+                    <p><span className="image left"><img src={Umme} alt="" /></span><h3><br/>Umme Salma Gadriwala</h3><code>Python, Full-stack, C#, C, Java, Blockchain, Cryptography</code></p>
                     <p><span className="image left"><img src={Ocean} alt="" /></span><h3><br/>Ocean Cheung</h3><code>iOS, Programming</code></p>
                     <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Jaison Loodu</h3><code>Back-End Development, Java, Databases</code></p>
                     <p><span className="image left"><img src={Nelson} alt="" /></span><h3><br/>Nelson Su</h3><code>C++, C, Java, Web Dev, Software Testing (Manual & Automated)</code></p>
