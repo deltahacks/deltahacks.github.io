@@ -95,9 +95,9 @@ const Landing = (props) => (
 
                             The ultimate goal behind this hackathon is to include, not only the engineering and computer science students, but all talented individuals from all backgrounds to collaborate, create, and bring ideas to life. We want you to shoot for the stars.
                             </p>
-                            {/* <ul className="actions">
-                                <li><Link to="#workshops" className="button next scrolly">Keep going!</Link></li>
-                            </ul> */}
+                            <ul className="actions">
+                                <li><Link to="/trianglechallenges" className="button">&#9651; Challenges</Link></li>
+                            </ul>
                         </div>
                     </div>
                 </section>
@@ -116,7 +116,7 @@ const Landing = (props) => (
                             <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community. As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at! As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
                             </p>
                             <ul className="actions">
-                                {/* <li><Link to="/mentors" className="button">I want to help!</Link></li> */}
+                                <li><Link to="/mentors" className="button">Meet our Mentors</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -153,6 +153,7 @@ const Landing = (props) => (
                             <p>Our sponsors help us put food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
                             <ul className="actions">
                                 <li><Link to="/sponsors" className="button">Our Sponsors</Link></li>
+                                <li><Link to="/sponsorchallenges" className="button">Sponsor Challenges</Link></li>
                             </ul>
                         </div>
                     </div>

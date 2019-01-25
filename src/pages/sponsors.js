@@ -56,8 +56,11 @@ const BGvideoOptions = {
     }
 };
 
+
+
 const Sponsors = (props) => (
     <div>
+
         <Helmet>
             <title>Sponsors :: DeltaHacks V</title>
             <meta name="description" content="Sponsors :: DeltaHacks V" />
@@ -86,6 +89,9 @@ const Sponsors = (props) => (
                 <div className="inner">
                     <header className="major">
                         <h3>Our Sponsors</h3><br />
+                        <ul className="actions">
+                            <li><Link to="/sponsorchallenges" className="button next">Sponsor Challenges</Link></li>
+                        </ul>
                     </header>
 
             Powered By:

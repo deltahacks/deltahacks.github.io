@@ -10,12 +10,13 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/#faq">FAQs</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/sponsors">Sponsors</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/schedule">Mentors</Link></li>
-                {/* <li><Link onClick={props.onToggleMenu} to="/schedule">Schedule</Link></li> */}
+                <li><Link onClick={props.onToggleMenu} to="/trianglechallenges">&#9651; Challenges</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/sponsorchallenges">Sponsor Challenges</Link></li>
 
             </ul>
             <ul className="actions vertical">
                 <li><a href="/live" className="button fit">Schedule</a></li>
-                <li><a href="/live" className="button special fit">Live</a></li>
+                <li><a href="/live" className="button special fit disabled">Live</a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
