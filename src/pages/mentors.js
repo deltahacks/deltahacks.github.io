@@ -56,7 +56,7 @@ class Mentors extends React.Component {
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
-        <div id="main" >
+        <div id="main" className="gradient3">
 
             {/* <section id="why" className="spotlights">
                 <section>
