@@ -14,7 +14,7 @@ class Schedule extends React.Component {
         return (
     <div>
         <Helmet>
-            <title><FontAwesome.FaCalendar /> Schedule - DeltaHacks V</title>
+            <title>Schedule - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
@@ -22,7 +22,7 @@ class Schedule extends React.Component {
 
             <section id="description">
                 <div className="inner">
-                    <h2>DeltaHacks V :: Schedule</h2>
+                    <h2>DeltaHacks V :: <FontAwesome.FaCalendar />  Schedule</h2>
                     <div className="table-wrapper">
                         {/* SATURDAY */}
                         <h4>SATURDAY : JAN 26, 2019</h4>
