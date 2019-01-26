@@ -7,6 +7,7 @@ import {
     AccordionItemTitle,
     AccordionItemBody,
 } from 'react-accessible-accordion';
+import '../assets/scss/layout/_extra.scss'
 import YouTube from 'react-youtube'
 
 
@@ -58,9 +59,9 @@ const SponsorChallenges = (props) => (
         </Helmet>
 
 
-        <div id="main" className="gradient3">
+        <div id="main" className="sponbg">
             <Accordion>
-                <h1>&#9651; Sponsor Challenges</h1>
+                <h1>Sponsor Challenges</h1>
                 <div className="box">
                         <h3>What are the Sponsor Challenges?</h3>
                         <p>Each of the following challenges comes with their own prize category. For details on the prizes available, check out the event <u><a href="/devpost">DevPost</a></u>!<br />
@@ -114,7 +115,7 @@ const SponsorChallenges = (props) => (
                         <p>Target 5:  You are able to produce a histogram of the grain size.</p>
                     </AccordionItemBody>
                     <AccordionItemBody>
-                        <p>On the day of the challenge, you will be provided with over 300 images to practice on.</p>
+                        <p>Materials for the challenge:<code><a href="https://www.dropbox.com/sh/w9ao0zobloqwjvf/AAAcE0Rf_SvSic_KWxFrBCX6a?dl=0">Dropbox Link</a></code></p>
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -122,10 +123,13 @@ const SponsorChallenges = (props) => (
                         <p>+ RBC - Made From Scratch</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>We are looking at the following areas for judging: Forget APIs and prepackaged products -- the core parts of the winning project here will be entirely built from scratch. Libraries and frameworks are allowed, but the part of the project that makes it awesome should be written or built by you. Essentially, students are welcome, even encouraged to use open source libraries, tools, frameworks but they cannot be the core or ‘special sauce’ of their solution.</p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For example, you can’t use the IMDB API for movie recommendations.  You can however, use Google geolocation API’s to help use maps to connect people’s phones to a bank’s branch, etc., floodzones, etc. – since you’re layering your own logic/analytics on top of some base info.  We do not want anyone reinventing the wheel, rather building an monster truck using one ;)</p>
+                        <p>Forget prepackaged products, the core parts of the winning project here will be fundamentally built from scratch. Libraries and frameworks are allowed and even encouraged, but the part of the project that makes it awesome should be written or built by you. <br /><br />
+
+                        Open source libraries, tools, and frameworks can surely be puzzle pieces, but they cannot be the core or ‘special sauce’ of the solution.<br /><br />
+                        For example, you can’t use the IMDB API for movie recommendations. You can however, use Google geolocation API’s to help use maps to connect people’s phones to a bank’s branch, floodzones, etc. – since you’re layering your own logic/analytics on top of some base datasets. <br /><br />
+
+                        We do not want anyone reinventing the wheel, rather helping ‘drive’ change using one!
+                        </p>    
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -141,15 +145,8 @@ const SponsorChallenges = (props) => (
                         <p>+ CIBC - Bridge Between Mobile and Retail Banking</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ HyperCare - Automation Challenge</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p>Build an application that helps automate the paperwork in healthcare, either for patients, clinicians or organizations.</p>    
+                        <p>In today’s modern world, more and more clients turn to mobile banking. It is the fastest way for clients to complete transactions, and retrieve information such as their credit scores. We would like clients to have a similar experience in retail banking. How would you bridge the gap between mobile and retail banking? So that clients are more likely to come into a banking center and have a resourceful and efficient experience that mobile banking provides.
+                        </p>    
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -183,7 +180,11 @@ const SponsorChallenges = (props) => (
                     </AccordionItemBody>
                 </AccordionItem>
             </Accordion>
+            <br />
+            <br />
+            <br />
         </div>
+       
 
     </div>
 )

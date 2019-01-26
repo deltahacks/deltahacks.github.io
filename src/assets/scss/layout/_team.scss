@@ -1,0 +1,60 @@
+div.grid {
+    margin-left:0;
+    margin-right:0;
+    line-height: 0;
+    text-align: center;
+}
+
+.each{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.cent {
+    text-align: center;
+}
+
+img{
+    width:9em;
+    height: 9em;
+    transition: .3s ease-out;
+    text-align: left;
+
+}
+
+.each:hover img{
+    filter:brightness(30%);
+}
+
+.each:hover p{
+    opacity: 1;
+}
+
+div.each {
+    display: inline-block;
+    position: relative;
+}
+
+
+div.each :not(img){
+    position: absolute;
+    top: 70%;
+    z-index: 1;
+    text-align: left; 
+    margin-left: 10%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease-out;
+}
+
+p.name{
+   font-size: 1em;
+}
+
+p.bio{
+    font-size: 0.6em;
+    margin-top: 10%;
+}
+

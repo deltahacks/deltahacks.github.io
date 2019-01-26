@@ -8,6 +8,7 @@ import {
     AccordionItemBody,
 } from 'react-accessible-accordion';
 import YouTube from 'react-youtube'
+import '../assets/scss/layout/_extra.scss'
 
 
 const BGvideoOptions = {
@@ -58,7 +59,7 @@ const Challenges = (props) => (
         </Helmet>
 
 
-        <div id="main" className="gradient3">
+        <div id="main" className="chalbg">
             <Accordion>
                 <h1>&#9651; Triangle Challenges</h1>
                 <div className="box">
@@ -105,7 +106,7 @@ const Challenges = (props) => (
                 </AccordionItem>
                 <AccordionItem>
                     <AccordionItemTitle>
-                        <p>+ Digitising Construction - NRB Inc.</p>
+                        <p>+ Digitising Construction</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Other than a few technologies that have seeped into the industry, the shortage of finding, hiring, and screening skilled labor is still very much a problem and a huge opportunity to explore.  As a seasoned individual within the construction domain, Royston would like to challenge teams to find a way to connect employers and talent within the constuction indursty.</p>    
@@ -176,6 +177,14 @@ const Challenges = (props) => (
                         <p>For more information, contact Katie Jessup on Slack or by email: kjessup@mission-services.com</p>
                     </AccordionItemBody>
                 </AccordionItem>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ HyperCare - Automation Challenge</p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>Build an application that helps automate the paperwork in healthcare, either for patients, clinicians or organizations.</p>    
+                    </AccordionItemBody>
+                </AccordionItem>
                 {/* <AccordionItem>
                     <AccordionItemTitle>
                         <p>+ Wifi Security Hack - EzSec</p>
@@ -188,6 +197,9 @@ const Challenges = (props) => (
                     </AccordionItemBody>
                 </AccordionItem> */}
             </Accordion>
+            <br />
+            <br />
+            <br />
         </div>
 
     </div>

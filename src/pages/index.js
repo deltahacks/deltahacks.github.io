@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import BannerLanding from '../components/BannerLanding'
+import Banner from '../components/BannerLanding'
 import FAQ from '../components/FAQ'
 import YouTube from 'react-youtube'
 
@@ -10,7 +10,8 @@ import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
 import mentor from '../assets/images/mentor.jpg'
 import MLH from '../assets/images/mlh.svg'
-
+import schedule from '../assets/images/schedule.jpg'
+import code from '../assets/images/coding.jpg'
 
 const BGvideoOptions = {
     height: '500',
@@ -46,47 +47,102 @@ const FGvideoOptions = {
     }
 };
 
-const Landing = (props) => (
-    <div>
-        <a id="mlh" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank">
-            <img id="mlhimg" src={MLH} alt="Major League Hacking 2019 Hackathon Season"/>
-        </a>
-        <Helmet>
-            <title>DeltaHacks V</title>
-            <meta name="description" content="Landing Page" />
-        </Helmet>
+class HomeIndex extends React.Component {
+    render() {
+        const siteTitle = this.props.data.site.siteMetadata.title
+        const siteDescription = this.props.data.site.siteMetadata.description
 
-        <BannerLanding />
+        return (
+            <div>
 
-        <div id="main">
-            {/* Code for background video below this*/}
-            <div className="video-background">
-                <div className="video-foreground">
-                    <YouTube
-                        videoId="tJA4XoCAs1Y"
-                        opts={BGvideoOptions}
-                        className="video-iframe"
-                        onReady={function(e) {
-                            e.target.mute();
-                          }}
-                        onEnd={function(e) {
-                            e.target.playVideo();
-                        }}
-                    />
-                </div>
-            </div>
-            {/* Code for background video ends here */}
+                <a id="mlh" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank">
+                    <img id="mlhimg" src={MLH} alt="Major League Hacking 2019 Hackathon Season"/>
+                </a>
 
+                <Helmet>
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
+                </Helmet>
+                <Banner />
 
-            {/* <section id="one"> */}
-        
+                <div id="main">
 
-            <section id="who" className="spotlights">
-                <section>
-                    <Link to="#who" className="image">
-                        <img src={hackers} alt="Hackers" />
-                    </Link>
-                    <div className="content">
+                    {/* Code for background video below this*/}
+                    <div className="video-background">
+                        <div className="video-foreground">
+                            <YouTube
+                                videoId="tJA4XoCAs1Y"
+                                opts={BGvideoOptions}
+                                className="video-iframe"
+                                onReady={function(e) {
+                                    e.target.mute();
+                                }}
+                                onEnd={function(e) {
+                                    e.target.playVideo();
+                                }}
+                            />
+                        </div>
+                    </div>
+                    {/* Code for background video ends here */}
+
+                    <section id="one" className="tiles">
+                        <article style={{backgroundImage: `url(${schedule})`}}>
+                            <header className="major">
+                                <h3>Schedule</h3>
+                                <p>The event schedule</p>
+                            </header>
+                            <Link to="/schedule" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${code})`}}>
+                            <header className="major">
+                                <h3>Live</h3>
+                                <p>Live Updates to Events</p>
+                            </header>
+                            <Link to="/live" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${hackers})`}}>
+                            <header className="major">
+                                <h3>&#9651; Challenges</h3>
+                                <p>Hack for Change</p>
+                            </header>
+                            <Link to="/trianglechallenges" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${sponsors})`}}>
+                            <header className="major">
+                                <h3>Sponsor Challenges</h3>
+                                <p>Problems from the industry</p>
+                            </header>
+                            <Link to="/sponsorchallenges" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${mentor})`}}>
+                            <header className="major">
+                                <h3>Mentors</h3>
+                                <p>Get some help</p>
+                            </header>
+                            <Link to="/mentors" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${workshop})`}}>
+                            <header className="major">
+                                <h3>Workshops</h3>
+                                <p>Learn new skills</p>
+                            </header>
+                            <Link to="/workshops" className="link primary"></Link>
+                        </article>
+                    </section>
+                    {/* <section id="two">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Massa libero</h2>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <ul className="actions">
+                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                            </ul>
+                        </div>
+                    </section> */}
+
+                    <section id="two">
+
                         <div className="inner">
                             <header className="major">
                                 <h3>What's DeltaHacks?</h3>
@@ -99,53 +155,7 @@ const Landing = (props) => (
                                 <li><Link to="/trianglechallenges" className="button">&#9651; Challenges</Link></li>
                             </ul>
                         </div>
-                    </div>
-                </section>
 
-
-
-                <section id="mentor">
-                    <Link to="#mentor" className="image">
-                        <img src={mentor} alt="Mentor assisting hackers" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Mentors!</h3>
-                            </header>
-                            <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community. As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at! As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
-                            </p>
-                            <ul className="actions">
-                                <li><Link to="/mentors" className="button">Meet our Mentors</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-
-                <section id="workshops">
-                    <Link to="#workshops" className="image">
-                        <img src={workshop} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Workshops!</h3>
-                            </header>
-                            <p>An integral part of the hackathon experience is you - the hacker! We want to make sure you have plenty of opportunities to learn that one skill you always wanted to. What better place than surrounded by the best coders around? We partner with industry professionals to host workshops that teach you exactly what you need to get that project working.</p>
-                            {/* <ul className="actions">
-                                <li><Link to="#mentor" className="button next scrolly">Any other cool stuff?</Link></li>
-                            </ul> */}
-                        </div>
-                    </div>
-                </section>
-
-
-                <section id="sponsors">
-                    <Link to="/sponsors" className="image">
-                        <img src={sponsors} alt="" />
-                    </Link>
-                    <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>Sponsors!</h3>
@@ -156,35 +166,67 @@ const Landing = (props) => (
                                 <li><Link to="/sponsorchallenges" className="button">Sponsor Challenges</Link></li>
                             </ul>
                         </div>
-                    </div>
-                </section>
 
-            </section>
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Mentors!</h3>
+                            </header>
+                            <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community. As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at! As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
+                            </p>
+                            <ul className="actions">
+                                <li><Link to="/mentors" className="button">Meet our Mentors</Link></li>
+                            </ul>
+                        </div>
 
-            <section id="recap">
-                <div className="inner">
-                    <YouTube
-                        videoId="3SizoIuIedc"
-                        opts={FGvideoOptions}
-                        className="video-iframe"
-                        onReady={null}
-                        onEnd={null}
-                    />
-                    {/* <header className="major">
-                        <h2>Sed amet aliquam</h2>
-                    </header>
-                    <p>Nullam et orci eu.</p> */}
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Workshops!</h3>
+                            </header>
+                            <p>An integral part of the hackathon experience is you - the hacker! We want to make sure you have plenty of opportunities to learn that one skill you always wanted to. What better place than surrounded by the best coders around? We partner with industry professionals to host workshops that teach you exactly what you need to get that project working.</p>
+                            {/* <ul className="actions">
+                                <li><Link to="/workshops" className="button next scrolly">Workshops</Link></li>
+                            </ul> */}
+                        </div>
+
+
+                    </section>
+
+                    <section id="recap">
+                        <div className="inner">
+                            <YouTube
+                                videoId="3SizoIuIedc"
+                                opts={FGvideoOptions}
+                                className="video-iframe"
+                                onReady={null}
+                                onEnd={null}
+                            />
+                            {/* <header className="major">
+                                <h2>Sed amet aliquam</h2>
+                            </header>
+                            <p>Nullam et orci eu.</p> */}
+                        </div>
+                    </section>
+
                 </div>
-            </section>
+                
 
-        </div>
+                <FAQ />
 
-        
+            </div>
 
-        <FAQ />
+        )
+    }
+}
 
+export default HomeIndex
 
-    </div>
-)
-
-export default Landing
+export const pageQuery = graphql`
+    query PageQuery {
+        site {
+            siteMetadata {
+                title
+                description
+            }
+        }
+    }
+`

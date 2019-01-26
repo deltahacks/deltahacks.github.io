@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import * as FontAwesome from 'react-icons/lib/fa'
+
 
 class Schedule extends React.Component {
     handleSubmit(event){
@@ -20,7 +22,7 @@ class Schedule extends React.Component {
 
             <section id="description">
                 <div className="inner">
-                    <h2>DeltaHacks V :: Schedule</h2>
+                    <h2>DeltaHacks V :: <FontAwesome.FaCalendar />  Schedule</h2>
                     <div className="table-wrapper">
                         {/* SATURDAY */}
                         <h4>SATURDAY : JAN 26, 2019</h4>
@@ -81,6 +83,18 @@ class Schedule extends React.Component {
                                     <td>Dinner</td>
                                     <td>Thode Library <i>1st Floor</i></td>
                                 </tr>
+
+                                <tr>
+                                    <td>9:00 PM - 10:00 PM</td>
+                                    <td>MLH Cup Stacking</td>
+                                    <td>Thode Library <i>2nd Floor</i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>10:00 PM - 11:00 PM</td>
+                                    <td>Smash Bros Tournament</td>
+                                    <td>Thode Library <i>1st Floor Gaming Area</i></td>
+                                </tr>
                             </tbody>
                         </table>
 
@@ -102,7 +116,7 @@ class Schedule extends React.Component {
                                 </tr>
 
                                 <tr>
-                                    <td>8:00 AM - 10:00 AM</td>
+                                    <td>8:30 AM - 10:00 AM</td>
                                     <td>Breakfast</td>
                                     <td>Thode Library <i>Lobby</i></td>
                                 </tr>

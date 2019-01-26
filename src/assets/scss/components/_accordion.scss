@@ -1,6 +1,6 @@
 .accordion {
   @include padding(2em, 2em);
-  background-color: transparentize(_palette(fg), 0.95);
+//   background-color: transparentize(_palette(fg), 0.95);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 
 .accordion__item + .accordion__item {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+//   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 
@@ -22,12 +22,12 @@
   animation: fadein 0.35s ease-in;
   padding: 1em;
   padding-left: 2em;
-  background-color: transparentize(_palette(fg), 0.95);
+//   background-color: transparentize(_palette(fg), 0.95);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: default;
-  max-height: 40em;
+  max-height: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .accordion__title {
-  background-color: transparentize(_palette(bg-alt), 0.75);
+//   background-color: transparentize(_palette(bg-alt), 0.75);
   cursor: pointer;
   padding: 1em;
   width: 100%;
@@ -49,7 +49,9 @@
 }
 
 .accordion__title:hover {
-  background-color: _palette(bg-alt);
+//   background-color: _palette(bg-alt);
+  background-color: transparentize(_palette(fg), 0.95);
+
 }
 
 .accordion__title > *:last-child,

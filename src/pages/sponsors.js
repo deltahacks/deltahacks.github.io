@@ -37,6 +37,7 @@ import Maplesoft from '../assets/images/sponsors/maplesoft_logo.png'
 import CoinBerry from '../assets/images/sponsors/coinberry_logo.png'
 import SoftHamil from '../assets/images/sponsors/softwarehamilton_logo.png'
 import Comotion from '../assets/images/sponsors/comotion_logo.svg'
+import Indico from '../assets/images/sponsors/indico_logo.png'
 
 const BGvideoOptions = {
     height: '500',
@@ -159,6 +160,7 @@ const Sponsors = (props) => (
                     <a href="https://www.sketchapp.com/" target="_blank"><img className="logos sketch" src={Sketch} alt="Sketch"/></a>
                     <a href="https://www.stickeryou.com/" target="_blank"><img className="logos stickeryou" src={StickerYou} alt="Sticker You"/></a>
                     <a href="https://balsamiq.com/" target="_blank"><img className="logos balsamiq" src={Balsamiq} alt="Balsamiq"/></a>
+                    <a href="https://indico.io" target="_blank"><img className="logos indico" src={Indico} alt="Indico"/></a>
                     <a href="https://www.maplesoft.com/" target="_blank"><img className="logos maplesoft" src={Maplesoft} alt="Maplesoft"/></a>
                     <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt="Obie Ai"/></a>
                     <a href="http://www.comotiongroup.ca/comotion-on-king/" target="_blank"><img className="logos comotion" src={Comotion} alt="Comotion On King"/></a>
