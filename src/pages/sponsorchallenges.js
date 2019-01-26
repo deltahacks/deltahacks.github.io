@@ -60,7 +60,7 @@ const SponsorChallenges = (props) => (
 
         <div id="main" className="gradient3">
             <Accordion>
-                <h1>&#9651; Sponsor Challenges</h1>
+                <h1>Sponsor Challenges</h1>
                 <div className="box">
                         <h3>What are the Sponsor Challenges?</h3>
                         <p>Each of the following challenges comes with their own prize category. For details on the prizes available, check out the event <u><a href="/devpost">DevPost</a></u>!<br />
