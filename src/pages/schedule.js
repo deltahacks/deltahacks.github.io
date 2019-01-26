@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import * as FontAwesome from 'react-icons/lib/fa'
+
 
 class Schedule extends React.Component {
     handleSubmit(event){
@@ -12,7 +14,7 @@ class Schedule extends React.Component {
         return (
     <div>
         <Helmet>
-            <title>Schedule - DeltaHacks V</title>
+            <title><FontAwesome.FaCalendar /> Schedule - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         

@@ -141,15 +141,8 @@ const SponsorChallenges = (props) => (
                         <p>+ CIBC - Bridge Between Mobile and Retail Banking</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ HyperCare - Automation Challenge</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p>Build an application that helps automate the paperwork in healthcare, either for patients, clinicians or organizations.</p>    
+                        <p>In today’s modern world, more and more clients turn to mobile banking. It is the fastest way for clients to complete transactions, and retrieve information such as their credit scores. We would like clients to have a similar experience in retail banking. How would you bridge the gap between mobile and retail banking? So that clients are more likely to come into a banking center and have a resourceful and efficient experience that mobile banking provides.
+                        </p>    
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
