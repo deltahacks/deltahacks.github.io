@@ -1,3 +1,4 @@
+import Snap from '../assets/images/contests/snapchat.jpg'
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'

@@ -1,4 +1,6 @@
 import React from 'react'
+import * as FontAwesome from 'react-icons/lib/fa'
+
 
 const BannerLanding = (props) => (
     <section id="banner" className="style2">
@@ -8,7 +10,7 @@ const BannerLanding = (props) => (
             </header>
 
             <div className="content">
-                <p>Jan 26-27, 2019   /   McMaster University</p>
+                <p><FontAwesome.FaCalendar /> Jan 26-27, 2019   /   McMaster University</p>
                 {/* <a href="https://deltahacks.us19.list-manage.com/subscribe/post?u=7ac221f02edc4242db4789d8f&amp;id=7f28a270ff" className="button">Mailing List</a> */}
                 {/* <button>Scroll</button> */}
                 <br />
@@ -23,8 +25,8 @@ const BannerLanding = (props) => (
 
 
             {/* <a href="/localhackday" className="12u button special">Local Hack Day on Dec 1st</a>  */}
-            <a href="/schedule" className="6u button special">Schedule</a>
-            <a href="#contact" className="6u button scrolly">Contact Us</a>
+            {/* <a href="/schedule" className="6u button special">Schedule</a> */}
+            {/* <a href="#contact" className="6u button scrolly">Contact Us</a> */}
 
             {/* <a href="/volunteer" className="6u button ">Volunteer by Jan 15</a> */}
 
