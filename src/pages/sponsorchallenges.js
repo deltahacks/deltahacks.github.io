@@ -179,6 +179,38 @@ const SponsorChallenges = (props) => (
                         </ul>
                     </AccordionItemBody>
                 </AccordionItem>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ ArcelorMittal Dofasco - Transforming Tomorrow Challenge</p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>At ArcelorMittal Dofasco, we are always looking for new ways to transform tomorrow! We are at the forefront of transforming business activities, processes and competencies to fully leverage the changes and opportunities of digital technologies.<br /><br />
+
+                        We view innovation as a mindset that generates new ideas and encourages our most important resource – our people - to push boundaries, think creatively and be pioneers of innovation that help keep our company ahead of the competition.<br /><br />
+                        
+                        We are looking for new ways to incorporate technologies such as big data, machine learning, predictive analytics, cognitive services, optimization and mobile applications into how we do business.  <br /><br />
+                      
+
+                        We encourage you to submit your ideas for consideration for the ArcelorMittal Dofasco Transforming Tomorrow prize. <br /><br />
+
+                        
+
+                        Judging Criteria <br /><br />
+
+                        
+
+                        Innovation:  How original and creative is the hack being presented? Did you leverage new ideas that have not been thought of previously?    (3 points) <br />
+
+                        Completeness: How ready is the hack? Is it fully functional? If your hack isn’t complete yet, submit it anyways!    (2 points)<br />
+
+                        Innovative Use of Technologies: Did you leverage emerging technologies?    (2 points)<br />
+
+                        Use of Specific Technology: Did you incorporate one or more of the following: big data, machine learning, predictive analytics, cognitive services, optimization or mobile applications?    (3 points)
+                        </p>
+
+
+                    </AccordionItemBody>
+                </AccordionItem>
             </Accordion>
             <br />
             <br />
