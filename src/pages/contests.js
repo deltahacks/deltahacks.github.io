@@ -6,7 +6,6 @@ import Insta from '../assets/images/contests/instagram.jpg'
 import Snap from '../assets/images/contests/snapchat.jpg'
 
 
-
 class Contests extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");   
@@ -18,7 +17,7 @@ class Contests extends React.Component {
     <div>
         <Helmet>
             <title>Contests - DeltaHacks V</title>
-            <meta name="description" content="Contests!" />
+            <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
         <div id="main" className="alt gradient3">
@@ -107,6 +106,16 @@ class Contests extends React.Component {
                             <li>Take a selfie in the DH5 shirt and post it on your story!</li>
                             <li>Take a selfie of you eating a meal and story it!</li>
                             <li>Snap a picture with one of our sponsors and STORY IT!</li>
+                        </ol>
+
+                        <h2>SMASH Tournament</h2>
+                        <p><b> Remember to tag @deltahacks in every post!</b></p>
+                        <ol>
+                            <li>Sign up through slack #fun</li>
+                            <li>First Floor Gaming Area</li>
+                            <li>TONIGHT 10PM - 11PM</li>
+                            <li>2 people per team</li>
+                            <li>Winning team gets a Google Home Mini</li>
                         </ol>
                     
                 </div>
