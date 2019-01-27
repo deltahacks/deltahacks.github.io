@@ -118,8 +118,8 @@ class Test extends Component {
               <Accordion className="paddingmain">
                 <AccordionItem>
                   <AccordionItemTitle className="paddingtitle">
-                    <p className="button special fit icon fa-link">
-                      Important Links
+                    <p className="button special fit icon fa-info">
+                      Important Info
                     </p>{' '}
                   </AccordionItemTitle>
                   <AccordionItemBody className="paddingbody">
@@ -133,10 +133,11 @@ class Test extends Component {
                             Message on the #help channel or ask @Obie!
                           </p>
 
-                          <h4>Mentor</h4>
+                          <h4>Our Locations</h4>
                           <p>
-                            Check out some of our{' '}
-                            <a href="/mentors">mentors' 1rofiles</a>!
+                          <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a><br />
+                          <a href="https://goo.gl/maps/aBzKiZqGo2P2">ABB</a><br />
+                          <a href="https://goo.gl/maps/W49CANH7LKU2">JHE</a><br />
                           </p>
                         </div>
 
@@ -144,7 +145,7 @@ class Test extends Component {
                           <h4>Links</h4>
                           <p>
                             Final Submissions due Sunday @ 12pm -{' '}
-                            <a href="#">Click Here</a>!<br />
+                            <a href="https://deltahacks5.devpost.com">Click Here</a>!<br />
                             Rent Hardware @ Thode 1st Floor:{' '}
                             <a href="https://hardware.mlh.io">Hardware List</a>
                           </p>
@@ -164,7 +165,7 @@ class Test extends Component {
                                 
 
               {/* DAY ONE */}
-              <div className="box sizing">
+              {/* <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Registration and Breakfast</h4>
                   <p>
@@ -237,11 +238,11 @@ class Test extends Component {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="box sizing">
                 <div className="boxtitles">
-                  <h4>Series of Workshops</h4>
+                  <h4>Series of <a href="/workshops">Workshops</a></h4>
                   <p>
                     <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a>{' '}
                     MakerSpace & ABB B118 <br /> 1:00pm - 7:00pm
@@ -263,7 +264,8 @@ class Test extends Component {
                   <h4>Dinner</h4>
                   <p>
                     <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a>{' '}
-                    1st Floor <br /> 7:00pm - 9:00pm
+                    1st Floor <br /> 7:00pm - 9:00pm <br />
+                    Catered by: Royal Cumin
                   </p>
                   <div className="timer">
                     <a href="#" className="button special small timer">
@@ -300,7 +302,9 @@ class Test extends Component {
               {/* <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Midnight Snack</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am</p>
+                        <p>
+                        <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am
+                        </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock startsIn='January, 27, 2019, 00:00'/></a>
@@ -322,7 +326,10 @@ class Test extends Component {
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Breakfast</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 8:30am - 10:00am</p>
+                        <p>
+                        <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 8:30am - 10:00am <br />
+                        Catered by: Tim Hortons
+                        </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock startsIn='January, 27, 2019, 8:30'/></a>
@@ -344,7 +351,10 @@ class Test extends Component {
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Lunch</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 11:30am - 1:30pm</p>
+                        <p>
+                        <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 11:30am - 1:30pm <br />
+                        Catered by: Lazeez Shawarma
+                        </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock startsIn='January, 27, 2019, 11:30'/></a>

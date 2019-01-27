@@ -456,17 +456,11 @@ class Team extends React.Component {
                                         
                                     </p>
                             </div>
-                            <div className="each">
-                                <img src={Tanner}/>
-                                    <p className="name">
-                                        Tanner R.
-                                    </p>
-                                    <p className="bio">
-                                        
-                                    </p>
-                            </div>
-
+                            <br />
+                        <p className="button small">Co-heads of Public Relations</p>
+                        <br />
                         </div>
+                        
 
                         {/* Supportive Relations */}
                         <div className="box cent">
