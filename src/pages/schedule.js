@@ -15,7 +15,7 @@ class Schedule extends React.Component {
     <div>
         <Helmet>
             <title>Schedule - DeltaHacks V</title>
-            <meta name="description" content="Sign up to be a mentor here!" />
+            <meta name="description" content="EventSchedule!" />
         </Helmet>
         
         <div id="main" className="gradient3">
@@ -119,6 +119,12 @@ class Schedule extends React.Component {
                                     <td>8:30 AM - 10:00 AM</td>
                                     <td>Breakfast</td>
                                     <td>Thode Library <i>Lobby</i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>10:00 AM - 11:00 AM</td>
+                                    <td>How to Demo Workshop</td>
+                                    <td>Thode Library <i>MakerSpace</i></td>
                                 </tr>
 
                                 <tr>

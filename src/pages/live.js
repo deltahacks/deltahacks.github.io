@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import YouTube from 'react-youtube'
 import Clock from './clock.js'
+import ClockTwo from './clocktwo.js'
 import $ from 'jquery'
 import '../assets/scss/layout/_live.scss'
 import {
@@ -70,9 +71,36 @@ class Test extends Component {
                     startsIn="January, 26, 2019, 12:00"
                     endsIn="January, 27, 2019, 13:00"
                   />{' '}
-                  
+                
                 </h1>
               </div>
+
+              <div>
+                <h4 className="size button special fit">
+                  Submissions Due In {' '}
+                  <ClockTwo
+                    startsIn="January, 27, 2019, 12:00"
+                  />{' '}
+
+                </h4>
+              </div>
+
+                        {/* <div className="box sizing">
+                        <div className="boxtitles">
+                        <h4>Submissions Due</h4>
+                        <p><a href="">DevPost</a> Lobby <br /> 12:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock 
+                        startsIn='January, 27, 2019, 12:00'
+                        />
+                        </a>
+                        </div>
+                        </div>
+                        </div> */}
+
+
+
               <br />
 
               <table className="margin">
@@ -240,7 +268,7 @@ class Test extends Component {
                 </div>
               </div> */}
 
-              <div className="box sizing">
+              {/* <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Series of <a href="/workshops">Workshops</a></h4>
                   <p>
@@ -253,13 +281,12 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 13:00"
                         endsIn="January, 26, 2019, 19:00"
                       />
-                      
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="box sizing">
+              {/* <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Dinner</h4>
                   <p>
@@ -277,9 +304,9 @@ class Test extends Component {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="box sizing">
+              {/* <div className="box sizing">
                 <div className="boxtitles">
                   <h4>MLH Activity</h4>
                   <p>
@@ -296,10 +323,10 @@ class Test extends Component {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* DAY TWO */}
 
-              {/* <div className="box sizing">
+              <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Midnight Snack</h4>
                         <p>
@@ -307,7 +334,11 @@ class Test extends Component {
                         </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 00:00'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 00:00'
+                        endsIn="January, 27, 2019, 1:00"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -318,7 +349,11 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 1:00am - 1:30am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 1:00'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 1:00' 
+                        endsIn="January, 27, 2019, 1:30"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -332,7 +367,11 @@ class Test extends Component {
                         </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 8:30'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 8:30'                        
+                        endsIn="January, 27, 2019, 10:00"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -340,10 +379,14 @@ class Test extends Component {
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Workshop: How to Demo</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p> LOCATION????
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace <br /> 10:00am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 10:00'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 10:00'
+                        endsIn="January, 27, 2019, 11:00"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -357,29 +400,43 @@ class Test extends Component {
                         </p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 11:30'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 11:30'
+                        endsIn="January, 27, 2019, 13:30"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
 
-                        <div className="box sizing">
-                        <div className="boxtitles">
-                        <h4>Submissions Due</h4>
-                        <p><a href="">DevPost</a> Lobby <br /> 12:00pm</p>
-                        <div className="timer">
-                        <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 12:00'/></a>
-                        </div>
-                        </div>
-                        </div>
-
+                        
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Project Expo</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 1:30pm - 3:30pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 13:30'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 13:30'
+                        endsIn="January, 27, 2019, 15:30"
+                        />
+                        </a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box sizing">
+                        <div className="boxtitles">
+                        <h4>Submissions</h4>
+                        <p>Final submissions are due on January 27th @ 12:00pm <br />
+                          Submit them to our DevPost by <a href="https://deltahacks5.devpost.com">clicking here</a>! </p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        Due in 
+                        <ClockTwo
+                        startsIn='January, 27, 2019, 12:00'
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -390,35 +447,28 @@ class Test extends Component {
                         <p>JHE 376 & 264 <br /> 3:30am - 5:30pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 15:30'/></a>
+                        <Clock 
+                        startsIn='January, 27, 2019, 15:30'
+                        endsIn="January, 27, 2019, 17:30"
+                        />
+                        </a>
                         </div>
                         </div>
                         </div>
 
-                        <div className="box sizing">
-                        <div className="boxtitles">
-                        <h4>Busses Depart</h4>
-                        <p>5:45pm</p>
-                        <div className="timer">
-                        <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 17:45'/></a>
+                        <div>
+                        <h4 className="size button special fit">
+                        Busses Depart In {' '}
+                        <ClockTwo
+                        startsIn='January, 27, 2019, 17:45'
+                        />{' '}
+                        (at 5:45 pm)
+                        </h4>
                         </div>
-                        </div>
-                        </div> */}
+                        
 
               {/* DAY TWO */}
 
-              {/* <div className="box">
-                                <h4 className="boxtitles">Twitter</h4>
-                                    <TwitterTimelineEmbed
-                                    sourceType="profile"
-                                    screenName="DeltaHacks"
-                                    options={{height: 1000}}
-                                    theme= "dark"
-                                    transparent= "true"
-                                    borderColor= "#FFFFFF"
-                                    />
-                            </div>  */}
             </div>
           </section>
         </div>
