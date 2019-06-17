@@ -1,0 +1,190 @@
+// Styling for the masthead
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:Light);
+@font-face {
+  font-family: "Petita Light";
+  src: url("fonts/petitalight.ttf");
+}
+@font-face {
+  font-family: "Petita Medium";
+  src: url("fonts/petitamedium.ttf");
+}
+
+$roboto-slab: 'Roboto', sans-serif;
+$petita-slab: 'Petita Light', sans-serif;
+$petitam-slab: 'Petita Medium', sans-serif;
+
+  @keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+  }
+  @-webkit-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+  @-moz-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+  @-ms-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+
+  @keyframes move-clouds-back {
+      from {background-position:0 0;}
+      to {background-position:10000px 0;}
+  }
+  @-webkit-keyframes move-clouds-back {
+      from {background-position:0 0;}
+      to {background-position:10000px 0;}
+  }
+  @-moz-keyframes move-clouds-back {
+      from {background-position:0 0;}
+      to {background-position:10000px 0;}
+  }
+  @-ms-keyframes move-clouds-back {
+      from {background-position: 0;}
+      to {background-position:10000px 0;}
+  }
+
+  .stars, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
+
+  .stars {
+    background:#22222A url("../img/stars.png") repeat top center;
+    z-index:0;
+  }
+
+  .twinkling{
+    background:transparent url("../img/twinkling.png") repeat top center;
+    z-index:1;
+
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+  }
+
+  .dh4-stars {
+      background: transparent url('../img/dh4_stars.png') top center;
+      z-index: 4;
+      position: absolute;
+      top: 10%;
+      left: 60%;
+      height: 184px;
+      width: 210px;
+  }
+
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
+
+header.masthead {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: white;
+  background-color: #22222a;
+  // background-image: url('../img/header.jpg');
+  background-position: center;
+
+
+
+
+  @include background-cover;
+  .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center;
+    z-index: 10;
+    .header-content-inner {
+      h1 {
+        font-family: $petita-slab;
+        font-size: 60px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+        display: inline;
+      }
+      .c2 {
+        font-family: $petita-slab;
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline;
+      }
+      h3 {
+        font-family: $roboto-slab;
+      }
+      h6 {
+        display: inline;
+      }
+      hr {
+        margin: 30px auto;
+      }
+      p {
+        font-family: $roboto-slab;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        color: fade-out(white, .3);
+        display: inline;
+      }
+      a {
+        font-family: $roboto-slab;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    height: 100%;
+    min-height: 600px;
+    z-index: 10;
+    .header-content {
+      position: absolute;
+      top: 50%;
+      padding: 0 50px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      .header-content-inner {
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 18px;
+          max-width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

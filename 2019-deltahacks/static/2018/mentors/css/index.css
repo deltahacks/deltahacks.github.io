@@ -1,0 +1,78 @@
+header hr {
+    margin: 30px auto;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #23b7c9;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #23b7c9;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; 
+  cursor: pointer;}
+  a:focus, a:hover {
+    color: #23b7c9; 
+	text-decoration: none}
+
+
+header a {
+	color: #333;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+#content {
+	height: 100%
+}
+
+
+#main h2 {
+	margin: 0 0 20px;
+}
+
+.icon {
+	padding: 20px 0;
+	border-bottom: 1px solid #CCC
+}
+
+.icon .picture {
+	border-radius: 10px;
+	width: 120px;
+	height: 120px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+	margin: 0 20px 0 0;
+	vertical-align: top;
+	float: left;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon .picture img {
+	border-radius: 10px;
+	width: 100%;
+}
+
+.icon .name {
+	font-size: larger;
+	font-weight: 700;
+}
+.icon p {
+	margin: 0 0 5px;
+}
+.skills {
+	color: #23b7c9;
+}
+.info {
+    display: block;
+    margin-left: 150px;
+    min-height: 120px;
+}

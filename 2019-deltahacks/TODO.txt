@@ -1,0 +1,6 @@
+-Fix smooth scrolling
+-Starry kinda animation, maybe some rockets and shit idk
+-Scroll-rotate animation, maybe a moon around a planet rotating as we scroll
+
+DONE
+-Video section with DH4 video

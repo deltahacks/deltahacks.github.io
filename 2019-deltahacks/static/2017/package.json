@@ -1,0 +1,30 @@
+{
+  "name": "DeltaHacks Website",
+  "version": "0.0.0",
+  "description": "DeltaHacks is the best hackathon ever :3",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-less": "^0.11.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuriGill"
+  },
+  "author": "Surinder Gill <gill.surinder@hotmail.com> (http://surindergill.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuriGill/DeltaHacks/issues"
+  },
+  "homepage": "https://github.com/SuriGill/DeltaHacks"
+}
